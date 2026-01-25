@@ -1,16 +1,42 @@
-<div align="center"> <img src="../assets/branding/logo.png" width="128" alt="Nothing Archive Logo"> <h1>Nothing Archive</h1> <p>Your ultimate source for Nothing OS firmware, stock OTA images, and comprehensive guides for Nothing & CMF by Nothing devices.</p>
-<br />
+<div align="center">
+  <img src="../assets/branding/logo.png" width="128" alt="Nothing Archive Logo">
+  <h1>Nothing Archive</h1>
+  <p>Your ultimate source for Nothing OS firmware, stock OTA images, and comprehensive guides for Nothing & CMF by Nothing devices.</p>
+  <br>
+
+<div align="center">
+
+[![Downloads](https://img.shields.io/badge/Release_Index-B23131?style=for-the-badge&logo=github&logoColor=white)](#downloads)
+
+[![Guides](https://img.shields.io/badge/Guides-18673F?style=for-the-badge&logo=readthedocs&logoColor=white)](#guides)
+[![OTA Changelogs](https://img.shields.io/badge/OTA_Changelogs-008080?style=for-the-badge&logo=github&logoColor=white)](#changelogs)
+
+[![Discussion](https://img.shields.io/badge/Discussion-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s/Nothing_Archive)
+[![Nothing Flasher](https://img.shields.io/badge/Nothing_Flasher-67119E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spike0en/nothing_flasher)
+[![Awesome Nothing Index](https://img.shields.io/badge/Nothing_Index-B06676?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spike0en/awesome_nothing)
+
+[![Hits](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fspike0en%2Fnothing_archive&label=Hits&icon=github&color=%23b02a37&labelColor=2E2E3F&message=&style=for-the-badge)](https://github.com/spike0en/nothing_archive)
+[![Stars](https://img.shields.io/github/stars/spike0en/nothing_archive?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spike0en/nothing_archive/stargazers)
+[![Total Downloads](https://img.shields.io/github/downloads/spike0en/nothing_archive/total?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spike0en/nothing_archive/releases)
+
+</div>
+
+<div align="center">
+  <br>
+  <span style="font-size: 30px;">••••••••••••••••••••••</span>
+  <br>
+</div>
+
+<div align="center">
+  <br>
+  🌍 <strong>Available languages</strong><br />
+  <br>
   
-  [![Hits](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fspike0en%2Fnothing_archive&label=Hits&icon=github&color=%23b02a37&labelColor=2E2E3F)](https://github.com/spike0en/nothing_archive)
-
-  [![Flashing Scripts](https://img.shields.io/badge/Nothing_Flasher-2E2E3F?logo=github&logoColor=white&labelColor=2E2E3F&color=67119E&style=flat)](https://github.com/spike0en/nothing_flasher)
-  [![Awesome Nothing Index](https://img.shields.io/badge/Awesome_Nothing_Index-0A95FF?style=flat&logo=github&logoColor=white&color=0A95FF&labelColor=24292F)](https://github.com/spike0en/awesome_nothing)
-
-  [![Latest Release](https://img.shields.io/github/release/spike0en/nothing_archive?label=Latest&logo=git&logoColor=white&color=18673F&labelColor=2E2E3F&style=flat)](https://github.com/spike0en/nothing_archive/releases/latest)
-
-  [![Stars](https://img.shields.io/github/stars/spike0en/nothing_archive?label=Stars&logo=github&logoColor=white&color=fb481f&labelColor=2E2E3F&style=flat)](https://github.com/spike0en/nothing_archive/stargazers)
-  [![Contributors](https://img.shields.io/github/contributors/spike0en/nothing_archive?label=Contributors&logo=github&logoColor=white&color=2b2a7b&labelColor=2E2E3F&style=flat)](https://github.com/spike0en/nothing_archive/graphs/contributors)
-  [![Forks](https://img.shields.io/github/forks/spike0en/nothing_archive?label=Forks&logo=github&logoColor=white&color=eeb705&labelColor=2E2E3F&style=flat)](https://github.com/spike0en/nothing_archive/network/members)
+  [English](README.md) • [Deutsch](README_de-DE.md) • [Español](README_es-ES.md) •
+  [Français](README_fr-FR.md) • [हिन्दी](README_hi-IN.md) • [Italiano](README_it-IT.md) •
+  [日本語](README_ja-JP.md) • [Русский](README_ru-RU.md) • [Türkçe](README_tr-TR.md) •
+  [简体中文](README_zh-CN.md)
+  </div>
 
 <div align="center">
   <br>
@@ -18,22 +44,9 @@
   <br>
 </div>
 
-  <br />
-
-  [English](README.md) • [Deutsch](README_de-DE.md) • [Español](README_es-ES.md) • [Français](README_fr-FR.md) • [हिन्दी](README_hi-IN.md) • [Italiano](README_it-IT.md) • [日本語](README_ja-JP.md) • [Русский](README_ru-RU.md) • [Türkçe](README_tr-TR.md) • [简体中文](README_zh-CN.md)
-
-  <br />
-
-  [**View Releases**](https://github.com/spike0en/nothing_archive/releases) • [**Discussion Space**](https://t.me/s/Nothing_Archive)
 </div>
 
-<div align="center">
-  <br>
-  <span style="font-size: 30px;">••••••••••••••••••••••</span>
-  <br>
-</div>
-
-### Support the Project
+## Support the Project
 
 If this project helps you, please consider [starring <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="20" height="20" /> the repository](https://github.com/spike0en/nothing_archive/stargazers). It helps with discoverability and encourages maintenance. Thank you!
 
@@ -43,28 +56,6 @@ If this project helps you, please consider [starring <img src="https://raw.githu
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=spike0en/nothing_archive&type=Date" />
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=spike0en/nothing_archive&type=Date" width="500" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
   </picture>
-</div>
-
-<div align="center">
-  <br>
-  <span style="font-size: 30px;">••••••••••••••••••••••</span>
-  <br>
-</div>
-
-## Index
-
-<div align="center">
-  <table>
-    <tr>
-      <td>🔍 <a href="#overview">Overview</a></td>
-      <td>🚨 <a href="#disclaimer">Disclaimer</a></td>
-      <td>📂 <a href="#categorization">Categorization</a></td>
-      <td>⬇️ <a href="#downloads">Downloads</a></td>
-      <td>📜 <a href="#changelogs">OTA Changelogs</a></td>
-      <td>📖 <a href="#guides">Guides</a></td>
-      <td>🤝 <a href="#acknowledgments">Acknowledgments</a></td>
-    </tr>
-  </table>
 </div>
 
 <div align="center">

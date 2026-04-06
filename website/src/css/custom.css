@@ -1,0 +1,992 @@
+/**
+ * Custom CSS for Nothing Archive
+ * Implements a minimal, monochrome aesthetic inspired by Nothing Tech.
+ * Fonts are loaded via <link> tags in docusaurus.config.ts headTags.
+ */
+
+:root {
+  --ifm-color-primary: #d71921;
+  --ifm-color-primary-dark: #c1161d;
+  --ifm-color-primary-darker: #b6151b;
+  --ifm-color-primary-darkest: #961117;
+  --ifm-color-primary-light: #e32a32;
+  --ifm-color-primary-lighter: #e53940;
+  --ifm-color-primary-lightest: #ea5b61;
+
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', monospace;
+  --ifm-code-font-size: 90%;
+  --ifm-heading-font-weight: 600;
+
+  --ifm-background-color: #f3f2ec;
+  --ifm-navbar-background-color: #f3f2ec;
+  --ifm-footer-background-color: #1a1a1a;
+  --ifm-card-background-color: #ffffff;
+
+  /* Global Infima Border Radius Overrides to match new rounded aesthetic */
+  --ifm-global-radius: 8px;
+  --ifm-button-border-radius: 999px;
+  --ifm-card-border-radius: 24px;
+  --ifm-alert-border-radius: 12px;
+  --ifm-pre-border-radius: 12px;
+  --ifm-code-border-radius: 6px;
+  --ifm-toggle-border-radius: 999px;
+  --ifm-dropdown-border-radius: 12px;
+
+  --docusaurus-highlighted-code-line-bg: rgba(215, 25, 33, 0.1);
+
+  /* Nothing design tokens */
+  --nothing-border: rgba(0, 0, 0, 0.16);
+  --nothing-border-strong: rgba(0, 0, 0, 0.35);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ff3b3b;
+  --ifm-color-primary-dark: #ff1f1f;
+  --ifm-color-primary-darker: #ff1111;
+  --ifm-color-primary-darkest: #e60000;
+  --ifm-color-primary-light: #ff5757;
+  --ifm-color-primary-lighter: #ff6565;
+  --ifm-color-primary-lightest: #ff8989;
+
+  --ifm-background-color: #0a0a0a;
+  --ifm-navbar-background-color: #0a0a0a;
+  --ifm-footer-background-color: #0d0d0d;
+  --ifm-card-background-color: #141414;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 59, 59, 0.15);
+
+  --nothing-border: rgba(255, 255, 255, 0.08);
+  --nothing-border-strong: rgba(255, 255, 255, 0.15);
+}
+
+/* ==========================================
+   NAVBAR - Nothing aesthetic
+   ========================================== */
+.navbar {
+  border-bottom: 1px solid var(--nothing-border);
+  padding: 0.5rem 1rem;
+  min-height: 56px;
+  box-shadow: none;
+}
+
+.navbar__inner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.navbar__brand {
+  gap: 0.75rem;
+}
+
+.navbar__logo {
+  height: 28px;
+}
+
+.navbar__title {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -0.03em;
+}
+
+.navbar__link {
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: -0.01em;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--ifm-color-primary);
+}
+
+.navbar-sidebar__backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile navbar toggle (hamburger) */
+.navbar__toggle {
+  margin-right: 0.5rem;
+}
+
+.navbar__toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Show Stars & GitHub in navbar on mobile (Nothing Phone , etc.) - override Infima hide */
+@media (max-width: 996px) {
+
+  /* Hide the default brand on mobile, we use our custom morphing Home link instead */
+  .navbar__brand {
+    display: none !important;
+  }
+
+  /* Show the Home text link on mobile in the top navbar */
+  .navbar__item.header-home-link {
+    display: inline-flex !important;
+    align-items: center;
+    margin-left: 0.75rem;
+    /* Added spacing between hamburger icon and link */
+  }
+
+  /* Morph 'Home' link into the site title on doc pages */
+  html.plugin-docs .navbar__item.header-home-link {
+    font-size: 0 !important;
+  }
+
+  html.plugin-docs .navbar__item.header-home-link::after {
+    content: "Nothing Archive";
+    font-size: 1.05rem;
+    /* Size of brand title */
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .navbar__items--right {
+    display: flex !important;
+    gap: 0.4rem;
+    align-items: center;
+  }
+
+  .navbar__items--right>* {
+    flex-shrink: 0;
+    /* Prevent squishing/overlapping */
+  }
+
+  .navbar__items--right .navbar__item {
+    display: inline-flex !important;
+    align-items: center;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .navbar__items--right .header-badge img {
+    height: 18px;
+  }
+
+  /* Hide Hits badge on mobile to prioritize Stars & GitHub */
+  .navbar__items--right .header-github-hits {
+    display: none !important;
+  }
+
+  /* Override absolute positioning of search container to allow flex stacking */
+  div[class*="navbarSearchContainer"] {
+    position: relative !important;
+    right: auto !important;
+    margin-left: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* Compact the right side to fix the large gap between translate and search */
+  .navbar__items--right {
+    justify-content: flex-end !important;
+    gap: 0.2rem !important;
+  }
+
+  div[class*="navbarSearchContainer"] {
+    margin-left: 0 !important;
+  }
+
+  /* Hide the Stars badge to save space */
+  .navbar__items--right .header-github-stars {
+    display: none !important;
+  }
+
+  /* Hide the extra GitHub link/button entirely on mobile to reduce clutter */
+  .navbar__items--right .header-github-link {
+    display: none !important;
+  }
+}
+
+/* GitHub stars badge */
+.header-github-stars {
+  display: flex;
+  align-items: center;
+}
+
+.header-github-stars img {
+  height: 22px;
+  border-radius: 4px;
+  transition: opacity 0.2s ease;
+}
+
+.header-github-stars:hover img {
+  opacity: 0.85;
+}
+
+.header-github-stars:hover {
+  text-decoration: none;
+}
+
+/* ==========================================
+   SIDEBAR - Proper UX
+   ========================================== */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--nothing-border);
+  width: 280px;
+  min-width: 280px;
+}
+
+.theme-doc-sidebar-menu {
+  padding: 1rem 0;
+}
+
+.menu__list {
+  padding: 0;
+}
+
+.menu__list-item {
+  margin: 0;
+}
+
+/* Category headers (Top level): Bold and Uppercase, but color stays neutral even if child is active */
+.theme-doc-sidebar-menu>.menu__list>.menu__list-item>.menu__list-item-collapsible>.menu__link {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+  padding: 0.85rem 1.25rem 0.65rem;
+  border-left: 3px solid transparent !important;
+  color: inherit !important;
+}
+
+.theme-doc-sidebar-menu>.menu__list>.menu__list-item>.menu__list-item-collapsible>.menu__link--active {
+  opacity: 1;
+  border-left-color: var(--nothing-border-strong) !important;
+  /* Visual cue but not red */
+}
+
+/* Ensure nested collapsible categories match regular doc links */
+.menu__list .menu__list .menu__list-item-collapsible>.menu__link {
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  opacity: 1;
+}
+
+/* Only highlight the actual child documents in red */
+.menu__link {
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: -0.01em;
+  padding: 0.5rem 1.25rem;
+  /* Level 1 default */
+  border-radius: 6px;
+  border-left: 3px solid transparent;
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.menu__link:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* Base active style for all links */
+.menu__link--active {
+  font-weight: 600;
+  border-left-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+/* Specifically prevent category headers from turning red when children are active */
+.menu__list-item-collapsible>.menu__link--active {
+  color: inherit !important;
+  border-left-color: transparent !important;
+}
+
+.menu__link--active:hover {
+  background: rgba(215, 25, 33, 0.06);
+}
+
+[data-theme='dark'] .menu__link:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+[data-theme='dark'] .menu__link--active:hover {
+  background: rgba(255, 59, 59, 0.08);
+}
+
+/* Sidebar hierarchical indentation */
+.menu__list .menu__list>.menu__list-item>.menu__link,
+.menu__list .menu__list>.menu__list-item>.menu__list-item-collapsible>.menu__link {
+  padding-left: 1.5rem !important;
+  font-size: 0.85rem;
+}
+
+.menu__list .menu__list .menu__list>.menu__list-item>.menu__link,
+.menu__list .menu__list .menu__list>.menu__list-item>.menu__list-item-collapsible>.menu__link {
+  padding-left: 2.25rem !important;
+  font-size: 0.85rem;
+}
+
+.menu__list .menu__list .menu__list .menu__list>.menu__list-item>.menu__link,
+.menu__list .menu__list .menu__list .menu__list>.menu__list-item>.menu__list-item-collapsible>.menu__link {
+  padding-left: 3rem !important;
+  font-size: 0.85rem;
+}
+
+/* Mobile sidebar drawer */
+.navbar-sidebar {
+  background: var(--ifm-background-color);
+  border-right: 1px solid var(--nothing-border);
+  width: min(320px, 85vw);
+}
+
+/* Hide right-side navbar items (locale dropdown, search, badges) when mobile sidebar is open */
+.navbar-sidebar--show .navbar__items--right {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navbar-sidebar__brand {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--nothing-border);
+}
+
+.navbar-sidebar__close {
+  padding: 0.5rem;
+  border-radius: 0;
+}
+
+.navbar-sidebar__close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-sidebar__items {
+  padding: 1rem 0;
+}
+
+.navbar-sidebar__item {
+  padding: 0.25rem 1.25rem;
+}
+
+.navbar-sidebar__item .menu__link {
+  padding: 0.6rem 1rem;
+}
+
+/* ==========================================
+   LAYOUT - Main wrapper & doc pages
+   ========================================== */
+.main-wrapper {
+  min-height: 100vh;
+}
+
+.docs-wrapper .main {
+  padding: 2rem 0;
+}
+
+.theme-doc-markdown {
+  max-width: 100%;
+}
+
+/* Content styling */
+article h1,
+article h2,
+article h3 {
+  letter-spacing: -0.02em;
+}
+
+/* Doc sidebar responsive - mobile drawer */
+@media screen and (max-width: 996px) {
+  .theme-doc-sidebar-container {
+    border-right: none;
+    border-bottom: 1px solid var(--nothing-border);
+  }
+
+  .navbar-sidebar {
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.15);
+    width: min(300px, 90vw);
+  }
+
+  [data-theme='dark'] .navbar-sidebar {
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Doc sidebar toggle button - make it prominent on mobile */
+  .theme-doc-sidebar-mobile-menu button {
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* ==========================================
+   TABLE STYLING - MOBILE RESPONSIVE
+   ========================================== */
+
+/* Scrollable table container */
+.markdown,
+.theme-doc-markdown,
+article {
+  overflow-x: visible;
+}
+
+/* Horizontal scrolling for wide tables */
+div[class*="tableWrapper"],
+.tableWrapper {
+  overflow-x: auto;
+
+  margin: 1rem 0;
+}
+
+/* Base table styling - keep as table display */
+table {
+  display: table !important;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.9rem;
+}
+
+/* Ensure proper table structure */
+table thead {
+  display: table-header-group;
+}
+
+table tbody {
+  display: table-row-group;
+}
+
+table tr {
+  display: table-row;
+}
+
+table th,
+table td {
+  display: table-cell;
+}
+
+/* Table header styling */
+table th {
+  background-color: rgba(128, 128, 128, 0.1);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+}
+
+[data-theme='dark'] table th {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Table cell styling */
+table td {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.12);
+}
+
+[data-theme='dark'] table td {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Zebra striping */
+table tbody tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.03);
+}
+
+[data-theme='dark'] table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* Row hover */
+table tbody tr:hover {
+  background-color: rgba(128, 128, 128, 0.06);
+}
+
+[data-theme='dark'] table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Hyperlink styling within tables */
+table td a {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  background-color: rgba(128, 128, 128, 0.1);
+  color: var(--ifm-color-primary) !important;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+table td a:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  transform: translateY(-1px);
+}
+
+[data-theme='dark'] table td a {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme='dark'] table td a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 996px) {
+
+  /* Force tables to be scrollable blocks on mobile to prevent breaking details layouts */
+  table {
+    display: block !important;
+    overflow-x: auto;
+
+    width: 100%;
+    font-size: 0.85rem;
+  }
+
+  /* Scroll affordance — right-edge fade to indicate scrollable content */
+  div[class*="tableWrapper"],
+  .tableWrapper {
+    position: relative;
+  }
+
+  div[class*="tableWrapper"]::after,
+  .tableWrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 32px;
+    background: linear-gradient(to right, transparent, var(--ifm-background-color));
+    pointer-events: none;
+    opacity: 0.9;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  /* Force content minimum widths so it scrolls instead of squishing */
+  table th,
+  table td {
+    padding: 0.6rem 0.75rem;
+    white-space: nowrap;
+  }
+
+  table th {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  table {
+    font-size: 0.8rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem 0.65rem;
+  }
+
+  table th {
+    font-size: 0.65rem;
+  }
+}
+
+/* Custom scrollbar for tables */
+.markdown::-webkit-scrollbar,
+.theme-doc-markdown::-webkit-scrollbar {
+  height: 6px;
+}
+
+.markdown::-webkit-scrollbar-track,
+.theme-doc-markdown::-webkit-scrollbar-track {
+  background: rgba(128, 128, 128, 0.1);
+  border-radius: 3px;
+}
+
+.markdown::-webkit-scrollbar-thumb,
+.theme-doc-markdown::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 3px;
+}
+
+.markdown::-webkit-scrollbar-thumb:hover,
+.theme-doc-markdown::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.5);
+}
+
+/* Code blocks */
+pre {
+  border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+code {
+  border-radius: 4px;
+}
+
+/* Navbar Badges */
+.header-badge {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  transition: opacity 0.2s ease;
+}
+
+.header-badge:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.header-badge img {
+  height: 20px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================
+   FOOTER - Nothing aesthetic
+   ========================================== */
+.footer {
+  border-top: 1px solid var(--nothing-border);
+  padding: 1.5rem 1rem;
+  background: var(--ifm-footer-background-color);
+  color: #ffffff;
+}
+
+.footer__copyright {
+  margin-bottom: 0;
+  opacity: 0.8;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.footer__title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  opacity: 0.8;
+}
+
+/* Footer link contrast fix — brighter red for WCAG AA compliance */
+.footer a {
+  color: var(--ifm-color-primary-lightest) !important;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #ff8080 !important;
+}
+
+/* Hero section (fallback for non-home pages) */
+.hero {
+  background: var(--ifm-background-color);
+}
+
+.hero__title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.hero__subtitle {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* Buttons - Nothing geometric, sharp -> now rounded */
+.button {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  border-radius: 999px;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border: none;
+  color: #ffffff !important;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+.button--secondary {
+  background-color: transparent;
+  border: 1px solid var(--nothing-border-strong);
+  color: inherit !important;
+}
+
+.button--secondary:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Dot separator style */
+.dot-separator {
+  text-align: center;
+  letter-spacing: 0.5em;
+  opacity: 0.6;
+  margin: 2rem 0;
+}
+
+/* Cards */
+.card {
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid var(--nothing-border);
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='dark'] .card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Admonitions */
+.admonition {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+/* Accessibility: Underline footer links so they aren't distinguishable by color alone */
+.footer a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  color: var(--ifm-color-primary-lightest) !important;
+  /* Passes 4.5:1 against the dark footer */
+}
+
+.footer a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs__link {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* Pagination (prev/next) */
+.pagination-nav__link {
+  border: 1px solid var(--nothing-border);
+  border-radius: 12px;
+  transition: border-color 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.5);
+}
+
+/* ==========================================
+   MOBILE RESPONSIVE STYLES
+   ========================================== */
+
+/* General mobile content adjustments */
+@media screen and (max-width: 996px) {
+  .hero__title {
+    font-size: 2.25rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.1rem;
+  }
+
+  article h1 {
+    font-size: 1.75rem;
+  }
+
+  article h2 {
+    font-size: 1.4rem;
+  }
+
+  article h3 {
+    font-size: 1.15rem;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* Doc page content width */
+  main[class*="docMainContainer"] {
+    padding: 0 0.5rem;
+  }
+
+  /* Docs sidebar toggle button */
+  .theme-doc-sidebar-menu {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero__title {
+    font-size: 1.85rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  article h1 {
+    font-size: 1.5rem;
+  }
+
+  article h2 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  article h3 {
+    font-size: 1.1rem;
+  }
+
+  /* Better content padding on mobile */
+  .markdown {
+    padding: 0;
+  }
+
+  .markdown>* {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  /* Navbar adjustments - mobile */
+  .navbar {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .navbar__title {
+    font-size: 0.9rem;
+  }
+
+  .navbar__logo {
+    height: 24px;
+  }
+
+  .navbar__item {
+    padding: 0.25rem 0;
+  }
+
+  /* Footer mobile */
+  .footer {
+    padding: 0.5rem 1rem;
+  }
+
+  .footer__title {
+    font-size: 0.7rem;
+  }
+
+  .footer__item {
+    font-size: 0.85rem;
+  }
+
+  /* Button sizing */
+  .button--lg {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9rem;
+  }
+
+  /* Cards on mobile */
+  .card {
+    border-radius: 8px;
+  }
+
+  /* Admonitions */
+  .admonition {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+
+details {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  /* Remove all margins to fix large spacing */
+}
+
+details summary {
+  position: relative;
+  background-color: transparent !important;
+  color: inherit !important;
+  font-weight: 500 !important;
+  /* Slightly lighter for a cleaner look */
+  padding: 0.4rem 0 0.4rem 1.25rem !important;
+  /* Comfortable inline padding */
+  border: none !important;
+  transition: color 0.2s ease;
+  line-height: 1.5 !important;
+}
+
+details summary:hover {
+  background-color: transparent !important;
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Force perfect vertical centering of the Docusaurus arrow */
+details summary::before {
+  top: 50% !important;
+  margin-top: 0 !important;
+  transform: translateY(-50%) !important;
+}
+
+/* Open state rotation fix */
+details[open] summary::before {
+  transform: translateY(-50%) rotate(90deg) !important;
+}

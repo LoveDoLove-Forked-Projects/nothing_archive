@@ -9,9 +9,10 @@ keywords: [nothing bootloader unlock, root nothing phone, nothing fastboot, noth
 
 Step-by-step guides on several aspects.
 
-## General Guides
 
-Tips, tricks, and general guides for everyone.
+## General Use & Troubleshooting
+
+Tips, tricks, and general guides for everyday use.
 
 ### OTA Sideloading
 
@@ -122,17 +123,13 @@ B. **Proceed with Sideloading**
 
 :::
 
+
 <hr />
 
 ### Safe Mode
 
 - [Rebooting to Safe Mode](https://www.hardreset.info/devices/nothing/nothing-phone-2/safe-mode/)
 
-<hr />
-
-### Phone (2a) SE Hidden Feature
-
-- [Unlock Hidden Feature](https://nothing.community/d/11058-hidden-feature-of-phone-2a-special-edition) by RapidZapper
 
 <hr />
 
@@ -152,12 +149,69 @@ Dialer codes (USSD) that you can dial to access hidden menus and diagnostics.
 | `*#*#4636#*#*` | Testing menu (phone, battery, usage stats, Wi-Fi) |
 | `*#*#682#*#*` | Opens Offline OTA Updater (won't work if Nothing Beta Hub is installed) |
 
+
+---
+
+## Device Features & Accessories
+
+Guides for specific hardware tweaks and pairings.
+
+### Unlocking Bauhaus Theme
+
+The Bauhaus-inspired theme is a special edition feature that can be unlocked across various Nothing phone models.
+
+#### Phone (2a) Special Edition
+- [Unlock Hidden Feature](https://nothing.community/d/11058-hidden-feature-of-phone-2a-special-edition) by RapidZapper
+
+#### Other Nothing Models
+
+**Requirements:**
+- PC with ADB & Fastboot
+- [SetEdit App](https://github.com/MuntashirAkon/SetEdit)
+
+**Steps:**
+
+1. **Enable Developer Options:** Go to `Settings > About phone > Tap "Build number" 7 times`.
+2. **Enable USB Debugging:** Go to `Settings > System > Developer options > Enable USB Debugging`.
+3. **Install SetEdit via ADB:**
+   - Rename the downloaded APK to `SetEdit.apk`.
+   - Run the following command:
+     ```sh
+     adb install --bypass-low-target-sdk-block SetEdit.apk
+     ```
+4. **Unlock the Theme:**
+   - Open SetEdit and grant any requested permissions.
+   - In the **System Table**, look for `theme_bauhaus_enable`.
+   - Set the value to `1` (Set it back to `0` to disable).
+5. **Apply the Theme:**
+   - Go to Nothing Launcher Settings and apply the new theme.
+
+:::warning
+
+- **Do NOT modify any other values in SetEdit!!**
+- Changing random system settings may cause instability or system issues.
+
+:::
+
+### Essential Key Remapping
+
+Guides for remapping the Essential Key on Phone (3):
+
+| Guide | Author |
+|-------|--------|
+| [Reddit Guide](https://www.reddit.com/r/NothingTech/comments/1jzljrf/guide_how_to_remap_the_essential_key_on_the_phone/) | acruzjumper, McKeviin, DKmarc & Pealoaf |
+| [Quick Remap Guide](https://www.reddit.com/r/NothingTech/comments/1jv6gea/quick_guide_to_remap_the_essential_space_button/) | David_Ign |
+| [XDA Guide](https://xdaforums.com/t/how-to-disable-or-remap-the-essentials-button.4755184/) | rwilco12 |
+| [GitHub Guide](https://github.com/z3phydev/How-to-remap-or-disable-the-Essential-Key) | z3phydev |
+
+
 <hr />
 
 ### Gadgetbridge Related
 
 - [Supported Models and features](https://gadgetbridge.org/gadgets/wearables/nothing/)
 - [Nothing CMF server pairing](https://gadgetbridge.org/basics/pairing/nothing-cmf-server/)
+
 
 ---
 
@@ -166,6 +220,8 @@ Dialer codes (USSD) that you can dial to access hidden menus and diagnostics.
 :::warning
 Recommended for power users only. These procedures can brick your device or void warranty if done incorrectly.
 :::
+
+These guides are ordered chronologically. It is highly recommended to follow this exact sequence.
 
 ### Prerequisites & Tools
 
@@ -194,20 +250,8 @@ winget install --id=Google.PlatformTools -e
 brew install --cask android-platform-tools
 ```
 
----
 
-### Essential Key Remapping
-
-Guides for remapping the Essential Key on Phone (3):
-
-| Guide | Author |
-|-------|--------|
-| [Reddit Guide](https://www.reddit.com/r/NothingTech/comments/1jzljrf/guide_how_to_remap_the_essential_key_on_the_phone/) | acruzjumper, McKeviin, DKmarc & Pealoaf |
-| [Quick Remap Guide](https://www.reddit.com/r/NothingTech/comments/1jv6gea/quick_guide_to_remap_the_essential_space_button/) | David_Ign |
-| [XDA Guide](https://xdaforums.com/t/how-to-disable-or-remap-the-essentials-button.4755184/) | rwilco12 |
-| [GitHub Guide](https://github.com/z3phydev/How-to-remap-or-disable-the-Essential-Key) | z3phydev |
-
----
+<hr />
 
 ### Unlocking Bootloader
 
@@ -270,6 +314,7 @@ C. **Post-Unlock**
     ```
 
   - Bootloader is now unlocked and your device will show an Orange State warning at boot—this is normal.
+
 
 <hr />
 
@@ -372,6 +417,16 @@ D. **Patch the Image**
 
 - The device should be rooted with KSU/KSUN.
 
+
+<hr />
+
+### Play Integrity
+
+| Guide | Link |
+|-------|------|
+| Fix Play Integrity & Root Detection | [Wiki](https://github.com/yashaswee-exe/AndroidGuides/wiki/Fix-integrity-and-root-detection) |
+
+
 <hr />
 
 ### Backing Up Essential Partitions
@@ -459,6 +514,7 @@ D. **Restoring Partitions**
    ```
    **Factory reset is not mandatory in this case.**
 
+
 <hr />
 
 ### Flashing Stock ROM (Unbrick / Downgrade)
@@ -511,6 +567,7 @@ B. **Proceeding with Flashing:**
     - If successful, choose to reboot to system: (Y)
     - If errors occur, reboot to bootloader and reflash after addressing the failure. Rebooting to system without doing so might result in soft/hard bricks.
 
+
 <hr />
 
 ### Relocking Bootloader
@@ -545,13 +602,69 @@ C. **Post-Relock**
   - Set up your device again.
   - The bootloader is now locked!
 
-<hr />
 
-### Play Integrity
+---
 
-| Guide | Link |
-|-------|------|
-| Fix Play Integrity & Root Detection | [Wiki](https://github.com/yashaswee-exe/AndroidGuides/wiki/Fix-integrity-and-root-detection) |
+## Hard Unbrick
+
+:::note
+
+This section should only be referred to when no other option is left to recover the device using the [Flashing Stock ROM guide](#flashing-stock-rom-unbrick--downgrade).
+
+:::
+
+### Drivers
+
+Install the appropriate drivers for your device's SoC manufacturer.
+
+- **Qualcomm HS-USB 9008 Driver:** [OneDrive](https://itraps-my.sharepoint.com/personal/public_builds_itraps_onmicrosoft_com/_layouts/15/onedrive.aspx?viewid=fce5f287%2D4883%2D4f5a%2Daf37%2D29642c53cfdf&id=%2Fpersonal%2Fpublic%5Fbuilds%5Fitraps%5Fonmicrosoft%5Fcom%2FDocuments%2FNothing%20Resources%2F%40Drivers%2FQualcomm%2DHS%2DUSB%2DQDLoader%2D9008%2DDriver%2Ezip&parent=%2Fpersonal%2Fpublic%5Fbuilds%5Fitraps%5Fonmicrosoft%5Fcom%2FDocuments%2FNothing%20Resources%2F%40Drivers) // [Microsoft Update Catalog](https://catalog.update.microsoft.com/Search.aspx?q=qualcomm%20hs-usb)
+- **MediaTek Driver:** [MediaFire](https://www.mediafire.com/file/w0z94wwe4lkka7q/MTK-Driver-v5.2307.zip/file) // [OneDrive](https://itraps-my.sharepoint.com/personal/public_builds_itraps_onmicrosoft_com/_layouts/15/onedrive.aspx?viewid=fce5f287%2D4883%2D4f5a%2Daf37%2D29642c53cfdf&id=%2Fpersonal%2Fpublic%5Fbuilds%5Fitraps%5Fonmicrosoft%5Fcom%2FDocuments%2FNothing%20Resources%2F%40Drivers%2FQualcomm%2DHS%2DUSB%2DQDLoader%2D9008%2DDriver%2Ezip&parent=%2Fpersonal%2Fpublic%5Fbuilds%5Fitraps%5Fonmicrosoft%5Fcom%2FDocuments%2FNothing%20Resources%2F%40Drivers)
+
+### EDL Cable (Qualcomm)
+
+- Note that Snapdragon-based devices might require a **Hydra v2 cable** if the stock cable does not allow the flashing tool to recognize the device even with drivers installed. 
+- **Verification:** With the device switched off, hold both **Volume +** and **Volume -** buttons while connecting the cable to the PC. If using a Hydra v2 cable, press the button on the cable while connecting.
+- For a **DIY method** to make an EDL cable, refer to [this guide](https://xdaforums.com/t/edl-cable-for-nothing-phone-2.4654742/) instead.
+
+### Official Flash Tools
+
+:::danger Disclaimer
+
+- The tools listed below are **leaked official service tools** available on the open web. **Use them at your own risk.**
+- The project author and contributors take **no responsibility** for any unintended consequences or damage resulting from their use.
+- These tools may stop working at any time with future firmware updates.
+- They are **not** intended for routine stock ROM flashing. Use them **only as a last resort** if:
+  - Your device is completely unresponsive (hard bricked, black screen).
+  - Fastboot mode is inaccessible (even after installing proper drivers).
+  - You have no official service support in your region and your device is out of warranty.
+- Continued support for these tools is not guaranteed, and requests for future versions will not be entertained.
+
+:::
+
+#### Nothing Devices:
+- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDVNZLx9PuARKU5ZYHxTw1RAesDD6ZYA9ncgyk_6jpU3_M?e=RnzUwd)
+- [Phone (2)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA-PysiaC16Qow4EA9_CfP0AbYCgxOlahRyJjB7LQw8RZo?e=4jK0yh)
+- [Phone (2a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCYxRHWxndKRLFNcO9zLhjcAQunpBStuG-OAetxx1hvsQs?e=mqYlE8)
+- [Phone (2a) Plus](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBuoaxqlNkYR63Fa_z0tGl-AVHKWsuj27LeyhMoXtghwJc?e=fOQp2m)
+- [Phone (3a) Series](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBcJ6YHDfGhSL_TZ8P0WfJXAfKNm7BoxC_uMe071vRmhsM?e=El0x5j)
+- [Phone (3)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCDb2UqoryZSIBDYMu52jjjAQ5Uq5INNOnhOHbH2jr0EpY?e=h8lKHX)
+- [Phone (3a) Lite](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA33YYMKQxUTZplrWoGIji5AfviLdYkUHlh4H2LjQ0_FQQ?e=rBIZ3y)
+- [Phone (4a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgAhqokf-Be4SY2YdeeOr9mrAT-5OsO2Ay-x6UqaAynpKHU?e=X4mojq)
+
+#### CMF by Nothing Devices:
+- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA4tWOkyg4WRqsTmrbNiKECAX3M-2SCUeDFiJ1eraslW7c?e=4mDouI)
+- [Phone (2) Pro](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDUePBy5E6TS5zgqO0MqkVEAQ9C7aMdohvQ6FpMr-RxWdQ?e=sebyob)
+
+### Miscellaneous Resources
+
+Additional guides and projects for research or advanced use-cases:
+
+- [Unofficial Qualcomm Firehose / Sahara / Streaming / Diag Tools](https://github.com/bkerler/edl) by bkerler
+- [NTPI Dumper](https://github.com/AaronXenos/ntpi_dumper) by AaronXenos
+- [Phone (2a) Series Hard Brick Helper](https://github.com/mistrmochov/nothing-pacman-hardbrick) by mistrmochov
+- [Phone (2a) Series Flash Tool](https://github.com/R0rt1z2/pacman-flash-tool) by R0rt1z2
+- [Firehose Auth Files for Nothing Phones](https://github.com/plusonsoy/nothing_edl) by plusonsoy
+
 
 ---
 
@@ -580,3 +693,5 @@ Stay updated with custom ROMs, kernels, and development projects.
 |--------|---------|
 | Phone (1) | [Updates](https://t.me/s/CMFPhone1Updates) |
 | Phone (2) Pro / Phone (3a) Lite | [Updates](https://t.me/s/CMFPhone2GlobalUpdates) |
+
+

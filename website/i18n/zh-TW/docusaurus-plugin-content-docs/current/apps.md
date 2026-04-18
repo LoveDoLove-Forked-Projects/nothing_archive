@@ -39,6 +39,7 @@ AI 生成的高度個人化迷你應用程式，延伸 Nothing OS 生態系。
 | [Glyphify](https://play.google.com/store/apps/details?id=com.frank.glyphify) | Fr4nKB | 進階 Glyph 控制、迷你遊戲、音效組合。支援 Phone (3) |
 | [Morse Glyphs](https://github.com/roxe12345/MorseGlyphs) | roxe12345 | 以 Glyph 燈光顯示摩斯密碼 |
 | [Nothing Glyph Gyroscope](https://github.com/gawdam/nothingGyro) | gawdam | 使用加速度計和陀螺儀的氣泡水平儀 |
+| [Nothing Phone Battery Notification](https://github.com/f3bruary/nothing-phone-battery-notification) | f3bruary | Phone (4a) 專用的紅色 Glyph LED 電池通知工具，支援自定義低電量指示模式 |
 | [Simone](https://play.google.com/store/apps/details?id=com.lisra.simone) | RapidZapper | 整合 Glyph 介面的經典記憶遊戲 |
 
 ---
@@ -64,6 +65,7 @@ Glyph Matrix 的互動玩具和遊戲。
 | [Glyph Cade](https://github.com/bleelblep/GlyphCade/) | bleelblep | Glyph Matrix 上的街機遊戲 |
 | [Glyph Catch](https://github.com/equalparts/glyph-catch) | equalparts | 寶可夢收集同人遊戲 |
 | [Glyph Eyes](https://github.com/yuk1-kondo/GlyphToys-Glypheyes) | yuk1-kondo | 互動傾斜瞳孔玩具 |
+| [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | 在 Nothing Glyph Matrix 上顯示 Home Assistant 感測器數據的 Android 應用程式。 |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | 太空侵略者遊戲 |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | 跑馬燈文字訊息 |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | 網頁版程式碼測試工具 |
@@ -76,7 +78,9 @@ Glyph Matrix 的互動玩具和遊戲。
 | [HA Glyph](https://github.com/PzmuV1517/HA-glyph) | pzmuv1517 | Home Assistant 實體切換 |
 | [Hamon](https://github.com/yuk1-kondo/GlyphToys-hamon) | yuk1-kondo | 物理波紋傳播 |
 | [Leveller](https://play.google.com/store/apps/details?id=com.lisra.matrixleveler) | RapidZapper | 陀螺儀水平工具 |
+| [Live Bridge](https://github.com/appsfolder/livebridge) | appsfolder | 將不支援的進度通知轉換為即時通知，使其與 Nothing 的 Glyph 進度指示器相容 |
 | [Magic 8 Ball](https://play.google.com/store/apps/details?id=com.frank.magic8ball) | Fr4nKB | 經典神奇八號球 |
+| [Minecraft Glyph Matrix](https://github.com/nosoyyo0717/Minecraft-Glyph-Matrix) | nosoyyo0717 | Minecraft 像素藝術 |
 | [Nono Gotchi（測試版）](https://www.jkn.me/pet) | Jkn | 電子雞風格虛擬寵物 |
 | [Pomodoro Timer](https://github.com/PzmuV1517/GlyphPomodoroTimer) | pzmuV1517 | 番茄鐘計時器玩具 |
 | [Screenie](https://github.com/pauwma/Screenie) | pauwma | 反映每日螢幕使用時間的臉部表情 |
@@ -108,8 +112,12 @@ Glyph Matrix 的互動玩具和遊戲。
 
 | 應用程式 | 開發者 | 說明 |
 |---------|--------|------|
+| [Dot Widgets](https://play.google.com/store/apps/details?id=com.lended.widjets) | Creepsmile | Nothing 點陣風格啟發的日常工具 |
 | [Elements Widgets](https://play.google.com/store/apps/details?id=com.hearthborn.studios.elements) | Hearthborn | 簡約小工具 |
+| [n0w](https://github.com/codewec/n0w) | codewec | 行事曆小工具應用程式。 |
+| [Quick Contacts](https://play.google.com/store/apps/details?id=com.nihilapplications.quickcontactlist) | Martin Diermayr | 在主畫面上建立並設定聯絡人小工具。 |
 | [RTMON](https://github.com/n1th1n-19/RTMON) | n1th1n-19 | 即時系統監控小工具 |
+| [Something KWGT](https://play.google.com/store/apps/details?id=something.nothing.kwgt.widgets.pro.pack) | Pickerry Apps | 受 Nothing 啟發的 KWGT 套件。 | 
 | [Widgets Pro](https://play.google.com/store/apps/details?id=com.tpk.widgetspro) | Preethamkmr3 | 額外小工具 |
 
 ### 桌布與視覺效果
@@ -154,7 +162,9 @@ Glyph Matrix 的互動玩具和遊戲。
 | [Calories Are Nothing](https://play.google.com/store/apps/details?id=can.wearemobilefirst.com) | WeAreMobileFirst | 餐點記錄應用程式 |
 | [CMF Custom Volume Controller](https://github.com/alirezafarghadani999/CMF_CustomVolumeControl) | AlirezaFarghadani | CMF 自訂音量控制器 |
 | [Compass](https://github.com/Earendel-lab/Compass) | Earendel | 簡易指南針 |
+| [Crucial Space](https://github.com/LainsMain/CrucialSpace) | LainsMain | Nothing 的 Essential Space 應用程式的「Vibe coded」版本。 |
 | [Currency](https://curency.pages.dev/) | Earendel | 貨幣換算網頁應用程式 |
+| [Dot Calculator](https://play.google.com/store/apps/details?id=com.nebula.developer.dotcalculator) | Nebula Developer | 採用點陣字體的計算機應用程式。 |
 | [Gamething](https://play.google.com/store/apps/details?id=com.LevMatuzin.Gamething) | Lev Matuzin | 恐龍遊戲靈感作品 |
 | [Geo Torch](https://github.com/georgenelson576/GeoTorch/) | georgenelson576 | 附小工具的手電筒應用程式 |
 | [Hey Battery](https://github.com/ghostyapps/HeyBattery) | Candan | 電池使用追蹤器 |
@@ -185,9 +195,27 @@ Glyph Matrix 的互動玩具和遊戲。
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | 主題計算機 |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Phone (3) 錄製指示燈控制 |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | 裝置資訊工具 |
+| [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | 支援 Glyph Matrix 的音樂播放器 |
 | [The Everything Key](https://play.google.com/store/apps/details?id=com.spandone.everythingkey) | spandone | Essential Key 重新對應工具 |
+| [Void](https://play.google.com/store/apps/details?id=com.thevoid.focus) | vmcreate | 基於 Nothing OS 設計語言的簡約應用程式阻擋器 |
 | [Voidcaller](https://play.google.com/store/apps/details?id=com.voidware.voidcaller) | VoidwareLabs | 簡約撥號器 |
 | [WhispCal](https://play.google.com/store/apps/details?id=com.thomasmorice.whispcal) | Thomas Morice | Android 和 [iOS](https://apps.apple.com/in/app/whispcal/id6757860582) 卡路里追蹤應用程式 |
+
+---
+
+## 移植版應用程式
+
+適用於所有裝置的 Nothing OS 應用程式非官方移植版。
+
+:::note
+建議參考連結的各移植版 Telegram 頻道中的說明文件和版本資訊，以獲取有關安裝、使用和支援功能的資訊，以及各應用程式移植版開發者的注意事項。
+:::
+
+| 開發者 | 來源 |
+|-----------|---------|
+| Ayra Hikari | [Pling](https://www.pling.com/p/2203457) // [Telegram](https://t.me/s/AyraProject?q=nothing) |
+| Android Port World | [Pling](https://www.pling.com/p/2203457) // [Telegram](https://t.me/s/AndroidPortWorld?q=nothing) |
+| El Pong | [Telegram](https://t.me/s/LigmaCore?q=nothing) |
 
 ---
 

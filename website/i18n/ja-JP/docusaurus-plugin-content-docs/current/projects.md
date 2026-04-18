@@ -1,8 +1,8 @@
 ---
 sidebar_position: 7
 title: プロジェクト
-description: Nothingデバイス向けにコミュニティがメンテナンスしているツールとプロジェクト — Glyphツール、カスタマイズモード、ウェブアプリ、開発者向けリソースなどを網羅しています。
-keywords: [nothingプロジェクト, glyphツール, nothing root, nothing magisk, カスタマイズ, デスクトップテーマ, ブラウザ拡張機能, nothing logkit fix, 開発者ツール, 開発者リソース]
+description: Nothingデバイス向けにコミュニティがメンテナンスしているツールとプロジェクト。Glyphツール、カスタマイズモード、オーディオEQプロファイル、ウェブアプリ、開発者向けリソースなどを網羅しています。
+keywords: [nothingプロジェクト, glyphツール, nothing root, nothing magisk, カスタマイズ, デスクトップテーマ, ブラウザ拡張機能, nothing eqプロファイル, nothing logkit fix, 開発者ツール, 開発者リソース]
 ---
 
 # コミュニティプロジェクト
@@ -16,13 +16,14 @@ Nothingコミュニティによってメンテナンスされているプロジ�
 | プロジェクト | 開発者 | 説明 |
 |---------|-----------|-------------|
 | [Better Nothing Glyph Composer](https://better-nothing-glyph-composer.pages.dev/) | Krishnagopal Sinha | Glyphトーン作成のための視覚的ツール。Phone (3) マトリックスをサポート |
-| [Better Nothing Glyph Visualizer](https://github.com/Aleks-Levet/better-nothing-music-visualizer) | alekslevet | 強化されたミュージックビジュアライザー |
+| [Better Nothing Music Visualizer](https://github.com/Aleks-Levet/better-nothing-music-visualizer) | alekslevet | 強化されたミュージックビジュアライザー |
 | [Cassette](https://github.com/Chipik0/Cassette) | Chipik0 | Glyphコンポジションを作成 |
 | [Custom Nothing Glyph Tools](https://github.com/SebiAi/custom-nothing-glyph-tools) | SebiAi | Audacityを使用してトーンを作成 |
 | [Glyph Tones](https://glyphtones.is-a.dev/) | Firu11 | コミュニティGlyphトーンコレクション ([Repo](https://github.com/firu11/nothing-glyphtones)) |
 | [Glyph Utils](https://github.com/pgsk33/Glyph-Utils) | pgsk33 | フレームベースのGlyphアニメーション用Javaヘルパー |
 | [Glyph Visualizer](https://github.com/SebiAi/GlyphVisualizer) | SebiAi | .oggコンポジション用デスクトップビジュアライザー |
 | [Haptificator](https://github.com/Fr4nKB/Haptificator) | Fr4nKB | Phone (1) コンポジションに触覚フィードバックを追加 |
+| [Nothing Glyph Composer](https://itssveennn.github.io/Nothing-Glyph-Composer/) | itssveennn | Phone (4a) Pro向けの、13x13のGlyphアニメーション作成、オーディオ準備、着信音対応OGGファイルのエクスポートが可能なウェブツールキット。 |
 | [Osu To Glyph](https://github.com/taiixu/osu-to-glyph) | taiixu | osu! ビートマップをNothing Phone着信音に変換 |
 | [Pyglyph](https://github.com/Snakehater/pyglyph) | Snakehater | オーディオ可視化用Pythonスクリプト |
 
@@ -55,6 +56,7 @@ Arch Linux、VS Code、その他の開発環境向けの、Nothingのデザイ�
 | [Nothing Bar](https://github.com/bestK1ngArthur/nothing-bar) | bestK1ngArthur | macOSメニューバーアプリ |
 | [Nothing OS Manjaro](https://github.com/HyenaDesign/nothingos-gnome-manjaro) | HyenaDesign | GNOMEデスクトップビルド |
 | [Nothing Rice](https://github.com/Adhil-ka/nothing-rice) | Adhil-ka | Arch Hyprlandデスクトップセットアップ |
+| [Nothing Telegram Theme](https://github.com/Costeer/Nothing-Telegram-Theme) | Costeer | Nothingに着想を得たTelegram用テーマ。 |
 | [Nothing VS Code Theme](https://github.com/shahriaravi/nothing-vscode-theme) | shahriaravi | VS Codeテーマ |
 | [Obsidian Nothing Theme](https://github.com/saulojoab/obsidian-nothing-theme) | saulojoab | NothingベースのObsidianテーマ |
 
@@ -72,6 +74,7 @@ Nothingスタイルの壁紙を作成するためのユーティリティ。
 
 | プロジェクト | 開発者 | 説明 |
 |---------|-----------|-------------|
+| [Atmosphere](https://atmospherewallpaper.com) | Mxtechz | 高精細な「Glass & Light」壁紙を生成・ダウンロード。 | 
 | [Nothing Glass](https://github.com/Vauth/nothing-glass) | Vauth | ガラスエフェクト壁紙ジェネレーター |
 | [Wallpaper Studio Pro](https://wallpaperstudiopro.netlify.app/) | Ifham9 | AI壁紙ジェネレーター |
 
@@ -88,7 +91,8 @@ Nothingスタイルの壁紙を作成するためのユーティリティ。
 | [Dotify Client](https://github.com/PATEL96/dotify-client) | PATEL96 | ドットマトリックス画像作成 |
 | [Glyph Matrix Editor](https://github.com/pauwma/GlyphMatrixEditor) | pauwma | Phone (3) 用ピクセルアートエディタ |
 | [Glyph Matrix Image Maker](https://github.com/quintenvandamme/glyph-matrix-image-maker) | quintenvandamme | 画像からGlyphパターンへの変換ツール |
-| [Matrices](https://udaign.github.io/matrices/) | Uday | Glyphマトリックス設計ツール |
+| [Matrices](https://udaign.github.io/matrices/) | Uday | Glyphマトリックス設計ツール ([Repo](https://github.com/udaign/matrices)) |
+| [Vizmatrices](https://udaign.github.io/vizmatrices/) | udaign | リアルタイムオーディオ反応型ビジュアライザー ([Repo](https://github.com/udaign/vizmatrices)) |
 
 ---
 
@@ -109,20 +113,33 @@ Nothing OSに着想を得たブラウザ拡張機能やウェブベースのア�
 
 ---
 
+## オーディオ
+
+Nothingイヤホン向けのコミュニティ製EQプロファイル:
+
+- [純正EQプロファイル](https://playground.nothing.tech/eqs) — [Nothing X](https://play.google.com/store/apps/details?id=com.nothing.smartcenter) アプリ経由で高度なイコライザーと互換性があります。
+
+---
+
 ## リソースとユーティリティ
 
 Wiki、ファームウェアアーカイブ、システム修復ツールを含む必須リソース。
 
 | プロジェクト | 開発者 | 説明 |
 |---------|-----------|-------------|
+| [CMF Wiki](https://www.reddit.com/r/CMFTech/wiki/index/) | guidomelvin | r/CMFTech Wiki |
+| [Ear X](https://gitlab.com/somaxa8/ear-x) | somaxa8 & [Bharadwaj Raju](https://gitlab.com/bharadwaj-raju/ear2ctl) | NothingイヤホンのANCモードを制御するRustベースのLinuxアプリ |
 | [Fenrir](https://github.com/R0rt1z2/fenrir) | R0rt1z2 | Phone (2a) および CMF Phone (1) 用整合性バイパス PoC |
 | [Macros](https://nothing.community/d/14869-useful-macros-for-nothing-phones) | RedSkullxHydra | Macrodroidマクロ |
 | [Nothing Archive](https://spike0en.github.io/nothing_archive) | spike0en | 公式ファームウェア、アプリ、リソースのハブ ([Repo](https://github.com/spike0en/nothing_archive)) |
+| [Nothing Community App Store](https://nothingstore.base44.app/) | Ali Fakhruddin | コミュニティアプリをインデックス化するPWA形式のウェブアプリ。[Nothing Archive](https://github.com/spike0en/nothing_archive)をベースにしたデータベースを使用しています。 |
 | [Nothing Flasher](https://github.com/spike0en/nothing_flasher) | spike0en & Hellboy017 | Fastbootフラッシュスクリプト |
 | [Nothing News Hub](https://nothing-news.de/hub/) | StickyPRP | ニュースとリソースハブ |
 | [Nothing OS Logkit Softfix](https://github.com/kunaibox/NothingOS-Logkit-Softfix) | kunaibox | ADB経由でLogkitをパッチ/無効化するツール |
+| [Nothing Shelf](https://nothing-shelf.vercel.app/) | therealcocoboy | Nothingコミュニティのお気に入りウィジェットのキュレーションギャラリー |
 | [Nothing Space](https://nothingtools.github.io/) | ROHit | コミュニティハブ ([Repo](https://github.com/nothingtools/nothingtools.github.io)) |
 | [Nothing Wiki](https://www.reddit.com/r/NothingTech/wiki/index) | adbo | r/NothingTech Wiki |
+| [Nothing X (macOS)](https://github.com/nikiomori/nothing-x-macos/) | nikiomori, arunavo4 | NothingおよびCMFイヤホン用macOSコンパニオンアプリ |
 
 ---
 
@@ -145,7 +162,8 @@ Wiki、ファームウェアアーカイブ、システム修復ツールを含�
 | モジュール | 作者 | 説明 |
 |--------|--------|-------------|
 | [Nothing AI Changer](https://github.com/Martmists-GH/Nothing-AI-Changer) | Martmists-GH | ChatGPT統合を別のアプリに置き換え |
-| [Nothing OS Aura Killer](https://github.com/reindex-ot/NOS_AuraKiller/) | reindex-ot | NOS 4.0上のAuraサービスを削除 |
 | [Nothing Battery Fix](https://github.com/Farpathan/Nothing-Battery-Fix) | Farpathan | 古典的なバッテリー％スタイルを復元 |
+| [Nothing eUICC](https://github.com/reindex-ot/nothing-euicc) | reindex-ot | 非対応のNothingデバイスでeSIM機能を強制的に有効にする |
+| [Nothing OS Aura Killer](https://github.com/reindex-ot/NOS_AuraKiller/) | reindex-ot | NOS 4.0上のAuraサービスを削除 |
 | [Nothing Phone Patch](https://github.com/reindex-ot/magisk-module-nothing) | reindex-ot | システムの調整と改善 |
 | [Nothing Xpert](https://github.com/Rares6567/NothingXpert/) | Rares6567 | 追加機能を備えたLSPosedモジュール |

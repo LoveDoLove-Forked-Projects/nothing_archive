@@ -1,8 +1,6 @@
 /**
- * Docusaurus Configuration
- * 
- * Defines site metadata, navigation, plugins, and theme configuration
- * for the Nothing Archive documentation website.
+ * Primary Docusaurus configuration.
+ * Defines site metadata, internationalization, static routing, and theme parameters.
  */
 
 import { themes as prismThemes } from 'prism-react-renderer';
@@ -39,23 +37,24 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr-FR', 'ja-JP', 'tr-TR', 'zh-TW'],
+    locales: ['en', 'fr-FR', 'ja-JP', 'tr-TR', 'zh-TW', 'ru-RU'],
     localeConfigs: {
       en: { label: 'English' },
       'fr-FR': { label: 'Français' },
       'ja-JP': { label: '日本語' },
       'tr-TR': { label: 'Türkçe' },
       'zh-TW': { label: '繁體中文' },
+      'ru-RU': { label: 'Русский' },
     },
   },
 
   themes: [
     [
-      // Offline local search plugin
+      // Local offline search provider
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         hashed: true,
-        language: ['en', 'zh', 'fr', 'tr', 'ja'],
+        language: ['en', 'zh', 'fr', 'tr', 'ja', 'ru'],
       },
     ],
   ],
@@ -95,7 +94,7 @@ const config: Config = {
   ],
 
   headTags: [
-    // SEO: Primary keyword meta tag for search engine indexing
+    // Core SEO keywords for global indexation
     {
       tagName: 'meta',
       attributes: {
@@ -130,29 +129,29 @@ const config: Config = {
       tagName: 'link',
       attributes: {
         rel: 'icon',
-        type: 'image/webp',
+        type: 'image/png',
         sizes: '32x32',
-        href: '/nothing_archive/img/logo.webp',
+        href: '/nothing_archive/img/logo.png',
       },
     },
     {
       tagName: 'link',
       attributes: {
         rel: 'apple-touch-icon',
-        href: '/nothing_archive/img/logo.webp',
+        href: '/nothing_archive/img/logo.png',
       },
     },
-    // Preload hero LCP image
+    // Preload Largest Contentful Paint (LCP) hero graphic
     {
       tagName: 'link',
       attributes: {
         rel: 'preload',
         as: 'image',
-        href: '/nothing_archive/img/logo.webp',
+        href: '/nothing_archive/img/logo.png',
         fetchpriority: 'high',
       },
     },
-    // Font preconnect hints for performance
+    // Preconnect directives for external font domains to reduce latency
     {
       tagName: 'link',
       attributes: {
@@ -168,35 +167,13 @@ const config: Config = {
         crossorigin: 'anonymous',
       },
     },
-    // Non-render-blocking font stylesheet (replaces CSS @import)
+    // Typography stylesheet loaded asynchronously to prevent render-blocking
     {
       tagName: 'link',
       attributes: {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap',
       },
-    },
-    // SEO: JSON-LD structured data for rich snippets
-    {
-      tagName: 'script',
-      attributes: { type: 'application/ld+json' },
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        name: 'Nothing Archive',
-        alternateName: ['Nothing OS Firmware'],
-        url: 'https://spike0en.github.io/nothing_archive/',
-        description: 'A curated list of everything related to the Nothing ecosystem — firmware, guides, apps, and community resources.',
-        publisher: {
-          '@type': 'Organization',
-          name: 'Nothing Archive',
-          url: 'https://spike0en.github.io/nothing_archive/',
-          logo: {
-            '@type': 'ImageObject',
-            url: 'https://spike0en.github.io/nothing_archive/img/logo.webp'
-          }
-        },
-      }),
     },
   ],
 
@@ -205,17 +182,14 @@ const config: Config = {
     metadata: [
       { property: 'og:type', content: 'website' },
       { property: 'og:site_name', content: 'Nothing Archive' },
-      { property: 'og:title', content: 'Nothing Archive — Nothing OS Firmware & Community Resources' },
-      { property: 'og:description', content: 'A curated hub for everything related to the Nothing ecosystem — firmware, guides, apps, and community resources.' },
-      { property: 'og:url', content: 'https://spike0en.github.io/nothing_archive/' },
+      // Note: Docusaurus auto-generates page-specific Open Graph and Twitter metadata.
+      // Avoid hardcoding global fallbacks here to prevent canonical SEO conflicts across localizations.
       { property: 'og:image', content: 'https://spike0en.github.io/nothing_archive/img/banner.png' },
       { property: 'og:image:width', content: '2160' },
       { property: 'og:image:height', content: '1080' },
       { property: 'og:image:type', content: 'image/png' },
       { property: 'og:image:alt', content: 'Nothing Archive — Nothing OS Firmware & Community Resources' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Nothing Archive — Nothing OS Firmware & Community Resources' },
-      { name: 'twitter:description', content: 'A curated hub for everything related to the Nothing ecosystem — firmware, guides, apps, and community resources.' },
       { name: 'twitter:image', content: 'https://spike0en.github.io/nothing_archive/img/banner.png' },
     ],
     colorMode: {
@@ -227,7 +201,7 @@ const config: Config = {
       title: 'Nothing Archive',
       logo: {
         alt: 'Nothing Archive Logo',
-        src: 'img/logo.webp',
+        src: 'img/logo.png',
         width: 32,
         height: 32,
       },

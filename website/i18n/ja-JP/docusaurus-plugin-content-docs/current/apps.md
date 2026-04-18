@@ -40,6 +40,7 @@ NothingスマートフォンのGlyphインターフェースと統合された�
 | [Glyphify](https://play.google.com/store/apps/details?id=com.frank.glyphify) | Fr4nKB | 高度なGlyphコントロール、ミニゲーム、コンポジション。Phone (3) 対応 |
 | [Morse Glyphs](https://github.com/roxe12345/MorseGlyphs) | roxe12345 | Glyphライトによるモールス信号表示 |
 | [Nothing Glyph Gyroscope](https://github.com/gawdam/nothingGyro) | gawdam | 加速度計とジャイロスコープを使用した水準器 |
+| [Nothing Phone Battery Notification](https://github.com/f3bruary/nothing-phone-battery-notification) | f3bruary | Phone (4a)用、カスタマイズ可能な低バッテリー時赤色Glyph LED通知ツール |
 | [Simone](https://play.google.com/store/apps/details?id=com.lisra.simone) | RapidZapper | Glyphインターフェースによる古典的記憶ゲーム |
 
 ---
@@ -65,6 +66,7 @@ Glyphマトリックス向けのインタラクティブなトイとゲーム。
 | [Glyph Cade](https://github.com/bleelblep/GlyphCade/) | bleelblep | Glyphマトリックス上でのアーケードゲーム |
 | [Glyph Catch](https://github.com/equalparts/glyph-catch) | equalparts | ポケモン収集ファンゲーム |
 | [Glyph Eyes](https://github.com/yuk1-kondo/GlyphToys-Glypheyes) | yuk1-kondo | 傾斜する瞳の楽しいトイ |
+| [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | Nothing Glyph Matrix上にHome Assistantのセンサーデータを表示するAndroidアプリ。 |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | スペースインベーダーゲーム |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | スクロールテキストメッセージ |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | ウェブ経由でのコードテスト |
@@ -77,7 +79,9 @@ Glyphマトリックス向けのインタラクティブなトイとゲーム。
 | [HA Glyph](https://github.com/PzmuV1517/HA-glyph) | pzmuv1517 | Home Assistantのエンティティ切り替え |
 | [Hamon](https://github.com/yuk1-kondo/GlyphToys-hamon) | yuk1-kondo | 物理的な波の伝播 |
 | [Leveller](https://play.google.com/store/apps/details?id=com.lisra.matrixleveler) | RapidZapper | ジャイロスコープ水準器ツール |
+| [Live Bridge](https://github.com/appsfolder/livebridge) | appsfolder | 未サポートの進捗通知をライブ通知に変換し、NothingのGlyph進捗インジケーターと互換性を持たせます |
 | [Magic 8 Ball](https://play.google.com/store/apps/details?id=com.frank.magic8ball) | Fr4nKB | 古典的なマジック8ボール |
+| [Minecraft Glyph Matrix](https://github.com/nosoyyo0717/Minecraft-Glyph-Matrix) | nosoyyo0717 | Minecraftピクセルアート |
 | [Nono Gotchi (Beta)](https://www.jkn.me/pet) | Jkn | たまごっちスタイルの仮想ペット |
 | [Pomodoro Timer](https://github.com/PzmuV1517/GlyphPomodoroTimer) | pzmuV1517 | ポモドーロタイマートイ |
 | [Screenie](https://github.com/pauwma/Screenie) | pauwma | 毎日の画面使用時間を反映するフェイス |
@@ -109,9 +113,13 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 
 | アプリ | 開発者 | 説明 |
 |-----|-----------|-------------|
+| [Dot Widgets](https://play.google.com/store/apps/details?id=com.lended.widjets) | Creepsmile | Nothingのドットマトリックスにインスパイアされた日常ツール |
 | [Elements Widgets](https://play.google.com/store/apps/details?id=com.hearthborn.studios.elements) | Hearthborn | ミニマルウィジェット |
 | [Essential Widgets](https://github.com/Essential-Dots/Essential-Widgets) | Apheff | コミュニティ作成のカスタムウィジェット |
+| [n0w](https://github.com/codewec/n0w) | codewec | カレンダーウィジェットアプリ。 |
+| [Quick Contacts](https://play.google.com/store/apps/details?id=com.nihilapplications.quickcontactlist) | Martin Diermayr | ホーム画面に連絡先ウィジェットを作成して設定。 |
 | [RTMON](https://github.com/n1th1n-19/RTMON) | n1th1n-19 | リアルタイムシステム監視ウィジェット |
+| [Something KWGT](https://play.google.com/store/apps/details?id=something.nothing.kwgt.widgets.pro.pack) | Pickerry Apps | Nothingに着想を得たKWGTパック。 | 
 | [Widgets Pro](https://play.google.com/store/apps/details?id=com.tpk.widgetspro) | Preethamkmr3 | 追加ウィジェット |
 
 ### 壁紙と視覚効果
@@ -158,7 +166,9 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 | [Calories Are Nothing](https://play.google.com/store/apps/details?id=can.wearemobilefirst.com) | WeAreMobileFirst | 食事追跡アプリ |
 | [CMF Custom Volume Controller](https://github.com/alirezafarghadani999/CMF_CustomVolumeControl) | AlirezaFarghadani | CMF用カスタム音量コントローラー |
 | [Compass](https://github.com/Earendel-lab/Compass) | Earendel | シンプルなコンパス |
+| [Crucial Space](https://github.com/LainsMain/CrucialSpace) | LainsMain | NothingのEssential Spaceアプリを「Vibe coded」で再現。 |
 | [Currency](https://curency.pages.dev/) | Earendel | 通貨換算ウェブアプリ |
+| [Dot Calculator](https://play.google.com/store/apps/details?id=com.nebula.developer.dotcalculator) | Nebula Developer | ドットマトリックスフォントを採用した計算機アプリ。 |
 | [Gadgetbridge](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge/) | [Freeyourgadget](https://codeberg.org/Freeyourgadget/Gadgetbridge#authors) | OEMアプリやクラウド不要でウェアラブルを使用 |
 | [Gamething](https://play.google.com/store/apps/details?id=com.LevMatuzin.Gamething) | Lev Matuzin | Dinoゲームにインスパイア |
 | [Geo Torch](https://github.com/georgenelson576/GeoTorch/) | georgenelson576 | ウィジェット対応懐中電灯アプリ |
@@ -190,9 +200,27 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | テーマ付き計算機 |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Phone (3)用録画ライト制御 |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | デバイス情報ツール |
+| [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | Glyphマトリックスをサポートする音楽プレーヤー |
 | [The Everything Key](https://play.google.com/store/apps/details?id=com.spandone.everythingkey) | spandone | Essentialキーリマッパー |
+| [Void](https://play.google.com/store/apps/details?id=com.thevoid.focus) | vmcreate | Nothing OSのデザイン言語に基づいたミニマルなアプリブロッカー |
 | [Voidcaller](https://play.google.com/store/apps/details?id=com.voidware.voidcaller) | VoidwareLabs | ミニマリストダイヤラー |
 | [WhispCal](https://play.google.com/store/apps/details?id=com.thomasmorice.whispcal) | Thomas Morice | カロリー追跡（Androidおよび[iOS](https://apps.apple.com/in/app/whispcal/id6757860582)） |
+
+---
+
+## 移植版アプリ
+
+全てのデバイス向けのNothing OSアプリの非公式移植版。
+
+:::note
+インストール、使用方法、サポートされている機能に関する情報、および各アプリ移植版開発者からの注意事項については、リンクされている各移植版アプリのTelegramチャンネルのドキュメントやリリースノートを参照することをお勧めします。
+:::
+
+| 開発者 | ソース |
+|-----------|---------|
+| Ayra Hikari | [Pling](https://www.pling.com/p/2203457) // [Telegram](https://t.me/s/AyraProject?q=nothing) |
+| Android Port World | [Pling](https://www.pling.com/p/2203457) // [Telegram](https://t.me/s/AndroidPortWorld?q=nothing) |
+| El Pong | [Telegram](https://t.me/s/LigmaCore?q=nothing) |
 
 ---
 

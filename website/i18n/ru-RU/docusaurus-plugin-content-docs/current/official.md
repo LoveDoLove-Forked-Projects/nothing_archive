@@ -1,17 +1,17 @@
 ---
 sidebar_position: 5
-title: Official Resources
-description: Official Nothing OEM apps, wallpapers, fonts, kernel sources, developer SDKs, and support links.
+title: Официальные ресурсы
+description: Официальные приложения Nothing OEM, обои, шрифты, исходные коды ядра, SDK разработчика и ссылки на поддержку.
 keywords: [nothing official apps, nothing wallpapers, nothing fonts, nothing kernel sources, glyph developer kit, cmf watch app]
 ---
 
-# Official OEM Resources
+# Официальные OEM-ресурсы
 
-Official apps, resources, and developer tools from Nothing Technology Limited.
+Официальные приложения, ресурсы и инструменты для разработчиков от Nothing Technology Limited.
 
-## Official Apps
+## Официальные приложения
 
-| App | Links |
+| Приложение | Ссылки |
 |-----|-------|
 | CMF Watch | [Play Store](https://play.google.com/store/apps/details?id=com.nothing.cmf.watch) · [iOS](https://apps.apple.com/us/app/cmf-watch/id6447500890) |
 | Community Widgets | [Play Store](https://play.google.com/store/apps/details?id=com.nothing.communitywidgets) |
@@ -27,11 +27,11 @@ Official apps, resources, and developer tools from Nothing Technology Limited.
 | Weather | [Play Store](https://play.google.com/store/apps/details?id=com.nothing.weather) |
 | Widgets | [Play Store](https://play.google.com/store/apps/details?id=com.nothing.hearthstone) |
 
-APK mirrors available at [APKMirror](https://www.apkmirror.com/apk/nothing-technology-limited/)
+Зеркала APK доступны на [APKMirror](https://www.apkmirror.com/apk/nothing-technology-limited/)
 
 ---
 
-## Wallpapers
+## Обои
 
 ### Nothing
 
@@ -50,11 +50,11 @@ APK mirrors available at [APKMirror](https://www.apkmirror.com/apk/nothing-techn
 
 ---
 
-## Fonts
+## Шрифты
 
-### System Fonts
+### Системные шрифты
 
-| Font | Link |
+| Шрифт | Ссылка |
 |------|------|
 | Inter | [rsms.me/inter](https://rsms.me/inter/) |
 | Lettera Mono Regular | [tadiphone dump](https://dumps.tadiphone.dev/dumps/nothing/metroid/-/blob/qssi_64-user-15-AQ3A.250226.002-2507191646-release-keys/system/system/fonts/LetteraMonoLL-Regular.otf) |
@@ -65,30 +65,30 @@ APK mirrors available at [APKMirror](https://www.apkmirror.com/apk/nothing-techn
 | NType82 (Headline) | [tadiphone dump](https://dumps.tadiphone.dev/dumps/nothing/metroid/-/blob/qssi_64-user-15-AQ3A.250226.002-2507191646-release-keys/system/system/fonts/NType82-Headline.otf) |
 | NType82 (Regular) | [tadiphone dump](https://dumps.tadiphone.dev/dumps/nothing/metroid/-/blob/qssi_64-user-15-AQ3A.250226.002-2507191646-release-keys/system/system/fonts/NType82-Regular.otf) |
 
-### Website Fonts
+### Шрифты веб-сайта
 
-| Font | Link |
+| Шрифт | Ссылка |
 |------|------|
 | NothingFont | [GitHub](https://github.com/xeji01/nothingfont) |
 | Geist Mono | [Google Fonts](https://fonts.google.com/specimen/Geist+Mono) |
 
 ---
 
-## System Sounds
+## Системные звуки
 
-| Type | Link |
+| Тип | Ссылка |
 |------|------|
-| Alarms | [tadiphone dump](https://dumps.tadiphone.dev/dumps/nothing/metroid/-/tree/qssi_64-user-15-AQ3A.250226.002-2507191646-release-keys/vendor/product/media/audio/alarms) |
-| Notifications | [tadiphone dump](https://dumps.tadiphone.dev/dumps/nothing/metroid/-/tree/qssi_64-user-15-AQ3A.250226.002-2507191646-release-keys/vendor/product/media/audio/notifications) |
-| Ringtones | [tadiphone dump](https://dumps.tadiphone.dev/dumps/nothing/metroid/-/tree/qssi_64-user-15-AQ3A.250226.002-2507191646-release-keys/vendor/product/media/audio/ringtones) |
+| Будильники | [tadiphone dump](https://dumps.tadiphone.dev/dumps/nothing/metroid/-/tree/qssi_64-user-15-AQ3A.250226.002-2507191646-release-keys/vendor/product/media/audio/alarms) |
+| Уведомления | [tadiphone dump](https://dumps.tadiphone.dev/dumps/nothing/metroid/-/tree/qssi_64-user-15-AQ3A.250226.002-2507191646-release-keys/vendor/product/media/audio/notifications) |
+| Рингтоны | [tadiphone dump](https://dumps.tadiphone.dev/dumps/nothing/metroid/-/tree/qssi_64-user-15-AQ3A.250226.002-2507191646-release-keys/vendor/product/media/audio/ringtones) |
 
 ---
 
-## Kernel Sources
+## Исходные коды ядра
 
 ### Nothing
 
-| Device | Repository |
+| Устройство | Репозиторий |
 |--------|------------|
 | Phone (1) | [android_kernel_msm-5.4_nothing_sm7325](https://github.com/NothingOSS/android_kernel_msm-5.4_nothing_sm7325) |
 | Phone (2) | [android_kernel_msm-5.10_nothing_sm8475](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475/tree/sm8475/v/mr) |
@@ -107,13 +107,13 @@ APK mirrors available at [APKMirror](https://www.apkmirror.com/apk/nothing-techn
 
 ---
 
-## Glyph Developer Kit
+## Набор разработчика Glyph (GDK)
 
-Software toolkit for creating custom Glyph experiences.
+Программный инструментарий для создания пользовательских эффектов Glyph.
 
-| Resource | Link |
+| Ресурс | Ссылка |
 |----------|------|
-| API Key Application | [Google Form](https://forms.gle/mriKRPdYJtgseCZS6) |
+| Заявка на API-ключ | [Google Form](https://forms.gle/mriKRPdYJtgseCZS6) |
 | Glyph Developer Kit (SDK) | [GitHub](https://github.com/Nothing-Developer-Programme/Glyph-Developer-Kit) |
 | GlyphMatrix Sample Project | [GitHub](https://github.com/Nothing-Developer-Programme/GlyphMatrix-Example-Project) |
 | GlyphMatrix Developer Kit | [GitHub](https://github.com/Nothing-Developer-Programme/GlyphMatrix-Developer-Kit) |
@@ -123,13 +123,13 @@ Software toolkit for creating custom Glyph experiences.
 
 ---
 
-## 3D Models
+## 3D-модели
 
-Official `.glb` files for device models.
+Официальные файлы `.glb` для моделей устройств.
 
 ### Nothing
 
-| Device | Colors |
+| Устройство | Цвета |
 |--------|--------|
 | Phone (2a) | [Milk](https://cdn.sanity.io/files/gtd4w1cq/production/ca82536a7a2b0863c8089a33d9d2c2e7040c54ea.glb) · [White](https://cdn.sanity.io/files/gtd4w1cq/production/e8d9a61151ef6099e479867a915118889f912565.glb) · [Black](https://cdn.sanity.io/files/gtd4w1cq/production/ce7c70562ae2ae9b855a8c7890ff9f0ca32a5444.glb) |
 | Phone (2a) Plus | [Grey](https://cdn.sanity.io/files/gtd4w1cq/production/c7e0ccb72b2499d767b42fcf301e0a101de2a142.glb) · [Black](https://cdn.sanity.io/files/gtd4w1cq/production/77ffcbc5051cecc129b4d01fa8604af81c75146f.glb) |
@@ -142,24 +142,24 @@ Official `.glb` files for device models.
 
 ### CMF by Nothing
 
-| Device | Colors |
+| Устройство | Цвета |
 |--------|--------|
 | Phone (1) | [Light Green](https://cdn.sanity.io/files/gtd4w1cq/production/cdbaddc958359556191101ba3b049782b0c618ae.glb) · [Orange](https://cdn.sanity.io/files/gtd4w1cq/production/94a4ddd97cac31d7676845ab2942849471e2d1a3.glb) · [Black](https://cdn.sanity.io/files/gtd4w1cq/production/de67e4ed8b864d9f05da3a3a01839069cf79ad8b.glb) |
 | Phone (2) Pro | [Light Green](https://cdn.sanity.io/files/gtd4w1cq/production/b54cdec768b611a7af4c166b10e617f8caf11204.glb) · [Orange](https://cdn.sanity.io/files/gtd4w1cq/production/540e40a622cc01c73edddfeb4283cfe1109820b7.glb) · [White](https://cdn.sanity.io/files/gtd4w1cq/production/c7ca3faffb239aac1b1e711086ab43f49f0e3a31.glb) · [Black](https://cdn.sanity.io/files/gtd4w1cq/production/3fe749a61a1c98b3c6473d57e8f3a17d8c1aaba0.glb) |
 
 ---
 
-## Support Links
+## Ссылки на поддержку
 
-| Resource | Link |
+| Ресурс | Ссылка |
 |----------|------|
-| Business Enquiry | [nothing.tech](https://nothing.tech/pages/business-enquiry) |
-| Careers | [careers.nothing.tech](https://careers.nothing.tech/) |
-| CMF Support (X) | [@cmf_support](https://x.com/cmf_support) |
-| Customer Support | [nothing.tech](https://nothing.tech/pages/support-centre) |
+| Запросы для бизнеса | [nothing.tech](https://nothing.tech/pages/business-enquiry) |
+| Карьера | [careers.nothing.tech](https://careers.nothing.tech/) |
+| Поддержка CMF (X) | [@cmf_support](https://x.com/cmf_support) |
+| Поддержка клиентов | [nothing.tech](https://nothing.tech/pages/support-centre) |
 | FAQ | [support.nothing.tech](https://support.nothing.tech/hc/en-us/categories/38487703211153-FAQ) |
-| Nothing Support (X) | [@nothingsupport](https://x.com/nothingsupport) |
-| Product Guide | [nothing.tech](https://nothing.tech/pages/support-product-help) |
-| Product Status | [nothing.tech/imei](https://nothing.tech/pages/imei) |
-| Service Centre (IN) | [in.nothing.tech](https://in.nothing.tech/pages/service-center) |
-| Troubleshooting | [support.nothing.tech](https://support.nothing.tech/hc/en-us/categories/7455115681041-Troubleshooting) |
+| Поддержка Nothing (X) | [@nothingsupport](https://x.com/nothingsupport) |
+| Руководство по продукту | [nothing.tech](https://nothing.tech/pages/support-product-help) |
+| Статус продукта | [nothing.tech/imei](https://nothing.tech/pages/imei) |
+| Сервисный центр (Индия) | [in.nothing.tech](https://in.nothing.tech/pages/service-center) |
+| Устранение неполадок | [support.nothing.tech](https://support.nothing.tech/hc/en-us/categories/7455115681041-Troubleshooting) |

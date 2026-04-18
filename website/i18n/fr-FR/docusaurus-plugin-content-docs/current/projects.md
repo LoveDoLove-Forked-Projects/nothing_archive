@@ -1,8 +1,8 @@
 ---
 sidebar_position: 7
 title: Projets
-description: Outils et projets maintenus par la communauté pour les appareils Nothing — incluant des outils Glyph, des mods de personnalisation, des applications web et des ressources pour développeurs.
-keywords: [projets nothing, outils glyph, root nothing, magisk nothing, personnalisation, thèmes de bureau, extensions de navigateur, correctif logkit nothing, outils de développement, ressources de développement]
+description: Outils et projets maintenus par la communauté pour les appareils Nothing, incluant des outils Glyph, des mods de personnalisation, des profils d'égalisation audio, des applications web et des ressources pour développeurs.
+keywords: [projets nothing, outils glyph, root nothing, magisk nothing, personnalisation, thèmes de bureau, extensions de navigateur, profils eq nothing, correctif logkit nothing, outils de développement, ressources de développement]
 ---
 
 # Projets de la communauté
@@ -16,13 +16,14 @@ Une collection d'outils pour créer des tonalités et des compositions Glyph per
 | Projet | Développeur | Description |
 |---------|-----------|-------------|
 | [Better Nothing Glyph Composer](https://better-nothing-glyph-composer.pages.dev/) | Krishnagopal Sinha | Outil visuel pour créer des tonalités Glyph. Supporte la matrice du Phone (3) |
-| [Better Nothing Glyph Visualizer](https://github.com/Aleks-Levet/better-nothing-music-visualizer) | alekslevet | Visualisation musicale améliorée |
+| [Better Nothing Music Visualizer](https://github.com/Aleks-Levet/better-nothing-music-visualizer) | alekslevet | Visualisation musicale améliorée |
 | [Cassette](https://github.com/Chipik0/Cassette) | Chipik0 | Créez des compositions Glyph |
 | [Custom Nothing Glyph Tools](https://github.com/SebiAi/custom-nothing-glyph-tools) | SebiAi | Créez des tonalités avec Audacity |
 | [Glyph Tones](https://glyphtones.is-a.dev/) | Firu11 | Collection de tonalités Glyph de la communauté. ([Dépôt](https://github.com/firu11/nothing-glyphtones)) |
 | [Glyph Utils](https://github.com/pgsk33/Glyph-Utils) | pgsk33 | Aide Java pour les animations Glyph Interface basées sur des frames |
 | [Glyph Visualizer](https://github.com/SebiAi/GlyphVisualizer) | SebiAi | Visualiseur de bureau pour les compositions .ogg |
 | [Haptificator](https://github.com/Fr4nKB/Haptificator) | Fr4nKB | Ajoutez des retours haptiques aux compositions du Phone (1) |
+| [Nothing Glyph Composer](https://itssveennn.github.io/Nothing-Glyph-Composer/) | itssveennn | Outil web pour créer des animations Glyph 13x13, préparer l'audio et exporter des fichiers OGG prêts pour les sonneries du Phone (4a) Pro. |
 | [Osu To Glyph](https://github.com/taiixu/osu-to-glyph) | taiixu | Convertissez les beatmaps osu! en sonneries Glyph pour Nothing Phone |
 | [Pyglyph](https://github.com/Snakehater/pyglyph) | Snakehater | Script Python pour la visualisation audio |
 
@@ -55,6 +56,7 @@ Thèmes et configurations pour Arch Linux, VS Code et d'autres environnements de
 | [Nothing Bar](https://github.com/bestK1ngArthur/nothing-bar) | bestK1ngArthur | Application de barre de menu macOS |
 | [Nothing OS Manjaro](https://github.com/HyenaDesign/nothingos-gnome-manjaro) | HyenaDesign | Build de bureau GNOME |
 | [Nothing Rice](https://github.com/Adhil-ka/nothing-rice) | Adhil-ka | Configuration de bureau Arch Hyprland inspirée par Nothing OS |
+| [Nothing Telegram Theme](https://github.com/Costeer/Nothing-Telegram-Theme) | Costeer | Thème inspiré par Nothing pour Telegram. |
 | [Nothing VS Code Theme](https://github.com/shahriaravi/nothing-vscode-theme) | shahriaravi | Thème VS Code |
 | [Obsidian Nothing Theme](https://github.com/saulojoab/obsidian-nothing-theme) | saulojoab | Thème Obsidian basé sur Nothing |
 
@@ -72,6 +74,7 @@ Utilitaires pour créer et générer des fonds d'écran style Nothing.
 
 | Projet | Développeur | Description |
 |---------|-----------|-------------|
+| [Atmosphere](https://atmospherewallpaper.com) | Mxtechz | Générez et téléchargez des fonds d'écran "glass & light" en haute fidélité. | 
 | [Nothing Glass](https://github.com/Vauth/nothing-glass) | Vauth | Créateur de fonds d'écran à effet de verre Nothing OS |
 | [Wallpaper Studio Pro](https://wallpaperstudiopro.netlify.app/) | Ifham9 | Générateur de fonds d'écran par IA |
 
@@ -88,7 +91,8 @@ Ressources et outils conçus pour aider d'autres développeurs à créer des pro
 | [Dotify Client](https://github.com/PATEL96/dotify-client) | PATEL96 | Générateur d'images en matrice de points |
 | [Glyph Matrix Editor](https://github.com/pauwma/GlyphMatrixEditor) | pauwma | Éditeur de pixel art pour Phone (3) |
 | [Glyph Matrix Image Maker](https://github.com/quintenvandamme/glyph-matrix-image-maker) | quintenvandamme | Convertisseur d'image en motif glyph |
-| [Matrices](https://udaign.github.io/matrices/) | Uday | Outil de conception de matrice Glyph |
+| [Matrices](https://udaign.github.io/matrices/) | Uday | Outil de conception de matrice Glyph ([Dépôt](https://github.com/udaign/matrices)) |
+| [Vizmatrices](https://udaign.github.io/vizmatrices/) | udaign | Visualiseur audio réactif en temps réel ([Dépôt](https://github.com/udaign/vizmatrices)) |
 
 ---
 
@@ -109,20 +113,33 @@ Extensions de navigateur et applications basées sur le web inspirées par Nothi
 
 ---
 
+## Son et audio
+
+Profils d'égalisation créés par la communauté pour les écouteurs et casques Nothing :
+
+- [Profils EQ d'origine](https://playground.nothing.tech/eqs) — Compatibles avec l'égaliseur avancé via [Nothing X](https://play.google.com/store/apps/details?id=com.nothing.smartcenter)
+
+---
+
 ## Ressources et utilitaires
 
 Ressources essentielles incluant des wikis, des archives de firmware et des outils de réparation système.
 
 | Projet | Développeur | Description |
 |---------|-----------|-------------|
+| [CMF Wiki](https://www.reddit.com/r/CMFTech/wiki/index/) | guidomelvin | Wiki de r/CMFTech |
+| [Ear X](https://gitlab.com/somaxa8/ear-x) | somaxa8 & [Bharadwaj Raju](https://gitlab.com/bharadwaj-raju/ear2ctl) | Application Linux en Rust pour contrôler les modes ANC des écouteurs Nothing |
 | [Fenrir](https://github.com/R0rt1z2/fenrir) | R0rt1z2 | PoC de contournement du test d'intégrité pour Phone (2a) et CMF Phone (1) |
 | [Macros](https://nothing.community/d/14869-useful-macros-for-nothing-phones) | RedSkullxHydra | Macros Macrodroid |
-| [Nothing Archive](https://spike0en.github.io/nothing_archive) | spike0en | Hub de sources officielles pour le firmware Nothing et CMF, applications, ressources et développement tiers.([Dépôt](https://github.com/spike0en/nothing_archive)) |
+| [Nothing Archive](https://spike0en.github.io/nothing_archive) | spike0en | Hub de sources officielles pour le firmware Nothing et CMF, applications, ressources et développement tiers. ([Dépôt](https://github.com/spike0en/nothing_archive)) |
+| [Nothing Community App Store](https://nothingstore.base44.app/) | Ali Fakhruddin | Application web de style PWA qui indexe les applications de la communauté, utilisant une base de données de base provenant de [Nothing Archive](https://github.com/spike0en/nothing_archive) |
 | [Nothing Flasher](https://github.com/spike0en/nothing_flasher) | spike0en et Hellboy017 | Scripts de flashage fastboot |
 | [Nothing News Hub](https://nothing-news.de/hub/) | StickyPRP | Hub de nouvelles et de ressources |
 | [Nothing OS Logkit Softfix](https://github.com/kunaibox/NothingOS-Logkit-Softfix) | kunaibox | Outil pour patcher/désactiver Logkit via ADB |
+| [Nothing Shelf](https://nothing-shelf.vercel.app/) | therealcocoboy | Une galerie sélectionnée des widgets préférés de la communauté Nothing |
 | [Nothing Space](https://nothingtools.github.io/) | ROHit | Hub de la communauté ([Dépôt](https://github.com/nothingtools/nothingtools.github.io)) |
 | [Nothing Wiki](https://www.reddit.com/r/NothingTech/wiki/index) | adbo | Wiki de r/NothingTech |
+| [Nothing X (macOS)](https://github.com/nikiomori/nothing-x-macos/) | nikiomori, arunavo4 | Application compagnon macOS pour les écouteurs Nothing et CMF |
 
 ---
 
@@ -145,7 +162,8 @@ Ceux-ci nécessitent un accès root (KernelSU ou Magisk). Procédez avec prudenc
 | Module | Auteur | Description |
 |--------|--------|-------------|
 | [Nothing AI Changer](https://github.com/Martmists-GH/Nothing-AI-Changer) | Martmists-GH | Remplace l'intégration ChatGPT par une autre application |
-| [Nothing OS Aura Killer](https://github.com/reindex-ot/NOS_AuraKiller/) | reindex-ot | Supprime les services Aura sur NOS 4.0 |
 | [Nothing Battery Fix](https://github.com/Farpathan/Nothing-Battery-Fix) | Farpathan | Restaure le style classique du pourcentage de batterie |
+| [Nothing eUICC](https://github.com/reindex-ot/nothing-euicc) | reindex-ot | Active de force les fonctionnalités eSIM sur les appareils Nothing qui ne les prennent pas en charge |
+| [Nothing OS Aura Killer](https://github.com/reindex-ot/NOS_AuraKiller/) | reindex-ot | Supprime les services Aura sur NOS 4.0 |
 | [Nothing Phone Patch](https://github.com/reindex-ot/magisk-module-nothing) | reindex-ot | Tweaks et améliorations système |
 | [Nothing Xpert](https://github.com/Rares6567/NothingXpert/) | Rares6567 | Module LSPosed avec fonctionnalités supplémentaires |

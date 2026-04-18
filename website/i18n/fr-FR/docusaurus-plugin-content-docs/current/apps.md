@@ -40,6 +40,7 @@ Applications s'intégrant à l'interface Glyph des téléphones Nothing.
 | [Glyphify](https://play.google.com/store/apps/details?id=com.frank.glyphify) | Fr4nKB | Contrôles Glyph avancés, mini-jeux, compositions. Supporte le Phone (3) |
 | [Morse Glyphs](https://github.com/roxe12345/MorseGlyphs) | roxe12345 | Code Morse affiché via les lumières Glyph |
 | [Nothing Glyph Gyroscope](https://github.com/gawdam/nothingGyro) | gawdam | Niveau à bulle utilisant l'accéléromètre et le gyroscope |
+| [Nothing Phone Battery Notification](https://github.com/f3bruary/nothing-phone-battery-notification) | f3bruary | Notifications de batterie par LED Glyph rouge avec motifs personnalisables pour Phone (4a) |
 | [Simone](https://play.google.com/store/apps/details?id=com.lisra.simone) | RapidZapper | Jeu de mémoire classique avec l'interface Glyph |
 
 ---
@@ -65,6 +66,7 @@ Consultez [Nothing Playground Glyph Toys](https://playground.nothing.tech/toys) 
 | [Glyph Cade](https://github.com/bleelblep/GlyphCade/) | bleelblep | Jeux d'arcade sur la matrice Glyph |
 | [Glyph Catch](https://github.com/equalparts/glyph-catch) | equalparts | Fan-game de collection de Pokémon |
 | [Glyph Eyes](https://github.com/yuk1-kondo/GlyphToys-Glypheyes) | yuk1-kondo | Jouet de pupille inclinable ludique |
+| [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | Application Android qui affiche les données des capteurs de Home Assistant sur la Nothing Glyph Matrix. |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | Jeu Space Invaders |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | Messages textuels défilants |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | Test de code via le web |
@@ -77,7 +79,9 @@ Consultez [Nothing Playground Glyph Toys](https://playground.nothing.tech/toys) 
 | [HA Glyph](https://github.com/PzmuV1517/HA-glyph) | pzmuv1517 | Commutation d'entité Home Assistant |
 | [Hamon](https://github.com/yuk1-kondo/GlyphToys-hamon) | yuk1-kondo | Propagation d'ondes physiques |
 | [Leveller](https://play.google.com/store/apps/details?id=com.lisra.matrixleveler) | RapidZapper | Outil de niveau gyroscopique |
+| [Live Bridge](https://github.com/appsfolder/livebridge) | appsfolder | Convertit les notifications de progression non supportées en notifications en direct pour les rendre compatibles avec les indicateurs de progression Glyph de Nothing |
 | [Magic 8 Ball](https://play.google.com/store/apps/details?id=com.frank.magic8ball) | Fr4nKB | Magic 8 Ball classique |
+| [Minecraft Glyph Matrix](https://github.com/nosoyyo0717/Minecraft-Glyph-Matrix) | nosoyyo0717 | Pixel art Minecraft |
 | [Nono Gotchi (Beta)](https://www.jkn.me/pet) | Jkn | Animal virtuel style Tamagotchi |
 | [Pomodoro Timer](https://github.com/PzmuV1517/GlyphPomodoroTimer) | pzmuV1517 | Jouet minuteur Pomodoro |
 | [Screenie](https://github.com/pauwma/Screenie) | pauwma | Visage reflétant le temps d'écran quotidien |
@@ -109,9 +113,13 @@ Widgets personnalisés pour l'écran d'accueil, allant des moniteurs système au
 
 | Application | Développeur | Description |
 |-----|-----------|-------------|
+| [Dot Widgets](https://play.google.com/store/apps/details?id=com.lended.widjets) | Creepsmile | Outils du quotidien inspirés par la matrice de points de Nothing |
 | [Elements Widgets](https://play.google.com/store/apps/details?id=com.hearthborn.studios.elements) | Hearthborn | Widgets minimaux |
 | [Essential Widgets](https://github.com/Essential-Dots/Essential-Widgets) | Apheff | Widgets personnalisés créés par la communauté |
+| [n0w](https://github.com/codewec/n0w) | codewec | Application de widget de calendrier. |
+| [Quick Contacts](https://play.google.com/store/apps/details?id=com.nihilapplications.quickcontactlist) | Martin Diermayr | Créer et placer des widgets de contacts sur l'écran d'accueil. |
 | [RTMON](https://github.com/n1th1n-19/RTMON) | n1th1n-19 | Widget de surveillance système en temps réel |
+| [Something KWGT](https://play.google.com/store/apps/details?id=something.nothing.kwgt.widgets.pro.pack) | Pickerry Apps | Pack KWGT inspiré par Nothing. | 
 | [Widgets Pro](https://play.google.com/store/apps/details?id=com.tpk.widgetspro) | Preethamkmr3 | Widgets supplémentaires |
 
 ### Fonds d'écran et effets visuels
@@ -158,7 +166,9 @@ Fonds d'écran dynamiques et améliorations visuelles pour sublimer l'apparence 
 | [Calories Are Nothing](https://play.google.com/store/apps/details?id=can.wearemobilefirst.com) | WeAreMobileFirst | Application de suivi alimentaire |
 | [CMF Custom Volume Controller](https://github.com/alirezafarghadani999/CMF_CustomVolumeControl) | AlirezaFarghadani | Contrôleur de volume personnalisé pour CMF |
 | [Compass](https://github.com/Earendel-lab/Compass) | Earendel | Boussole simple |
+| [Crucial Space](https://github.com/LainsMain/CrucialSpace) | LainsMain | Copie « vibe coded » de l'application Essential Space de Nothing. |
 | [Currency](https://curency.pages.dev/) | Earendel | Application web de conversion de devises |
+| [Dot Calculator](https://play.google.com/store/apps/details?id=com.nebula.developer.dotcalculator) | Nebula Developer | Application de calculatrice avec des polices à matrice de points. |
 | [Gadgetbridge](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge/) | [Freeyourgadget](https://codeberg.org/Freeyourgadget/Gadgetbridge#authors) | Utilisez des wearables Bluetooth sans applications OEM ni compte cloud |
 | [Gamething](https://play.google.com/store/apps/details?id=com.LevMatuzin.Gamething) | Lev Matuzin | Inspiré par le jeu Dino |
 | [Geo Torch](https://github.com/georgenelson576/GeoTorch/) | georgenelson576 | Application de lampe torche avec widgets |
@@ -190,9 +200,27 @@ Fonds d'écran dynamiques et améliorations visuelles pour sublimer l'apparence 
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | Calculatrice à thème |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Contrôle de la lumière d'enregistrement pour le Phone (3) |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | Outil d'informations sur l'appareil |
+| [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | Lecteur de musique prenant en charge la matrice Glyph |
 | [The Everything Key](https://play.google.com/store/apps/details?id=com.spandone.everythingkey) | spandone | Remappeur de touche essentiel |
+| [Void](https://play.google.com/store/apps/details?id=com.thevoid.focus) | vmcreate | Bloqueur d'applications minimaliste basé sur le langage de design de Nothing OS |
 | [Voidcaller](https://play.google.com/store/apps/details?id=com.voidware.voidcaller) | VoidwareLabs | Numéroteur minimaliste |
 | [WhispCal](https://play.google.com/store/apps/details?id=com.thomasmorice.whispcal) | Thomas Morice | Application de suivi de calories pour Android et [iOS](https://apps.apple.com/in/app/whispcal/id6757860582) |
+
+---
+
+## Applications portées
+
+Ports non officiels d'applications Nothing OS pour tous les appareils.
+
+:::note
+Il est conseillé de se référer à la documentation et aux notes de version des canaux Telegram liés pour chaque portage d'application afin d'obtenir des informations concernant l'installation, l'utilisation et les fonctionnalités prises en charge, ainsi que les considérations des développeurs respectifs.
+:::
+
+| Développeur | Sources |
+|-----------|---------|
+| Ayra Hikari | [Pling](https://www.pling.com/p/2203457) // [Telegram](https://t.me/s/AyraProject?q=nothing) |
+| Android Port World | [Pling](https://www.pling.com/p/2203457) // [Telegram](https://t.me/s/AndroidPortWorld?q=nothing) |
+| El Pong | [Telegram](https://t.me/s/LigmaCore?q=nothing) |
 
 ---
 

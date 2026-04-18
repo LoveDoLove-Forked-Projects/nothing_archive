@@ -40,6 +40,7 @@ Nothing telefonlarının Glyph arayüzüyle entegre olan uygulamalar.
 | [Glyphify](https://play.google.com/store/apps/details?id=com.frank.glyphify) | Fr4nKB | Gelişmiş Glyph kontrolleri, mini oyunlar, kompozisyonlar. Phone (3) destekler |
 | [Morse Glyphs](https://github.com/roxe12345/MorseGlyphs) | roxe12345 | Glyph ışıkları aracılığıyla Mors alfabesi |
 | [Nothing Glyph Gyroscope](https://github.com/gawdam/nothingGyro) | gawdam | Akselerometre ve jiroskop kullanan su terazisi |
+| [Nothing Phone Battery Notification](https://github.com/f3bruary/nothing-phone-battery-notification) | f3bruary | Phone (4a) için özelleştirilebilir düşük pil desenlerine sahip kırmızı Glyph LED bildirim aracı |
 | [Simone](https://play.google.com/store/apps/details?id=com.lisra.simone) | RapidZapper | Glyph arayüzü ile klasik hafıza oyunu |
 
 ---
@@ -65,6 +66,7 @@ Resmi oyuncaklar için [Nothing Playground Glyph Toys](https://playground.nothin
 | [Glyph Cade](https://github.com/bleelblep/GlyphCade/) | bleelblep | Glyph matrisi üzerinde atari oyunları |
 | [Glyph Catch](https://github.com/equalparts/glyph-catch) | equalparts | Pokémon yakalama fan oyunu |
 | [Glyph Eyes](https://github.com/yuk1-kondo/GlyphToys-Glypheyes) | yuk1-kondo | Eğlenceli eğilebilir göz bebeği oyuncağı |
+| [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | Home Assistant sensör verilerini Nothing Glyph Matrix üzerinde görüntüleyen Android uygulaması. |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | Space Invaders oyunu |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | Kayan metin mesajları |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | Web üzerinden kod testi |
@@ -77,7 +79,9 @@ Resmi oyuncaklar için [Nothing Playground Glyph Toys](https://playground.nothin
 | [HA Glyph](https://github.com/PzmuV1517/HA-glyph) | pzmuv1517 | Home Assistant varlık değiştirme |
 | [Hamon](https://github.com/yuk1-kondo/GlyphToys-hamon) | yuk1-kondo | Fiziksel dalga yayılımı |
 | [Leveller](https://play.google.com/store/apps/details?id=com.lisra.matrixleveler) | RapidZapper | Jiroskopik su terazisi aracı |
+| [Live Bridge](https://github.com/appsfolder/livebridge) | appsfolder | Desteklenmeyen ilerleme bildirimlerini Canlı Bildirimlere dönüştürerek Nothing'in Glyph ilerleme göstergeleriyle uyumlu hale getirir |
 | [Magic 8 Ball](https://play.google.com/store/apps/details?id=com.frank.magic8ball) | Fr4nKB | Klasik Sihirli 8 Top |
+| [Minecraft Glyph Matrix](https://github.com/nosoyyo0717/Minecraft-Glyph-Matrix) | nosoyyo0717 | Minecraft piksel sanatı |
 | [Nono Gotchi (Beta)](https://www.jkn.me/pet) | Jkn | Tamagotchi tarzı sanal evcil hayvan |
 | [Pomodoro Timer](https://github.com/PzmuV1517/GlyphPomodoroTimer) | pzmuV1517 | Pomodoro zamanlayıcı oyuncağı |
 | [Screenie](https://github.com/pauwma/Screenie) | pauwma | Günlük ekran süresini yansıtan yüz |
@@ -109,9 +113,13 @@ Sistem monitörlerinden minimal araçlara kadar ana ekran için özel widget'lar
 
 | Uygulama | Geliştirici | Açıklama |
 |-----|-----------|-------------|
+| [Dot Widgets](https://play.google.com/store/apps/details?id=com.lended.widjets) | Creepsmile | Nothing'in nokta matrisinden ilham alan günlük araçlar |
 | [Elements Widgets](https://play.google.com/store/apps/details?id=com.hearthborn.studios.elements) | Hearthborn | Minimal widget'lar |
 | [Essential Widgets](https://github.com/Essential-Dots/Essential-Widgets) | Apheff | Topluluk tarafından oluşturulmuş özel widget'lar |
+| [n0w](https://github.com/codewec/n0w) | codewec | Takvim widget'ı uygulaması. |
+| [Quick Contacts](https://play.google.com/store/apps/details?id=com.nihilapplications.quickcontactlist) | Martin Diermayr | Ana ekranda kişi widget'ları oluşturun ve ayarlayın. |
 | [RTMON](https://github.com/n1th1n-19/RTMON) | n1th1n-19 | Gerçek zamanlı sistem izleme widget'ı |
+| [Something KWGT](https://play.google.com/store/apps/details?id=something.nothing.kwgt.widgets.pro.pack) | Pickerry Apps | Nothing esintili KWGT paketi. | 
 | [Widgets Pro](https://play.google.com/store/apps/details?id=com.tpk.widgetspro) | Preethamkmr3 | Ek widget'lar |
 
 ### Duvar Kağıtları ve Görsel Efektler
@@ -158,7 +166,9 @@ Cihazınızın görünümünü geliştirmek için dinamik duvar kağıtları ve 
 | [Calories Are Nothing](https://play.google.com/store/apps/details?id=can.wearemobilefirst.com) | WeAreMobileFirst | Yemek takibi uygulaması |
 | [CMF Custom Volume Controller](https://github.com/alirezafarghadani999/CMF_CustomVolumeControl) | AlirezaFarghadani | CMF için özel ses kontrolcüsü |
 | [Compass](https://github.com/Earendel-lab/Compass) | Earendel | Basit pusula |
+| [Crucial Space](https://github.com/LainsMain/CrucialSpace) | LainsMain | Nothing'in Essential Space uygulamasının "vibe coded" kopyası. |
 | [Currency](https://curency.pages.dev/) | Earendel | Birim dönüştürücü web uygulaması |
+| [Dot Calculator](https://play.google.com/store/apps/details?id=com.nebula.developer.dotcalculator) | Nebula Developer | Nokta matrisli yazı tiplerine sahip hesap makinesi uygulaması. |
 | [Gadgetbridge](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge/) | [Freeyourgadget](https://codeberg.org/Freeyourgadget/Gadgetbridge#authors) | OEM uygulamaları veya bulut hesabı olmadan giyilebilir cihazları kullanın |
 | [Gamething](https://play.google.com/store/apps/details?id=com.LevMatuzin.Gamething) | Lev Matuzin | Dino oyunundan esinlenildi |
 | [Geo Torch](https://github.com/georgenelson576/GeoTorch/) | georgenelson576 | Widget destekli el feneri uygulaması |
@@ -190,9 +200,27 @@ Cihazınızın görünümünü geliştirmek için dinamik duvar kağıtları ve 
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | Temalı hesap makinesi |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Phone (3) için kayıt ışığı kontrolü |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | Cihaz bilgisi aracı |
+| [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | Glyph Matrisini destekleyen müzik çalar |
 | [The Everything Key](https://play.google.com/store/apps/details?id=com.spandone.everythingkey) | spandone | Essential tuşu remappar |
+| [Void](https://play.google.com/store/apps/details?id=com.thevoid.focus) | vmcreate | Nothing OS tasarım diline dayalı minimal uygulama engelleyici |
 | [Voidcaller](https://play.google.com/store/apps/details?id=com.voidware.voidcaller) | VoidwareLabs | Minimalist arayıcı |
 | [WhispCal](https://play.google.com/store/apps/details?id=com.thomasmorice.whispcal) | Thomas Morice | Android ve [iOS](https://apps.apple.com/in/app/whispcal/id6757860582) için kalori takibi uygulaması |
+
+---
+
+## Port Edilmiş Uygulamalar
+
+Tüm cihazlar için Nothing OS uygulamalarının resmi olmayan portları.
+
+:::note
+Kurulum, kullanım ve desteklenen işlevlerle ilgili bilgilerin yanı sıra ilgili uygulama portu geliştiricilerinin düşünceleri için bağlantılı Telegram kanallarındaki belgelere ve sürüm notlarına başvurmanız önerilir.
+:::
+
+| Geliştirici | Kaynaklar |
+|-----------|---------|
+| Ayra Hikari | [Pling](https://www.pling.com/p/2203457) // [Telegram](https://t.me/s/AyraProject?q=nothing) |
+| Android Port World | [Pling](https://www.pling.com/p/2203457) // [Telegram](https://t.me/s/AndroidPortWorld?q=nothing) |
+| El Pong | [Telegram](https://t.me/s/LigmaCore?q=nothing) |
 
 ---
 

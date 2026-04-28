@@ -24,8 +24,9 @@ Applications s'intégrant à l'interface Glyph des téléphones Nothing.
 | Application | Développeur | Description |
 |-----|-----------|-------------|
 | [Blockit](https://play.google.com/store/apps/details?id=com.hypenet.focused) | Mirko_ddd | Application de détox numérique avec intégration Glyph |
-| [Delivery Glyph](https://github.com/Goktug-Dusunen/Glyph-Developer-Kit/tree/main/DeliveryGlyph) | Goktug-Dusunen | Suivi de livraison, optimisé pour les services turcs |
-| [Glyph Compass](https://play.google.com/store/apps/details?id=com.JayKayCooperations.glyph_compass) | JayKayCooperations | Utilisez votre interface Glyph comme boussole |
+| [Delivery Glyph](https://github.com/Goktug-Dusunen/Glyph-Developer-Kit/tree/main/DeliveryGlyph) | Goktug-Dusunen | Application de suivi de livraison, spécialement optimisée pour les services turcs |
+| [Glyph Bar Composer](https://github.com/BhuvaneshwarMarri/GlyphBarComposer-4a) | BhuvaneshwarMarri | Composez, synchronisez et visualisez des motifs lumineux Glyph personnalisés pour le Nothing Phone (4a) |
+| [Glyph Compass](https://play.google.com/store/apps/details?id=com.JayKayCooperations.glyph_compass) | JayKayCooperations | Utilisez votre interface Glyph comme une boussole |
 | [Glyph Essentials](https://play.google.com/store/apps/details?id=com.tldc.essentials) | GlyphLab | Personnalisation avancée des notifications Glyph |
 | [Glyph Glow](https://github.com/fgiering/GlyphGlow) | fgiering | Application minimale pour contrôler l'interface Glyph |
 | [Glyph Initiator](https://github.com/lowqualitysoarin/Glyph-Initiator/releases) | lowqualitysoarin | Contrôle de l'interface Glyph via des intents |
@@ -69,6 +70,7 @@ Consultez [Nothing Playground Glyph Toys](https://playground.nothing.tech/toys) 
 | [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | Application Android qui affiche les données des capteurs de Home Assistant sur la Nothing Glyph Matrix. |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | Jeu Space Invaders |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | Messages textuels défilants |
+| [Glyph Matrix Lab](https://github.com/alex-1121/glyph-matrix-lab) | alex-1121 | Boîte à outils pour créer et afficher intelligemment des visuels personnalisés pour la matrice Glyph du Nothing Phone (4a) Pro |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | Test de code via le web |
 | [Glyph Museum](https://play.google.com/store/apps/details?id=com.pauwma.glyphmuseum) | pauwma | Créez et exposez de l'art Glyph |
 | [Glyph Nexus](https://play.google.com/store/apps/details?id=com.voidtechstudios.smartglyph) | Experion Labs | Notifications, minuteurs, visualiseur |
@@ -152,7 +154,6 @@ Fonds d'écran dynamiques et améliorations visuelles pour sublimer l'apparence 
 | [Nothing Notes](https://github.com/ThriveEngineer/nothing.notes) | ThriveEngineer | Application de notes au thème Nothing |
 | [Noting](https://play.google.com/store/apps/details?id=com.hearthborn.studios.notingnotes) | Hearthborn | Notes et tâches avec sauvegarde cloud |
 | [Seton](https://github.com/arijit4/Seton) | arijit4 | Épinglez et éditez des notes via un widget |
-| [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | Lanceur minimaliste |
 | [Spend Notes](https://play.google.com/store/apps/details?id=com.cmlabs.spendflow.spendflow) | Coder monk labs | Suivi des dépenses |
 | [The Circle](https://play.google.com/store/apps/details?id=com.quivaconnect.thecircle) | Quiva Connect | Application d'apprentissage des langues |
 
@@ -178,6 +179,7 @@ Fonds d'écran dynamiques et améliorations visuelles pour sublimer l'apparence 
 | [Minimal Browser](https://github.com/aaswani-v/Minimal-Browser) | aaswani-v | Navigateur avec résumé par IA |
 | [N Board](https://github.com/MathieuDvv/Nboard) | MathieuDvv | Clavier inspiré par Nothing avec outils IA |
 | [N Calc](https://play.google.com/store/apps/details?id=com.hearthborn.studios.ncalc) | Hearthborn | Calculatrice style Nothing |
+| [N Clock](https://play.google.com/store/apps/details?id=de.nostream.nclock) | nostream | Application d'horloge minimaliste inspirée par le langage de design de Nothing |
 | [N Dial](https://play.google.com/store/apps/details?id=com.hearthborn.studios.ndial) | Hearthborn | Numéroteur téléphonique et contacts |
 | [N Keyboard](https://github.com/arunk140/nth-kbd) | arunk14 | Clavier à thème |
 | [N Recipe](https://play.google.com/store/apps/details?id=com.a3chron.nrecipe) | a3chron | Livre de recettes hors ligne |
@@ -200,7 +202,9 @@ Fonds d'écran dynamiques et améliorations visuelles pour sublimer l'apparence 
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | Calculatrice à thème |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Contrôle de la lumière d'enregistrement pour le Phone (3) |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | Outil d'informations sur l'appareil |
+| [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | Lanceur minimaliste |
 | [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | Lecteur de musique prenant en charge la matrice Glyph |
+| [Stario Launcher](https://play.google.com/store/apps/details?id=com.stario.launcher) | tariqamarneh | Lanceur minimaliste en grille de points inspiré par l'esthétique de Nothing OS |
 | [The Everything Key](https://play.google.com/store/apps/details?id=com.spandone.everythingkey) | spandone | Remappeur de touche essentiel |
 | [Void](https://play.google.com/store/apps/details?id=com.thevoid.focus) | vmcreate | Bloqueur d'applications minimaliste basé sur le langage de design de Nothing OS |
 | [Voidcaller](https://play.google.com/store/apps/details?id=com.voidware.voidcaller) | VoidwareLabs | Numéroteur minimaliste |

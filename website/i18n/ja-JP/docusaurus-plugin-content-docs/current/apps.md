@@ -24,8 +24,9 @@ NothingスマートフォンのGlyphインターフェースと統合された�
 | アプリ | 開発者 | 説明 |
 |-----|-----------|-------------|
 | [Blockit](https://play.google.com/store/apps/details?id=com.hypenet.focused) | Mirko_ddd | Glyph統合を備えたデジタルデトックスアプリ |
-| [Delivery Glyph](https://github.com/Goktug-Dusunen/Glyph-Developer-Kit/tree/main/DeliveryGlyph) | Goktug-Dusunen | 配送追跡（トルコのサービスに最適化） |
-| [Glyph Compass](https://play.google.com/store/apps/details?id=com.JayKayCooperations.glyph_compass) | JayKayCooperations | Glyphインターフェースをコンパスとして使用 |
+| [Delivery Glyph](https://github.com/Goktug-Dusunen/Glyph-Developer-Kit/tree/main/DeliveryGlyph) | Goktug-Dusunen | トルコのサービスに特別に最適化された配送追跡アプリ |
+| [Glyph Bar Composer](https://github.com/BhuvaneshwarMarri/GlyphBarComposer-4a) | BhuvaneshwarMarri | Nothing Phone (4a) 用にカスタム Glyph ライティング パターンを作成、同期、視覚化します |
+| [Glyph Compass](https://play.google.com/store/apps/details?id=com.JayKayCooperations.glyph_compass) | JayKayCooperations | Glyphインターフェースをコンパスとして使用する |
 | [Glyph Essentials](https://play.google.com/store/apps/details?id=com.tldc.essentials) | GlyphLab | 高度なGlyph通知カスタマイズ |
 | [Glyph Glow](https://github.com/fgiering/GlyphGlow) | fgiering | Glyphインターフェースを制御するミニマルなアプリ |
 | [Glyph Initiator](https://github.com/lowqualitysoarin/Glyph-Initiator/releases) | lowqualitysoarin | インテント経由でのGlyphインターフェース制御 |
@@ -69,6 +70,7 @@ Glyphマトリックス向けのインタラクティブなトイとゲーム。
 | [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | Nothing Glyph Matrix上にHome Assistantのセンサーデータを表示するAndroidアプリ。 |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | スペースインベーダーゲーム |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | スクロールテキストメッセージ |
+| [Glyph Matrix Lab](https://github.com/alex-1121/glyph-matrix-lab) | alex-1121 | Nothing Phone (4a) Pro 向けのカスタム集約 Glyph マトリックス ビジュアルを作成し、インテリジェントに表示するツールキット |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | ウェブ経由でのコードテスト |
 | [Glyph Museum](https://play.google.com/store/apps/details?id=com.pauwma.glyphmuseum) | pauwma | Glyphアートの作成と展示 |
 | [Glyph Nexus](https://play.google.com/store/apps/details?id=com.voidtechstudios.smartglyph) | Experion Labs | 通知、タイマー、ビジュアライザー |
@@ -152,7 +154,6 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 | [Nothing Notes](https://github.com/ThriveEngineer/nothing.notes) | ThriveEngineer | Nothingテーマのノートアプリ |
 | [Noting](https://play.google.com/store/apps/details?id=com.hearthborn.studios.notingnotes) | Hearthborn | クラウドバックアップ付きノートとタスク |
 | [Seton](https://github.com/arijit4/Seton) | arijit4 | ウィジェット経由でのノート固定と編集 |
-| [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | ミニマリストランチャー |
 | [Spend Notes](https://play.google.com/store/apps/details?id=com.cmlabs.spendflow.spendflow) | Coder monk labs | 支出追跡 |
 | [The Circle](https://play.google.com/store/apps/details?id=com.quivaconnect.thecircle) | Quiva Connect | 言語学習アプリ |
 
@@ -178,6 +179,7 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 | [Minimal Browser](https://github.com/aaswani-v/Minimal-Browser) | aaswani-v | AI要約機能付きブラウザ |
 | [N Board](https://github.com/MathieuDvv/Nboard) | MathieuDvv | AIツール搭載Nothing風キーボード |
 | [N Calc](https://play.google.com/store/apps/details?id=com.hearthborn.studios.ncalc) | Hearthborn | Nothingスタイルの計算機 |
+| [N Clock](https://play.google.com/store/apps/details?id=de.nostream.nclock) | nostream | Nothingのデザイン言語にインスパイアされたミニマリストな時計アプリ |
 | [N Dial](https://play.google.com/store/apps/details?id=com.hearthborn.studios.ndial) | Hearthborn | 電話ダイヤラーと連絡先 |
 | [N Keyboard](https://github.com/arunk140/nth-kbd) | arunk14 | テーマ付きキーボード |
 | [N Recipe](https://play.google.com/store/apps/details?id=com.a3chron.nrecipe) | a3chron | オフラインレシピ本 |
@@ -200,7 +202,9 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | テーマ付き計算機 |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Phone (3)用録画ライト制御 |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | デバイス情報ツール |
+| [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | ミニマリストランチャー |
 | [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | Glyphマトリックスをサポートする音楽プレーヤー |
+| [Stario Launcher](https://play.google.com/store/apps/details?id=com.stario.launcher) | tariqamarneh | Nothing OSの美学にインスパイアされた、ミニマルなドットグリッドランチャー |
 | [The Everything Key](https://play.google.com/store/apps/details?id=com.spandone.everythingkey) | spandone | Essentialキーリマッパー |
 | [Void](https://play.google.com/store/apps/details?id=com.thevoid.focus) | vmcreate | Nothing OSのデザイン言語に基づいたミニマルなアプリブロッカー |
 | [Voidcaller](https://play.google.com/store/apps/details?id=com.voidware.voidcaller) | VoidwareLabs | ミニマリストダイヤラー |

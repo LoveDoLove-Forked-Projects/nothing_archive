@@ -122,15 +122,13 @@ B. **サイドロードの続行**
 
 :::
 
-
-<hr />
+---
 
 ### セーフモード
 
 - [セーフモードへの再起動](https://www.hardreset.info/devices/nothing/nothing-phone-2/safe-mode/)
 
-
-<hr />
+---
 
 ### ダイヤルコード
 
@@ -154,6 +152,34 @@ B. **サイドロードの続行**
 ## デバイスの機能とアクセサリ
 
 特定のハードウェア微調整やペアリングに関するガイド。
+
+### バッテリー情報の確認
+
+:::info
+- Nothing Phone (3a)、Phone (3)、および Phone (4a) シリーズでテスト済み。
+- 他のデバイスや将来の Nothing OS バージョン (4.0 / 4.1+) では動作しない可能性があります。
+- これは既存のシステムデータを表示するだけで、純正の Nothing OS ファームウェアで動作します。
+- 何も変更せず、保証に影響を与えません。
+:::
+
+このガイドでは、Nothing OS の隠れた **バッテリー情報** ページを開く方法を説明します。これは通常 EU バリアントに限定されていますが、この方法を使用すると他のリージョンのバリアントでもアクセスできます。
+
+#### 要件
+- [Shizuku (Fork)](https://github.com/thedjchi/Shizuku)
+- [Root Activity Launcher](https://sourceforge.net/projects/androidsage/files/Root%20Activity%20Launcher/)
+
+#### 手順
+1. 両方のアプリをインストールします。
+2. 次の [ガイド](https://shizuku.rikka.app/guide/setup/) に従って Shizuku をセットアップします。
+3. Shizuku の権限を Root Activity Launcher に付与します。
+4. Root Activity Launcher を開き、**Settings** (設定) を検索します。
+5. Settings のエントリを展開し、以下のようにリストされている **Battery Information** サブアクティビティを起動します：
+   ```
+   com.android.settings/com.nothing.settings.NtSettings$BatteryInformationActivity
+   ```
+6. 工場出荷時に取り付けられたバッテリーの**最大容量**、**サイクル数**、**製造日**、および**初回使用日**を示す **Battery Information** ページが表示されます。
+
+---
 
 ### Bauhausテーマの解除
 
@@ -192,8 +218,7 @@ Bauhausにインスパイアされたテーマは、Nothing Phoneの様々なモ
 
 :::
 
-
-<hr />
+---
 
 ### Essentialキーの割り当て変更
 
@@ -206,8 +231,7 @@ Phone (3)のEssentialキーの割り当てを変更するためのガイド：
 | [XDAガイド](https://xdaforums.com/t/how-to-disable-or-remap-the-essentials-button.4755184/) | rwilco12 |
 | [GitHubガイド](https://github.com/z3phydev/How-to-remap-or-disable-the-Essential-Key) | z3phydev |
 
-
-<hr />
+---
 
 ### Gadgetbridge関連
 
@@ -252,8 +276,7 @@ winget install --id=Google.PlatformTools -e
 brew install --cask android-platform-tools
 ```
 
-
-<hr />
+---
 
 ### ブートローダーのアンロック
 
@@ -317,8 +340,7 @@ C. **アンロック後**
 
   - ブートローダーがアンロックされ、起動時に「Orange State」の警告が表示されますが、これは正常です。
 
-
-<hr />
+---
 
 ### ルート化
 
@@ -419,8 +441,7 @@ D. **イメージへのパッチ適用**
 
 - デバイスがKSU/KSUNでルート化されます。
 
-
-<hr />
+---
 
 ### Play Integrity
 
@@ -428,8 +449,7 @@ D. **イメージへのパッチ適用**
 |-------|------|
 | Play Integrityとルート検出の修正 | [Wiki](https://github.com/yashaswee-exe/AndroidGuides/wiki/Fix-integrity-and-root-detection) |
 
-
-<hr />
+---
 
 ### 必須パーティションのバックアップ
 
@@ -515,8 +535,7 @@ D. **パーティションの復元**
     ```
     **この場合、工場出荷時設定へのリセットは必須ではありません。**
 
-
-<hr />
+---
 
 ### 純正ROMのフラッシュ（アンブリック / ダウングレード）
 
@@ -568,8 +587,7 @@ B. **フラッシュの実行：**
     - 成功した場合は、システムへの再起動を選択します：(Y)
     - エラーが発生した場合は、ブートローダーに再起動し、失敗の原因に対処した後に再度フラッシュしてください。これを行わずにシステムに再起動すると、ソフト/ハードブリックの結果を招く可能性があります。
 
-
-<hr />
+---
 
 ### ブートローダーの再ロック
 
@@ -625,44 +643,25 @@ C. **再ロック後**
 - **確認手順：** デバイスの電源を切った状態で、**音量+**と**音量-**ボタンの両方を押し続けながら、ケーブルをPCに接続します。Hydra v2ケーブルを使用する場合は、接続時にケーブルのボタンを押してください。
 - EDLケーブルを自作する**DIY方法**については、代わりに[こちらのガイド](https://xdaforums.com/t/edl-cable-for-nothing-phone-2.4654742/)を参照してください。
 
-### 公式フラッシュツール
+### ツールとリソース
 
-:::danger 免責事項
+:::danger 免責事項および通知
 
-- 以下にリストされているツールは、ウェブ上に流出した**公式サービスツール**です。**自己責任で使用してください。**
-- プロジェクトの作者および貢献者は、ツールの使用によって生じたいかなる意図しない結果や損害についても**一切の責任を負いません**。
-- これらのツールは、将来のファームウェアアップデートにより、いつでも動作しなくなる可能性があります。
-- これらは通常の純正ROMフラッシュを目的としたものではありません。以下の**最終手段としてのみ**使用してください：
-  - デバイスが完全に無反応な場合（ハードブリック、画面が真っ暗）。
-  - Fastbootモードにアクセスできない場合（適切なドライバーをインストールした後でも）。
-  - お住まいの地域に公式サービスサポートがなく、デバイスが保証対象外で修理の目処が立たない場合。
-- これらのツールの継続的なサポートは保証されず、将来のバージョンに関するリクエストも受け付けられません。
+- このセクションは、オープンウェブ上ですでに公開されているリソースの参照インデックスとしてのみ機能します。本プロジェクトは、以下にリストされているプロプライエタリなツールやバイナリファイルをホスト、保存、または配布することはありません。
+- 提供されるすべてのリンクは、弊社が制御できない外部のサードパーティのリポジトリやファイルホストを指しています。これらの外部リソースのセキュリティ、完全性、または合法性を保証するものではありません。
+- これらは流出した公式サービスツールです。プロジェクトの作成者および貢献者は、それらの使用に起因するデバイスの損傷、データの損失、または予期しない結果について一切の責任を負いません。
+- 本プロジェクトは独立しており、Nothing Technology Limited との提携、承認、または推奨を受けているものではありません。
+- このセクションのツールは、緊急リカバリ（ハードブリック）専用であり、日常的なフラッシングに使用すべきではありません。
+- 著作権者の方で、参照リンクの削除をリクエストしたい場合は、[GitHub でイシューを作成](https://github.com/spike0en/nothing_archive/issues)してください。
 
 :::
 
-#### Nothingデバイス：
-- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDVNZLx9PuARKU5ZYHxTw1RAesDD6ZYA9ncgyk_6jpU3_M?e=RnzUwd)
-- [Phone (2)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA-PysiaC16Qow4EA9_CfP0AbYCgxOlahRyJjB7LQw8RZo?e=4jK0yh)
-- [Phone (2a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCYxRHWxndKRLFNcO9zLhjcAQunpBStuG-OAetxx1hvsQs?e=mqYlE8)
-- [Phone (2a) Plus](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBuoaxqlNkYR63Fa_z0tGl-AVHKWsuj27LeyhMoXtghwJc?e=fOQp2m)
-- [Phone (3a) シリーズ](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBcJ6YHDfGhSL_TZ8P0WfJXAfKNm7BoxC_uMe071vRmhsM?e=El0x5j)
-- [Phone (3)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCDb2UqoryZSIBDYMu52jjjAQ5Uq5INNOnhOHbH2jr0EpY?e=h8lKHX)
-- [Phone (3a) Lite](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA33YYMKQxUTZplrWoGIji5AfviLdYkUHlh4H2LjQ0_FQQ?e=rBIZ3y)
-- [Phone (4a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgAhqokf-Be4SY2YdeeOr9mrAT-5OsO2Ay-x6UqaAynpKHU?e=X4mojq)
-
-#### CMF by Nothingデバイス：
-- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA4tWOkyg4WRqsTmrbNiKECAX3M-2SCUeDFiJ1eraslW7c?e=4mDouI)
-- [Phone (2) Pro](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDUePBy5E6TS5zgqO0MqkVEAQ9C7aMdohvQ6FpMr-RxWdQ?e=sebyob)
-
-### その他のリソース
-
-研究や高度なユースケースに役立つ追加のガイドやプロジェクト：
-
-- [非公式 Qualcomm Firehose / Sahara / Streaming / Diag ツール](https://github.com/bkerler/edl)（bkerler氏による）
-- [NTPI Dumper](https://github.com/AaronXenos/ntpi_dumper)（AaronXenos氏による）
-- [Phone (2a) シリーズ ハードブリックヘルパー](https://github.com/mistrmochov/nothing-pacman-hardbrick)（mistrmochov氏による）
-- [Phone (2a) シリーズ フラッシュツール](https://github.com/R0rt1z2/pacman-flash-tool)（R0rt1z2氏による）
-- [Nothing Phone用 Firehose 認証ファイル](https://github.com/plusonsoy/nothing_edl)（plusonsoy氏による）
+- [Official Unbrick Tools](https://t.me/Edward_ROMs/360) by EdwardWu
+- [Unofficial Qualcomm Firehose / Sahara / Streaming / Diag Tools](https://github.com/bkerler/edl) by bkerler
+- [NTPI Dumper](https://github.com/AaronXenos/ntpi_dumper) by AaronXenos
+- [Phone (2a) Series Hard Brick Helper](https://github.com/mistrmochov/nothing-pacman-hardbrick) by mistrmochov
+- [Phone (2a) Series Flash Tool](https://github.com/R0rt1z2/pacman-flash-tool) by R0rt1z2
+- [Firehose Auth Files for Nothing Phones](https://github.com/plusonsoy/nothing_edl) by plusonsoy
 
 
 ---
@@ -670,26 +669,33 @@ C. **再ロック後**
 
 ## アフターマーケット開発
 
-:::note
-このセクションはコミュニティによって管理されており、Nothingとは提携していません。ブートローダーをアンロックすると、OEM保証が無効になります。
-:::
-
 カスタムROM、カーネル、開発プロジェクトの最新情報を入手してください。
+
+:::note
+
+- このセクションは[Telegram](https://t.me/Nothing_Archive)のコミュニティによって管理されており、Nothingとは提携していません。
+- 以下のリンクは、サインアップしなくてもTelegramチャンネルからのフィルタリングされた検索結果を提供します。ただし、それぞれのデバイスのディスカッションチャットに参加してやり取りしたり、サポートを求めたり、改造に興味がある場合やデバイスの可能性を最大限に引き出したい場合、あるいはすべてのリリースを最新の状態に保ちたい場合に、愛好家コミュニティと交流することをお勧めします。
+- 以下のリンクに結果が表示されない場合がありますが、これは特定のカテゴリのコンテンツがまだ利用できないか、開発されていないか、その特定のモデルに対して信頼できるメンテナーによって維持されていないことを意味します。
+- ブートローダーをアンロックしてカスタムファームウェアをフラッシュすると、OEM保証が無効になります。対応する投稿に記載されている場合はすべてのフラッシュガイドを読み、リンクされている場合はサポートチャットまたはモデルのディスカッショングループを参照してください。
+
+:::
 
 ### デバイスアップデートチャンネル (Telegram)
 
 **Nothing:**
-| デバイス | チャンネル |
-|--------|---------|
-| Phone (1) | [アップデート](https://t.me/s/NothingPhone1Updates) |
-| Phone (2) | [アップデート](https://t.me/s/NothingPhone2updates) |
-| Phone (2a) シリーズ | [アップデート](https://t.me/s/NothingPhone2aUpdates) |
-| Phone (3a) シリーズ | [アップデート](https://t.me/s/NothingPhone3aUpdates) |
-| Phone (3) | [アップデート](https://t.me/s/Phone3Updates) |
-| Phone (4a) シリーズ | [アップデート](https://t.me/s/Phone4aUpdates) |
+
+| デバイス | ROM | Recovery | Kernel | Updates |
+|----------|-----|----------|--------|---------|
+| Phone (1) | [こちら](https://t.me/s/NothingPhone1Updates?q=%23ROM) | [こちら](https://t.me/s/NothingPhone1Updates?q=%23Recovery) | [こちら](https://t.me/s/NothingPhone1Updates?q=%23Kernel) | [こちら](https://t.me/s/NothingPhone1Updates?q=%23OTA) |
+| Phone (2) | [こちら](https://t.me/s/NothingPhone2updates?q=%23ROM) | [こちら](https://t.me/s/NothingPhone2updates?q=%23Recovery) | [こちら](https://t.me/s/NothingPhone2updates?q=%23Kernel) | [こちら](https://t.me/s/NothingPhone2updates?q=%23OTA) |
+| Phone (2a) シリーズ | [こちら](https://t.me/s/NothingPhone2aUpdates?q=%23ROM) | [こちら](https://t.me/s/NothingPhone2aUpdates?q=%23Recovery) | [こちら](https://t.me/s/NothingPhone2aUpdates?q=%23Kernel) | [こちら](https://t.me/s/NothingPhone2aUpdates?q=%23OTA) |
+| Phone (3a) シリーズ | [こちら](https://t.me/s/NothingPhone3aUpdates?q=%23ROM) | [こちら](https://t.me/s/NothingPhone3aUpdates?q=%23Recovery) | [こちら](https://t.me/s/NothingPhone3aUpdates?q=%23Kernel) | [こちら](https://t.me/s/NothingPhone3aUpdates?q=%23OTA) |
+| Phone (3) | [こちら](https://t.me/s/Phone3Updates?q=%23ROM) | [こちら](https://t.me/s/Phone3Updates?q=%23Recovery) | [こちら](https://t.me/s/Phone3Updates?q=%23Kernel) | [こちら](https://t.me/s/Phone3Updates?q=%23OTA) |
+| Phone (4a) シリーズ | [こちら](https://t.me/s/Phone4aUpdates?q=%23ROM) | [こちら](https://t.me/s/Phone4aUpdates?q=%23Recovery) | [こちら](https://t.me/s/Phone4aUpdates?q=%23Kernel) | [こちら](https://t.me/s/Phone4aUpdates?q=%23OTA) |
 
 **CMF by Nothing:**
-| デバイス | チャンネル |
-|--------|---------|
-| Phone (1) | [アップデート](https://t.me/s/CMFPhone1Updates) |
-| Phone (2) Pro / Phone (3a) Lite | [アップデート](https://t.me/s/CMFPhone2GlobalUpdates) |
+
+| デバイス | ROM | Recovery | Kernel | Updates |
+|----------|-----|----------|--------|---------|
+| Phone (1) | [こちら](https://t.me/s/CMFPhone1Updates?q=%23ROM) | [こちら](https://t.me/s/CMFPhone1Updates?q=%23Recovery) | [こちら](https://t.me/s/CMFPhone1Updates?q=%23Kernel) | [こちら](https://t.me/s/CMFPhone1Updates?q=%23OTA) |
+| Phone (2) Pro / Phone (3a) Lite | [こちら](https://t.me/s/CMFPhone2GlobalUpdates?q=%23ROM) | [こちら](https://t.me/s/CMFPhone2GlobalUpdates?q=%23Recovery) | [こちら](https://t.me/s/CMFPhone2GlobalUpdates?q=%23Kernel) | [こちら](https://t.me/s/CMFPhone2GlobalUpdates?q=%23OTA) |

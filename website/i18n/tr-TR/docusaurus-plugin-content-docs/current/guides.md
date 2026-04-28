@@ -122,15 +122,13 @@ B. **Sideloading İşlemine Devam Etme**
 
 :::
 
-
-<hr />
+---
 
 ### Güvenli Mod
 
 - [Güvenli Modda Başlatma](https://www.hardreset.info/devices/nothing/nothing-phone-2/safe-mode/)
 
-
-<hr />
+---
 
 ### Çevirici Kodları
 
@@ -154,6 +152,34 @@ Gizli menülere ve tanılamalara erişmek için tuşlayabileceğiniz çevirici k
 ## Cihaz Özellikleri ve Aksesuarlar
 
 Belirli donanım ince ayarları ve eşleştirmeler için rehberler.
+
+### Pil Bilgisi Kontrolü
+
+:::info
+- Nothing Phone (3a), Phone (3) ve Phone (4a) serilerinde test edilmiştir.
+- Diğer cihazlarda veya gelecekteki Nothing OS sürümlerinde (4.0 / 4.1+) çalışmayabilir.
+- Bu sadece mevcut sistem verilerini görüntülemenizi sağlar ve stok Nothing OS yazılımı ile çalışır.
+- Hiçbir şeyi değiştirmez ve garantinizi etkilemez.
+:::
+
+Bu kılavuz, Nothing OS'de genellikle AB modelleriyle sınırlı olan ancak bu yöntem kullanılarak diğer bölgesel modellerde de erişilebilen gizli **Pil Bilgisi** sayfasının nasıl açılacağını gösterir.
+
+#### Gereksinimler
+- [Shizuku (Fork)](https://github.com/thedjchi/Shizuku)
+- [Root Activity Launcher](https://sourceforge.net/projects/androidsage/files/Root%20Activity%20Launcher/)
+
+#### Adımlar
+1. Her iki uygulamayı da yükleyin.
+2. Aşağıdaki [kılavuzu](https://shizuku.rikka.app/guide/setup/) izleyerek Shizuku'yu kurun.
+3. Shizuku iznini Root Activity Launcher'a verin.
+4. Root Activity Launcher'ı açın ve **Settings** (Ayarlar) öğesini arayın.
+5. Ayarlar girişini genişletin ve şu şekilde listelenen **Battery Information** alt etkinliğini başlatın:
+   ```
+   com.android.settings/com.nothing.settings.NtSettings$BatteryInformationActivity
+   ```
+6. Artık fabrikada takılan pilin **Maksimum kapasitesini**, **Döngü sayısını**, **Üretim tarihini** ve **İlk kullanım tarihini** gösteren **Pil Bilgisi** sayfasını görmelisiniz.
+
+---
 
 ### Bauhaus Temasının Kilidini Açma
 
@@ -192,8 +218,7 @@ Bauhaus'tan ilham alan tema, çeşitli Nothing telefon modellerinde kilidi açı
 
 :::
 
-
-<hr />
+---
 
 ### Essential Tuşu Yeniden Atama
 
@@ -206,8 +231,7 @@ Phone (3) üzerindeki Essential Tuşunu yeniden atamak için rehberler:
 | [XDA Rehberi](https://xdaforums.com/t/how-to-disable-or-remap-the-essentials-button.4755184/) | rwilco12 |
 | [GitHub Rehberi](https://github.com/z3phydev/How-to-remap-or-disable-the-Essential-Key) | z3phydev |
 
-
-<hr />
+---
 
 ### Gadgetbridge İle İlgili
 
@@ -252,8 +276,7 @@ winget install --id=Google.PlatformTools -e
 brew install --cask android-platform-tools
 ```
 
-
-<hr />
+---
 
 ### Önyükleyici Kilidini Açma
 
@@ -317,8 +340,7 @@ C. **Kilit Açma Sonrası**
 
   - Önyükleyici artık açık ve cihazınız açılışta "Orange State" uyarısı gösterecektir; bu normaldir.
 
-
-<hr />
+---
 
 ### Root Atma
 
@@ -390,8 +412,8 @@ D. **Imajı Yamalayın**
 
 :::note
 
-- Nothing Phone (2) için: KSU tabanlı root yöntemi stok `boot.img` ile desteklenir. Ancak KSUN veya SUSFS desteği, yamaların eklendiği özel olarak derlenmiş bir çekirdek (kernel) gerektirir.
-- Mevcut önceden yamalanmış özel çekirdek seçenekleri şunlardır: 
+- Nothing Phone (2) için: KSU tabanlı root yöntemi stok `boot.img` ile desteklenir. Ancak KSUN veya SUSFS desteği, yamaların eklendiği özel olarak derlenmiş bir kernel gerektirir.
+- Mevcut önceden yamalanmış özel kernel seçenekleri şunlardır: 
   [arter97 kernel](https://xdaforums.com/t/r44-arter97-kernel-for-nothing-phone-2.4631313/) - KSU önceden yamalı. Henüz NOS 4.0+ sürümünü desteklemiyor | 
   [Meteoric Kernel (EOL)](https://github.com/HELLBOY017/kernel_nothing_sm8475) - KSUN + SUSFS önceden yamalı. NOS 4.0+ sürümünü desteklemiyor. |
   [Wild Kernel fork](https://github.com/MiguVT/Meteoric_KernelSU_SUSFS) - KSU + SUSFS önceden yamalı. | 
@@ -419,8 +441,7 @@ D. **Imajı Yamalayın**
 
 - Cihaz KSU/KSUN ile root'lanmış olmalıdır.
 
-
-<hr />
+---
 
 ### Play Integrity
 
@@ -428,14 +449,13 @@ D. **Imajı Yamalayın**
 |-------|------|
 | Play Integrity & Root Algılama Sorununu Çözme | [Wiki](https://github.com/yashaswee-exe/AndroidGuides/wiki/Fix-integrity-and-root-detection) |
 
-
-<hr />
+---
 
 ### Temel Bölümleri Yedekleme
 
 :::info
 
-- Önyükleyici kilidini açtıktan sonra, özel ROM'lar veya çekirdekler (kernels) flaşlamadan **önce** `persist`, `modemst1`, `modemst2`, `fsg` gibi temel bölümleri yedeklemek çok önemlidir.
+- Önyükleyici kilidini açtıktan sonra, özel ROM'lar veya kernel'ler flaşlamadan **önce** `persist`, `modemst1`, `modemst2`, `fsg` gibi temel bölümleri yedeklemek çok önemlidir.
 - Bu bölümler IMEI, ağ ayarları ve parmak izi sensörü kalibrasyonu dahil olmak üzere önemli veriler içerir.
 - Kaybolmaları veya bozulmaları durumunda cihazınızda **hücresel bağlantı kaybı, parmak izi sorunları oluşabilir veya cihazınız kullanılmaz hale (brick) gelebilir**.
 - Yedek oluşturmak, bir şeyler ters giderse **cihazınızı geri yükleyebilmenizi** sağlar.
@@ -515,8 +535,7 @@ D. **Bölümleri Geri Yükleme**
     ```
     **Bu durumda fabrika ayarlarına sıfırlama zorunlu değildir.**
 
-
-<hr />
+---
 
 ### Stok ROM Flaşlama (Brick Kurtarma / Sürüm Düşürme)
 
@@ -568,8 +587,7 @@ B. **Flaşlama İşlemine Geçmek:**
     - Başarılıysa sistemi yeniden başlatmayı seçin: (Y)
     - Hata oluşursa, önyükleyiciyi yeniden başlatın ve hatayı giderdikten sonra tekrar flaşlayın. Bunu yapmadan sistemi yeniden başlatmak, cihazın "soft/hard brick" olmasına neden olabilir.
 
-
-<hr />
+---
 
 ### Önyükleyiciyi Yeniden Kilitleme
 
@@ -625,44 +643,25 @@ Cihazınızın SoC üreticisine uygun sürücüleri yükleyin.
 - **Doğrulama:** Cihaz kapalıyken, kabloyu PC'ye bağlarken **Ses +** ve **Ses -** düğmelerinin her ikisini de basılı tutun. Hydra v2 kablosu kullanıyorsanız bağlanırken kablodaki düğmeye basın.
 - Kendi EDL kablonuzu yapmak için **DIY yöntemi** arıyorsanız, bunun yerine [bu rehbere](https://xdaforums.com/t/edl-cable-for-nothing-phone-2.4654742/) başvurun.
 
-### Resmi Flaşlama Araçları
+### Araçlar ve Kaynaklar
 
-:::danger Sorumluluk Reddi
+:::danger Sorumluluk Reddi ve Bildirim
 
-- Aşağıda listelenen araçlar, açık web'de sızdırılmış **resmi servis araçlarıdır**. **Kullanım riski size aittir.**
-- Proje yazarı ve katkıda bulunanlar, kullanım sonucunda doğabilecek istenmeyen sonuçlar veya hasarlar için **hiçbir sorumluluk kabul etmez**.
-- Bu araçlar, gelecekteki ürün yazılımı güncellemeleriyle herhangi bir zamanda çalışmayı durdurabilir.
-- Normal stok ROM flaşlama işlemleri için **tasarlanmamıştır**. Yalnızca şu durumlarda **son çare olarak** kullanın:
-  - Cihazınız hiçbir şekilde yanıt vermiyorsa (hard brick, siyah ekran).
-  - Fastboot moduna (uygun sürücüleri yükledikten sonra bile) erişilemiyorsa.
-  - Bölgenizde resmi servis desteği yoksa ve cihazınızın garantisi bitmişse.
-- Bu araçlar için sürekli destek garanti edilmez ve gelecekteki sürümler için herhangi bir talep dikkate alınmayacaktır.
+- Bu bölüm, yalnızca açık web'de halihazırda kamuya açık olan kaynaklar için bir referans dizini görevi görür. Bu proje, aşağıda listelenen mülki araçları veya ikili dosyaları barındırmaz, saklamaz veya dağıtmaz.
+- Sağlanan tüm bağlantılar, kontrolümüz dışında olan harici, üçüncü taraf depoları ve dosya ana makinelerini işaret eder. Bu harici kaynakların güvenliğini, bütünlüğünü veya yasallığını garanti etmiyoruz.
+- Bunlar sızdırılmış resmi servis araçlarıdır. Proje yazarları ve katkıda bulunanlar, kullanımlarından kaynaklanan herhangi bir cihaz hasarı, veri kaybı veya istenmeyen sonuçlar için sorumluluk kabul etmez.
+- Bu proje bağımsızdır ve Nothing Technology Limited ile bağlantılı değildir, yetkilendirilmemiştir veya onaylanmamıştır.
+- Bu bölümdeki araçlar yalnızca acil durum kurtarma (hard brick) içindir ve rutin yazılım yükleme işlemleri için kullanılmamalıdır.
+- Telif hakkı sahibiyseniz ve bir referans bağlantısının kaldırılmasını talep etmek istiyorsanız, lütfen [GitHub üzerinden bir sorun bildirin](https://github.com/spike0en/nothing_archive/issues).
 
 :::
 
-#### Nothing Cihazları:
-- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDVNZLx9PuARKU5ZYHxTw1RAesDD6ZYA9ncgyk_6jpU3_M?e=RnzUwd)
-- [Phone (2)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA-PysiaC16Qow4EA9_CfP0AbYCgxOlahRyJjB7LQw8RZo?e=4jK0yh)
-- [Phone (2a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCYxRHWxndKRLFNcO9zLhjcAQunpBStuG-OAetxx1hvsQs?e=mqYlE8)
-- [Phone (2a) Plus](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBuoaxqlNkYR63Fa_z0tGl-AVHKWsuj27LeyhMoXtghwJc?e=fOQp2m)
-- [Phone (3a) Serisi](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBcJ6YHDfGhSL_TZ8P0WfJXAfKNm7BoxC_uMe071vRmhsM?e=El0x5j)
-- [Phone (3)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCDb2UqoryZSIBDYMu52jjjAQ5Uq5INNOnhOHbH2jr0EpY?e=h8lKHX)
-- [Phone (3a) Lite](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA33YYMKQxUTZplrWoGIji5AfviLdYkUHlh4H2LjQ0_FQQ?e=rBIZ3y)
-- [Phone (4a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgAhqokf-Be4SY2YdeeOr9mrAT-5OsO2Ay-x6UqaAynpKHU?e=X4mojq)
-
-#### CMF by Nothing Cihazları:
-- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA4tWOkyg4WRqsTmrbNiKECAX3M-2SCUeDFiJ1eraslW7c?e=4mDouI)
-- [Phone (2) Pro](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDUePBy5E6TS5zgqO0MqkVEAQ9C7aMdohvQ6FpMr-RxWdQ?e=sebyob)
-
-### Çeşitli Kaynaklar
-
-Araştırma veya gelişmiş kullanım durumları için ek rehberler ve projeler:
-
-- [Resmi Olmayan Qualcomm Firehose / Sahara / Streaming / Diag Araçları](https://github.com/bkerler/edl) - Yazan: bkerler
-- [NTPI Dumper](https://github.com/AaronXenos/ntpi_dumper) - Yazan: AaronXenos
-- [Phone (2a) Serisi Tam Kurtarma Yardımcısı](https://github.com/mistrmochov/nothing-pacman-hardbrick) - Yazan: mistrmochov
-- [Phone (2a) Serisi Flaşlama Aracı](https://github.com/R0rt1z2/pacman-flash-tool) - Yazan: R0rt1z2
-- [Nothing Telefonları için Firehose Kimlik Doğrulama Dosyaları](https://github.com/plusonsoy/nothing_edl) - Yazan: plusonsoy
+- [Official Unbrick Tools](https://t.me/Edward_ROMs/360) (EdwardWu tarafından)
+- [Unofficial Qualcomm Firehose / Sahara / Streaming / Diag Tools](https://github.com/bkerler/edl) (bkerler tarafından)
+- [NTPI Dumper](https://github.com/AaronXenos/ntpi_dumper) (AaronXenos tarafından)
+- [Phone (2a) Series Hard Brick Helper](https://github.com/mistrmochov/nothing-pacman-hardbrick) (mistrmochov tarafından)
+- [Phone (2a) Series Flash Tool](https://github.com/R0rt1z2/pacman-flash-tool) (R0rt1z2 tarafından)
+- [Firehose Auth Files for Nothing Phones](https://github.com/plusonsoy/nothing_edl) (plusonsoy tarafından)
 
 
 ---
@@ -670,26 +669,35 @@ Araştırma veya gelişmiş kullanım durumları için ek rehberler ve projeler:
 
 ## Satış Sonrası Geliştirme
 
-:::note
-Bu bölüm topluluk tarafından yönetilmektedir ve Nothing ile bağlantılı değildir. Önyükleyici kilidini açmak OEM garantinizi geçersiz kılacaktır.
-:::
 
-Özel ROM'lar, çekirdekler ve geliştirme projeleri ile güncel kalın.
+
+Özel ROM'lar, kernel'ler ve geliştirme projeleri ile güncel kalın.
+
+:::note
+
+- Bu bölüm [Telegram](https://t.me/Nothing_Archive)'daki topluluk tarafından yönetilmektedir ve Nothing ile bağlantılı değildir.
+- Aşağıdaki bağlantılar, kaydolmaya gerek kalmadan Telegram kanallarından filtrelenmiş arama sonuçları sağlar. Ancak, ilgili cihazlar için tartışma sohbetlerine katılarak etkileşimde bulunmak, destek istemek veya cihazınızın potansiyelini en üst düzeye çıkarmak, kurcalamak veya tüm sürümlerden haberdar olmak istiyorsanız meraklı topluluğuyla etkileşime geçmek için kaydolmanız önerilir.
+- Zaman zaman aşağıdaki bağlantılar hiçbir sonuç vermeyebilir; bu, belirli içerik kategorilerinin henüz mevcut olmadığını, geliştirilmediğini veya o model için güvenilir bir geliştirici tarafından sürdürülmediğini gösterir.
+- Önyükleyicinin kilidini açmak ve özel donanım yazılımı yüklemek OEM garantinizi geçersiz kılacaktır. Lütfen ilgili gönderilerde belirtilmişse tüm kurulum kılavuzlarını okun ve bağlıysa destek sohbetine veya modelin tartışma grubuna başvurun.
+
+:::
 
 ### Cihaz Güncelleme Kanalları (Telegram)
 
 **Nothing:**
-| Cihaz | Kanal |
-|--------|---------|
-| Phone (1) | [Güncellemeler](https://t.me/s/NothingPhone1Updates) |
-| Phone (2) | [Güncellemeler](https://t.me/s/NothingPhone2updates) |
-| Phone (2a) Serisi | [Güncellemeler](https://t.me/s/NothingPhone2aUpdates) |
-| Phone (3a) Serisi | [Güncellemeler](https://t.me/s/NothingPhone3aUpdates) |
-| Phone (3) | [Güncellemeler](https://t.me/s/Phone3Updates) |
-| Phone (4a) Serisi| [Güncellemeler](https://t.me/s/Phone4aUpdates) |
+
+| Cihaz | ROM | Recovery | Kernel | Updates |
+|-------|-----|----------|--------|---------|
+| Phone (1) | [Burada](https://t.me/s/NothingPhone1Updates?q=%23ROM) | [Burada](https://t.me/s/NothingPhone1Updates?q=%23Recovery) | [Burada](https://t.me/s/NothingPhone1Updates?q=%23Kernel) | [Burada](https://t.me/s/NothingPhone1Updates?q=%23OTA) |
+| Phone (2) | [Burada](https://t.me/s/NothingPhone2updates?q=%23ROM) | [Burada](https://t.me/s/NothingPhone2updates?q=%23Recovery) | [Burada](https://t.me/s/NothingPhone2updates?q=%23Kernel) | [Burada](https://t.me/s/NothingPhone2updates?q=%23OTA) |
+| Phone (2a) Serisi | [Burada](https://t.me/s/NothingPhone2aUpdates?q=%23ROM) | [Burada](https://t.me/s/NothingPhone2aUpdates?q=%23Recovery) | [Burada](https://t.me/s/NothingPhone2aUpdates?q=%23Kernel) | [Burada](https://t.me/s/NothingPhone2aUpdates?q=%23OTA) |
+| Phone (3a) Serisi | [Burada](https://t.me/s/NothingPhone3aUpdates?q=%23ROM) | [Burada](https://t.me/s/NothingPhone3aUpdates?q=%23Recovery) | [Burada](https://t.me/s/NothingPhone3aUpdates?q=%23Kernel) | [Burada](https://t.me/s/NothingPhone3aUpdates?q=%23OTA) |
+| Phone (3) | [Burada](https://t.me/s/Phone3Updates?q=%23ROM) | [Burada](https://t.me/s/Phone3Updates?q=%23Recovery) | [Burada](https://t.me/s/Phone3Updates?q=%23Kernel) | [Burada](https://t.me/s/Phone3Updates?q=%23OTA) |
+| Phone (4a) Serisi | [Burada](https://t.me/s/Phone4aUpdates?q=%23ROM) | [Burada](https://t.me/s/Phone4aUpdates?q=%23Recovery) | [Burada](https://t.me/s/Phone4aUpdates?q=%23Kernel) | [Burada](https://t.me/s/Phone4aUpdates?q=%23OTA) |
 
 **CMF by Nothing:**
-| Cihaz | Kanal |
-|--------|---------|
-| Phone (1) | [Güncellemeler](https://t.me/s/CMFPhone1Updates) |
-| Phone (2) Pro / Phone (3a) Lite | [Güncellemeler](https://t.me/s/CMFPhone2GlobalUpdates) |
+
+| Cihaz | ROM | Recovery | Kernel | Updates |
+|-------|-----|----------|--------|---------|
+| Phone (1) | [Burada](https://t.me/s/CMFPhone1Updates?q=%23ROM) | [Burada](https://t.me/s/CMFPhone1Updates?q=%23Recovery) | [Burada](https://t.me/s/CMFPhone1Updates?q=%23Kernel) | [Burada](https://t.me/s/CMFPhone1Updates?q=%23OTA) |
+| Phone (2) Pro / Phone (3a) Lite | [Burada](https://t.me/s/CMFPhone2GlobalUpdates?q=%23ROM) | [Burada](https://t.me/s/CMFPhone2GlobalUpdates?q=%23Recovery) | [Burada](https://t.me/s/CMFPhone2GlobalUpdates?q=%23Kernel) | [Burada](https://t.me/s/CMFPhone2GlobalUpdates?q=%23OTA) |

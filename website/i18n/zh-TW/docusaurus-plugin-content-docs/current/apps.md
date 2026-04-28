@@ -24,6 +24,8 @@ AI 生成的高度個人化迷你應用程式，延伸 Nothing OS 生態系。
 | 應用程式 | 開發者 | 說明 |
 |---------|--------|------|
 | [blockit](https://play.google.com/store/apps/details?id=com.hypenet.focused) | Mirko_ddd | 整合 Glyph 的數位排毒手機封鎖應用程式 |
+| [Delivery Glyph](https://github.com/Goktug-Dusunen/Glyph-Developer-Kit/tree/main/DeliveryGlyph) | Goktug-Dusunen | 特別針對土耳其服務優化的配送追蹤應用程式 |
+| [Glyph Bar Composer](https://github.com/BhuvaneshwarMarri/GlyphBarComposer-4a) | BhuvaneshwarMarri | 為 Nothing Phone (4a) 撰寫、同步並視覺化自訂 Glyph 燈光圖樣 |
 | [Glyph Compass](https://play.google.com/store/apps/details?id=com.JayKayCooperations.glyph_compass) | JayKayCooperations | 將 Glyph 介面作為指南針使用 |
 | [Glyph Essentials](https://play.google.com/store/apps/details?id=com.tldc.essentials) | GlyphLab | 進階 Glyph 通知自訂化 |
 | [Glyph Glow](https://github.com/fgiering/GlyphGlow) | fgiering | 控制 Glyph 介面的簡約應用程式 |
@@ -68,6 +70,7 @@ Glyph Matrix 的互動玩具和遊戲。
 | [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | 在 Nothing Glyph Matrix 上顯示 Home Assistant 感測器數據的 Android 應用程式。 |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | 太空侵略者遊戲 |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | 跑馬燈文字訊息 |
+| [Glyph Matrix Lab](https://github.com/alex-1121/glyph-matrix-lab) | alex-1121 | 用於為 Nothing Phone (4a) Pro 建立並智慧顯示自訂 Glyph Matrix 視覺效果的工具包 |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | 網頁版程式碼測試工具 |
 | [Glyph Museum](https://play.google.com/store/apps/details?id=com.pauwma.glyphmuseum) | pauwma | 創作與展示 Glyph 藝術 |
 | [Glyph Nexus](https://play.google.com/store/apps/details?id=com.voidtechstudios.smartglyph) | Experion Labs | 通知、計時器、視覺化器 |
@@ -149,7 +152,6 @@ Glyph Matrix 的互動玩具和遊戲。
 | [Nothing Notes](https://github.com/ThriveEngineer/nothing.notes) | ThriveEngineer | Nothing 主題筆記應用程式 |
 | [Noting](https://play.google.com/store/apps/details?id=com.hearthborn.studios.notingnotes) | Hearthborn | 附雲端備份的筆記與任務 |
 | [Seton](https://github.com/arijit4/Seton) | arijit4 | 附小工具的釘選與編輯筆記 |
-| [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | 簡約啟動器 |
 | [Spend Notes](https://play.google.com/store/apps/details?id=com.cmlabs.spendflow.spendflow) | Coder monk labs | 支出追蹤 |
 
 ---
@@ -173,6 +175,7 @@ Glyph Matrix 的互動玩具和遊戲。
 | [Minimal Browser](https://github.com/aaswani-v/Minimal-Browser) | aaswani-v | 附 AI 摘要功能的瀏覽器 |
 | [N Board](https://github.com/MathieuDvv/Nboard) | MathieuDvv | 附 AI 工具的 Nothing 風格鍵盤 |
 | [N Calc](https://play.google.com/store/apps/details?id=com.hearthborn.studios.ncalc) | Hearthborn | Nothing 風格計算機 |
+| [N Clock](https://play.google.com/store/apps/details?id=de.nostream.nclock) | nostream | 受 Nothing 設計語言啟發的極簡時鐘應用程序 |
 | [N Dial](https://play.google.com/store/apps/details?id=com.hearthborn.studios.ndial) | Hearthborn | 電話撥號器與聯絡人 |
 | [N Keyboard](https://github.com/arunk140/nth-kbd) | arunk14 | 主題鍵盤 |
 | [N Recipe](https://play.google.com/store/apps/details?id=com.a3chron.nrecipe) | a3chron | 離線食譜書 |
@@ -195,7 +198,9 @@ Glyph Matrix 的互動玩具和遊戲。
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | 主題計算機 |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Phone (3) 錄製指示燈控制 |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | 裝置資訊工具 |
+| [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | 簡約啟動器 |
 | [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | 支援 Glyph Matrix 的音樂播放器 |
+| [Stario Launcher](https://play.google.com/store/apps/details?id=com.stario.launcher) | tariqamarneh | 受 Nothing OS 美學啟發的極簡點陣式啟動器 |
 | [The Everything Key](https://play.google.com/store/apps/details?id=com.spandone.everythingkey) | spandone | Essential Key 重新對應工具 |
 | [Void](https://play.google.com/store/apps/details?id=com.thevoid.focus) | vmcreate | 基於 Nothing OS 設計語言的簡約應用程式阻擋器 |
 | [Voidcaller](https://play.google.com/store/apps/details?id=com.voidware.voidcaller) | VoidwareLabs | 簡約撥號器 |

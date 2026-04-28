@@ -122,15 +122,13 @@ B. **Продолжение прошивки Sideload**
 
 :::
 
-
-<hr />
+---
 
 ### Безопасный режим
 
 - [Перезагрузка в безопасный режим](https://www.hardreset.info/devices/nothing/nothing-phone-2/safe-mode/)
 
-
-<hr />
+---
 
 ### Коды вызова
 
@@ -154,6 +152,34 @@ B. **Продолжение прошивки Sideload**
 ## Функции устройства и аксессуары
 
 Руководства по специфическим настройкам оборудования и сопряжению.
+
+### Проверка информации о батарее
+
+:::info
+- Протестировано на сериях Nothing Phone (3a), Phone (3) и Phone (4a).
+- Может не работать на других устройствах или в будущих версиях Nothing OS (4.0 / 4.1+).
+- Это позволяет только просматривать существующие системные данные и работает с официальной прошивкой Nothing OS.
+- Это ничего не меняет и не влияет на вашу гарантию.
+:::
+
+В этом руководстве показано, как открыть скрытую страницу **Информация о батарее** в Nothing OS, которая обычно доступна только для вариантов для ЕС, но может быть открыта и в других региональных вариантах с помощью этого метода.
+
+#### Требования
+- [Shizuku (Fork)](https://github.com/thedjchi/Shizuku)
+- [Root Activity Launcher](https://sourceforge.net/projects/androidsage/files/Root%20Activity%20Launcher/)
+
+#### Шаги
+1. Установите оба приложения.
+2. Настройте Shizuku, следуя этому [руководству](https://shizuku.rikka.app/guide/setup/).
+3. Предоставьте Shizuku разрешение для Root Activity Launcher.
+4. Откройте Root Activity Launcher и найдите **Settings** (Настройки).
+5. Разверните пункт Settings и запустите подраздел **Battery Information**, указанный как:
+   ```
+   com.android.settings/com.nothing.settings.NtSettings$BatteryInformationActivity
+   ```
+6. Теперь вы должны увидеть страницу **Информация о батарее**, показывающую **максимальную емкость**, **количество циклов**, **дату производства** и **дату первого использования** аккумулятора, установленного на заводе.
+
+---
 
 ### Разблокировка темы Bauhaus
 
@@ -192,8 +218,7 @@ B. **Продолжение прошивки Sideload**
 
 :::
 
-
-<hr />
+---
 
 ### Переназначение клавиши Essential
 
@@ -206,8 +231,7 @@ B. **Продолжение прошивки Sideload**
 | [Руководство на XDA](https://xdaforums.com/t/how-to-disable-or-remap-the-essentials-button.4755184/) | rwilco12 |
 | [Руководство на GitHub](https://github.com/z3phydev/How-to-remap-or-disable-the-Essential-Key) | z3phydev |
 
-
-<hr />
+---
 
 ### Связанное с Gadgetbridge
 
@@ -252,8 +276,7 @@ winget install --id=Google.PlatformTools -e
 brew install --cask android-platform-tools
 ```
 
-
-<hr />
+---
 
 ### Разблокировка загрузчика
 
@@ -317,8 +340,7 @@ C. **После разблокировки**
 
   - Теперь загрузчик разблокирован, и при запуске устройство будет показывать предупреждение "Orange State" — это нормально.
 
-
-<hr />
+---
 
 ### Получение Root-прав
 
@@ -419,8 +441,7 @@ D. **Пропатчивание образа**
 
 - Устройство должно получить root-права с помощью KSU/KSUN.
 
-
-<hr />
+---
 
 ### Play Integrity
 
@@ -428,8 +449,7 @@ D. **Пропатчивание образа**
 |-------|------|
 | Исправление Play Integrity и обнаружения Root | [Wiki](https://github.com/yashaswee-exe/AndroidGuides/wiki/Fix-integrity-and-root-detection) |
 
-
-<hr />
+---
 
 ### Резервное копирование важных разделов
 
@@ -515,8 +535,7 @@ D. **Восстановление разделов**
     ```
     **Сброс к заводским настройкам в этом случае не является обязательным.**
 
-
-<hr />
+---
 
 ### Прошивка стоковой ROM (Восстановление / Даунгрейд)
 
@@ -568,8 +587,7 @@ B. **Процесс прошивки:**
     - В случае успеха выберите перезагрузку в систему: (Y)
     - Если возникли ошибки, перезагрузитесь в загрузчик и повторите прошивку после устранения причины сбоя. Перезагрузка в систему без этого может привести к программному или аппаратному повреждению устройства (кирпичу).
 
-
-<hr />
+---
 
 ### Повторная блокировка загрузчика
 
@@ -625,44 +643,25 @@ C. **После блокировки**
 - **Проверка:** В выключенном состоянии удерживайте обе кнопки **Громкость +** и **Громкость -** при подключении кабеля к ПК. Если вы используете кабель Hydra v2, во время подключения нажмите кнопку на кабеле.
 - Инструкции по **изготовлению кабеля EDL своими руками** см. в [этом руководстве](https://xdaforums.com/t/edl-cable-for-nothing-phone-2.4654742/).
 
-### Официальные инструменты для прошивки
+### Инструменты и ресурсы
 
-:::danger Дисклеймер
+:::danger Дисклеймер и уведомление
 
-- Перечисленные ниже инструменты являются **утекшими официальными сервисными инструментами**, доступными в открытой сети. **Используйте их на свой страх и риск.**
-- Автор проекта и его участники не несут **никакой ответственности** за любые непредвиденные последствия или ущерб, возникшие в результате их использования.
-- Эти инструменты могут перестать работать в любое время после будущих обновлений прошивки.
-- Они **не предназначены** для обычной прошивки стоковой ROM. Используйте их **только в крайнем случае**, если:
-  - Ваше устройство полностью не реагирует (состояние «кирпича», черный экран).
-  - Режим Fastboot недоступен (даже после установки соответствующих драйверов).
-  - В вашем регионе нет официальной сервисной поддержки или ваше устройство не подлежит гарантийному обслуживанию.
-- Дальнейшая поддержка этих инструментов не гарантируется, и запросы на предоставление будущих версий рассматриваться не будут.
+- Этот раздел служит исключительно справочным индексом для ресурсов, уже общедоступных в открытой сети. Этот проект не размещает, не хранит и не распространяет какие-либо проприетарные инструменты или бинарные файлы, перечисленные ниже.
+- Все предоставленные ссылки указывают на внешние сторонние репозитории и файловые хостинги, которые мы не контролируем. Мы не гарантируем безопасность, целостность или законность этих внешних ресурсов.
+- Это утекшие официальные сервисные инструменты. Авторы и участники проекта не несут ответственности за любое повреждение устройства, потерю данных или непредвиденные последствия, возникшие в результате их использования.
+- Этот проект является независимым и не связан с Nothing Technology Limited, не авторизован и не одобрен ею.
+- Инструменты в этом разделе предназначены только для экстренного восстановления («раскирпичивания») и не должны использоваться для обычной прошивки.
+- Если вы являетесь правообладателем и хотите запросить удаление справочной ссылки, пожалуйста, [создайте обращение на GitHub](https://github.com/spike0en/nothing_archive/issues).
 
 :::
 
-#### Устройства Nothing:
-- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDVNZLx9PuARKU5ZYHxTw1RAesDD6ZYA9ncgyk_6jpU3_M?e=RnzUwd)
-- [Phone (2)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA-PysiaC16Qow4EA9_CfP0AbYCgxOlahRyJjB7LQw8RZo?e=4jK0yh)
-- [Phone (2a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCYxRHWxndKRLFNcO9zLhjcAQunpBStuG-OAetxx1hvsQs?e=mqYlE8)
-- [Phone (2a) Plus](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBuoaxqlNkYR63Fa_z0tGl-AVHKWsuj27LeyhMoXtghwJc?e=fOQp2m)
-- [Серия Phone (3a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBcJ6YHDfGhSL_TZ8P0WfJXAfKNm7BoxC_uMe071vRmhsM?e=El0x5j)
-- [Phone (3)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCDb2UqoryZSIBDYMu52jjjAQ5Uq5INNOnhOHbH2jr0EpY?e=h8lKHX)
-- [Phone (3a) Lite](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA33YYMKQxUTZplrWoGIji5AfviLdYkUHlh4H2LjQ0_FQQ?e=rBIZ3y)
-- [Phone (4a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgAhqokf-Be4SY2YdeeOr9mrAT-5OsO2Ay-x6UqaAynpKHU?e=X4mojq)
-
-#### Устройства CMF by Nothing:
-- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA4tWOkyg4WRqsTmrbNiKECAX3M-2SCUeDFiJ1eraslW7c?e=4mDouI)
-- [Phone (2) Pro](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDUePBy5E6TS5zgqO0MqkVEAQ9C7aMdohvQ6FpMr-RxWdQ?e=sebyob)
-
-### Прочие ресурсы
-
-Дополнительные руководства и проекты для исследований или расширенных сценариев использования:
-
-- [Неофициальные инструменты Qualcomm Firehose / Sahara / Streaming / Diag](https://github.com/bkerler/edl) от bkerler
+- [Official Unbrick Tools](https://t.me/Edward_ROMs/360) от EdwardWu
+- [Unofficial Qualcomm Firehose / Sahara / Streaming / Diag Tools](https://github.com/bkerler/edl) от bkerler
 - [NTPI Dumper](https://github.com/AaronXenos/ntpi_dumper) от AaronXenos
-- [Утилита для восстановления («раскирпичивания») серии Phone (2a)](https://github.com/mistrmochov/nothing-pacman-hardbrick) от mistrmochov
-- [Инструмент для прошивки серии Phone (2a)](https://github.com/R0rt1z2/pacman-flash-tool) от R0rt1z2
-- [Файлы авторизации Firehose для телефонов Nothing](https://github.com/plusonsoy/nothing_edl) от plusonsoy
+- [Phone (2a) Series Hard Brick Helper](https://github.com/mistrmochov/nothing-pacman-hardbrick) от mistrmochov
+- [Phone (2a) Series Flash Tool](https://github.com/R0rt1z2/pacman-flash-tool) от R0rt1z2
+- [Firehose Auth Files for Nothing Phones](https://github.com/plusonsoy/nothing_edl) от plusonsoy
 
 
 ---
@@ -670,26 +669,33 @@ C. **После блокировки**
 
 ## Сторонняя разработка
 
-:::note
-Этот раздел поддерживается сообществом и не связан с Nothing. Разблокировка загрузчика аннулирует заводскую гарантию.
-:::
-
 Будьте в курсе кастомных прошивок (ROM), ядер и проектов разработки.
+
+:::note
+
+- Этот раздел поддерживается сообществом в [Telegram](https://t.me/Nothing_Archive) и не связан с Nothing.
+- Приведенные ниже ссылки обеспечивают отфильтрованные результаты поиска в каналах Telegram без необходимости регистрации. Однако рекомендуется зарегистрироваться, чтобы взаимодействовать и присоединяться к чатам для соответствующих устройств, обращаться за поддержкой или общаться с сообществом энтузиастов, если вы заинтересованы в настройке, максимальном использовании потенциала вашего устройства или желаете быть в курсе всех выпусков.
+- Иногда по ссылкам ниже результат может отсутствовать, что означает, что определенные категории контента еще не доступны, не разработаны или не поддерживаются надежным мейнтейнером для данной модели.
+- Разблокировка загрузчика и прошивка кастомного ПО аннулируют заводскую гарантию. Пожалуйста, прочитайте все руководства по прошивке, если они указаны в соответствующих сообщениях, и обращайтесь в чат поддержки, если он указан, или в группу обсуждения модели.
+
+:::
 
 ### Каналы обновлений устройств (Telegram)
 
 **Nothing:**
-| Устройство | Канал |
-|--------|---------|
-| Phone (1) | [Обновления](https://t.me/s/NothingPhone1Updates) |
-| Phone (2) | [Обновления](https://t.me/s/NothingPhone2updates) |
-| Серия Phone (2a) | [Обновления](https://t.me/s/NothingPhone2aUpdates) |
-| Серия Phone (3a) | [Обновления](https://t.me/s/NothingPhone3aUpdates) |
-| Phone (3) | [Обновления](https://t.me/s/Phone3Updates) |
-| Серия Phone (4a) | [Обновления](https://t.me/s/Phone4aUpdates) |
+
+| Устройство | ROM | Recovery | Kernel | Updates |
+|------------|-----|----------|--------|---------|
+| Phone (1) | [Здесь](https://t.me/s/NothingPhone1Updates?q=%23ROM) | [Здесь](https://t.me/s/NothingPhone1Updates?q=%23Recovery) | [Здесь](https://t.me/s/NothingPhone1Updates?q=%23Kernel) | [Здесь](https://t.me/s/NothingPhone1Updates?q=%23OTA) |
+| Phone (2) | [Здесь](https://t.me/s/NothingPhone2updates?q=%23ROM) | [Здесь](https://t.me/s/NothingPhone2updates?q=%23Recovery) | [Здесь](https://t.me/s/NothingPhone2updates?q=%23Kernel) | [Здесь](https://t.me/s/NothingPhone2updates?q=%23OTA) |
+| Серия Phone (2a) | [Здесь](https://t.me/s/NothingPhone2aUpdates?q=%23ROM) | [Здесь](https://t.me/s/NothingPhone2aUpdates?q=%23Recovery) | [Здесь](https://t.me/s/NothingPhone2aUpdates?q=%23Kernel) | [Здесь](https://t.me/s/NothingPhone2aUpdates?q=%23OTA) |
+| Серия Phone (3a) | [Здесь](https://t.me/s/NothingPhone3aUpdates?q=%23ROM) | [Здесь](https://t.me/s/NothingPhone3aUpdates?q=%23Recovery) | [Здесь](https://t.me/s/NothingPhone3aUpdates?q=%23Kernel) | [Здесь](https://t.me/s/NothingPhone3aUpdates?q=%23OTA) |
+| Phone (3) | [Здесь](https://t.me/s/Phone3Updates?q=%23ROM) | [Здесь](https://t.me/s/Phone3Updates?q=%23Recovery) | [Здесь](https://t.me/s/Phone3Updates?q=%23Kernel) | [Здесь](https://t.me/s/Phone3Updates?q=%23OTA) |
+| Серия Phone (4a) | [Здесь](https://t.me/s/Phone4aUpdates?q=%23ROM) | [Здесь](https://t.me/s/Phone4aUpdates?q=%23Recovery) | [Здесь](https://t.me/s/Phone4aUpdates?q=%23Kernel) | [Здесь](https://t.me/s/Phone4aUpdates?q=%23OTA) |
 
 **CMF by Nothing:**
-| Устройство | Канал |
-|--------|---------|
-| Phone (1) | [Обновления](https://t.me/s/CMFPhone1Updates) |
-| Phone (2) Pro / Phone (3a) Lite | [Обновления](https://t.me/s/CMFPhone2GlobalUpdates) |
+
+| Устройство | ROM | Recovery | Kernel | Updates |
+|------------|-----|----------|--------|---------|
+| Phone (1) | [Здесь](https://t.me/s/CMFPhone1Updates?q=%23ROM) | [Здесь](https://t.me/s/CMFPhone1Updates?q=%23Recovery) | [Здесь](https://t.me/s/CMFPhone1Updates?q=%23Kernel) | [Здесь](https://t.me/s/CMFPhone1Updates?q=%23OTA) |
+| Phone (2) Pro / Phone (3a) Lite | [Здесь](https://t.me/s/CMFPhone2GlobalUpdates?q=%23ROM) | [Здесь](https://t.me/s/CMFPhone2GlobalUpdates?q=%23Recovery) | [Здесь](https://t.me/s/CMFPhone2GlobalUpdates?q=%23Kernel) | [Здесь](https://t.me/s/CMFPhone2GlobalUpdates?q=%23OTA) |

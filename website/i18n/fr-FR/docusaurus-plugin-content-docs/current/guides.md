@@ -122,15 +122,13 @@ B. **Procéder au Sideloading**
 
 :::
 
-
-<hr />
+---
 
 ### Mode Sans Échec
 
 - [Redémarrage en mode sans échec](https://www.hardreset.info/devices/nothing/nothing-phone-2/safe-mode/)
 
-
-<hr />
+---
 
 ### Codes Composeur
 
@@ -154,6 +152,34 @@ Codes composeur (USSD) que vous pouvez composer pour accéder aux menus cachés 
 ## Fonctionnalités et Accessoires de l'Appareil
 
 Guides pour des modifications matérielles spécifiques et appairages.
+
+### Vérification des Informations de Batterie
+
+:::info
+- Testé sur les séries Nothing Phone (3a), Phone (3) et Phone (4a).
+- Peut ne pas fonctionner sur d'autres appareils ou les futures versions de Nothing OS (4.0 / 4.1+).
+- Cela permet uniquement de consulter les données système existantes et fonctionne avec le micrologiciel d’origine Nothing OS.
+- Cela ne modifie rien et n’affectera pas votre garantie.
+:::
+
+Ce guide explique comment ouvrir la page masquée **Informations sur la batterie** dans Nothing OS, qui est généralement limitée aux variantes de l'UE mais qui peut être consultée sur d'autres variantes régionales à l'aide de cette méthode.
+
+#### Prérequis
+- [Shizuku (Fork)](https://github.com/thedjchi/Shizuku)
+- [Root Activity Launcher](https://sourceforge.net/projects/androidsage/files/Root%20Activity%20Launcher/)
+
+#### Étapes
+1. Installez les deux applications.
+2. Configurez Shizuku en suivant le [guide](https://shizuku.rikka.app/guide/setup/) suivant.
+3. Accordez à Shizuku l'autorisation pour Root Activity Launcher.
+4. Ouvrez Root Activity Launcher et recherchez **Settings** (Paramètres).
+5. Développez l'entrée Settings et lancez la sous-activité **Battery Information** répertoriée comme suit :
+   ```
+   com.android.settings/com.nothing.settings.NtSettings$BatteryInformationActivity
+   ```
+6. Vous devriez maintenant voir la page **Battery Information** affichant la **Capacité maximale**, le **Nombre de cycles**, la **Date de fabrication** et la **Date de première utilisation** de la batterie installée en usine.
+
+---
 
 ### Débloquer le Thème Bauhaus
 
@@ -192,8 +218,7 @@ Le thème inspiré de Bauhaus est une fonctionnalité d'édition spéciale qui p
 
 :::
 
-
-<hr />
+---
 
 ### Réassignation de la Touche Essential
 
@@ -206,8 +231,7 @@ Guides pour réassigner la touche Essential sur le Phone (3) :
 | [Guide XDA](https://xdaforums.com/t/how-to-disable-or-remap-the-essentials-button.4755184/) | rwilco12 |
 | [Guide GitHub](https://github.com/z3phydev/How-to-remap-or-disable-the-Essential-Key) | z3phydev |
 
-
-<hr />
+---
 
 ### Lié à Gadgetbridge
 
@@ -252,8 +276,7 @@ winget install --id=Google.PlatformTools -e
 brew install --cask android-platform-tools
 ```
 
-
-<hr />
+---
 
 ### Déverrouillage du Chargeur de Démarrage (Bootloader)
 
@@ -317,8 +340,7 @@ C. **Post-Déverrouillage**
 
   - Le chargeur de démarrage est maintenant déverrouillé et votre appareil affichera un avertissement "Orange State" au démarrage — c'est normal.
 
-
-<hr />
+---
 
 ### Root
 
@@ -419,8 +441,7 @@ D. **Patchez l'image**
 
 - L'appareil devrait être rooté avec KSU/KSUN.
 
-
-<hr />
+---
 
 ### Play Integrity
 
@@ -428,8 +449,7 @@ D. **Patchez l'image**
 |-------|------|
 | Corriger Play Integrity et la détection du Root | [Wiki](https://github.com/yashaswee-exe/AndroidGuides/wiki/Fix-integrity-and-root-detection) |
 
-
-<hr />
+---
 
 ### Sauvegarde des Partitions Essentielles
 
@@ -516,8 +536,7 @@ D. **Restauration des Partitions**
     ```
     **La réinitialisation d'usine n'est pas obligatoire dans ce cas.**
 
-
-<hr />
+---
 
 ### Flasher la ROM d'origine (Unbrick / Downgrade)
 
@@ -569,8 +588,7 @@ B. **Procéder au Flashage :**
     - Si c'est le cas, choisissez de redémarrer le système : (Y)
     - En cas d'erreurs, redémarrez en mode bootloader et reflashez après avoir corrigé l'échec. Redémarrer le système sans le faire pourrait entraîner des briques logicielles ou matérielles.
 
-
-<hr />
+---
 
 ### Reverrouillage du Chargeur de Démarrage (Bootloader)
 
@@ -626,44 +644,25 @@ Installez les pilotes appropriés pour le fabricant du processeur (SoC) de votre
 - **Vérification :** L'appareil étant éteint, maintenez les deux boutons **Volume +** et **Volume -** enfoncés tout en connectant le câble au PC. Si vous utilisez un câble Hydra v2, appuyez sur le bouton du câble lors de la connexion.
 - Pour une **méthode DIY** afin de fabriquer un câble EDL, reportez-vous plutôt à [ce guide](https://xdaforums.com/t/edl-cable-for-nothing-phone-2.4654742/).
 
-### Outils de Flashage Officiels
+### Outils et ressources
 
-:::danger Avis de non-responsabilité
+:::danger Avis de non-responsabilité et notification
 
-- Les outils répertoriés ci-dessous sont des **outils de service officiels** ayant fuité sur le web. **Utilisez-les à vos propres risques.**
-- L'auteur du projet et les contributeurs déclinent **toute responsabilité** en cas de conséquences imprévues ou de dommages résultant de leur utilisation.
-- Ces outils peuvent cesser de fonctionner à tout moment suite à de futures mises à jour du micrologiciel.
-- Ils ne sont **pas** destinés au flashage régulier de la ROM d'origine. Utilisez-les **uniquement en dernier recours** si :
-  - Votre appareil ne répond plus du tout (brique matérielle, écran noir).
-  - Le mode Fastboot est inaccessible (même après l'installation des pilotes appropriés).
-  - Vous n'avez pas de service officiel dans votre région et votre appareil n'est plus sous garantie.
-- La maintenance de ces outils n'est pas garantie et aucune demande pour de futures versions ne sera acceptée.
+- Cette section sert uniquement d'index de référence pour les ressources déjà disponibles publiquement sur le web ouvert. Ce projet n'héberge, ne stocke ni ne distribue aucun des outils propriétaires ou fichiers binaires répertoriés ci-dessous.
+- Tous les liens fournis pointent vers des dépôts et des hébergeurs de fichiers tiers externes sur lesquels nous n'avons aucun contrôle. Nous ne garantissons pas la sécurité, l'intégrité ou la légalité de ces ressources externes.
+- Il s'agit d'outils de service officiels ayant fuité. Les auteurs et contributeurs du projet déclinent toute responsabilité en cas de dommages matériels, de perte de données ou de conséquences imprévues résultant de leur utilisation.
+- Ce projet est indépendant et n'est pas affilié à, autorisé par, ou approuvé par Nothing Technology Limited.
+- Les outils de cette section sont destinés uniquement à la récupération d'urgence (hard brick) et ne doivent pas être utilisés pour un flashage de routine.
+- Si vous êtes détenteur de droits d'auteur et souhaitez demander la suppression d'un lien de référence, veuillez [ouvrir un ticket sur GitHub](https://github.com/spike0en/nothing_archive/issues).
 
 :::
 
-#### Appareils Nothing :
-- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDVNZLx9PuARKU5ZYHxTw1RAesDD6ZYA9ncgyk_6jpU3_M?e=RnzUwd)
-- [Phone (2)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA-PysiaC16Qow4EA9_CfP0AbYCgxOlahRyJjB7LQw8RZo?e=4jK0yh)
-- [Phone (2a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCYxRHWxndKRLFNcO9zLhjcAQunpBStuG-OAetxx1hvsQs?e=mqYlE8)
-- [Phone (2a) Plus](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBuoaxqlNkYR63Fa_z0tGl-AVHKWsuj27LeyhMoXtghwJc?e=fOQp2m)
-- [Phone (3a) Series](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgBcJ6YHDfGhSL_TZ8P0WfJXAfKNm7BoxC_uMe071vRmhsM?e=El0x5j)
-- [Phone (3)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgCDb2UqoryZSIBDYMu52jjjAQ5Uq5INNOnhOHbH2jr0EpY?e=h8lKHX)
-- [Phone (3a) Lite](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA33YYMKQxUTZplrWoGIji5AfviLdYkUHlh4H2LjQ0_FQQ?e=rBIZ3y)
-- [Phone (4a)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgAhqokf-Be4SY2YdeeOr9mrAT-5OsO2Ay-x6UqaAynpKHU?e=X4mojq)
-
-#### Appareils CMF by Nothing :
-- [Phone (1)](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA4tWOkyg4WRqsTmrbNiKECAX3M-2SCUeDFiJ1eraslW7c?e=4mDouI)
-- [Phone (2) Pro](https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgDUePBy5E6TS5zgqO0MqkVEAQ9C7aMdohvQ6FpMr-RxWdQ?e=sebyob)
-
-### Ressources Diverses
-
-Guides et projets supplémentaires pour la recherche ou les cas d'utilisation avancés :
-
-- [Outils non officiels Qualcomm Firehose / Sahara / Streaming / Diag](https://github.com/bkerler/edl) par bkerler
+- [Official Unbrick Tools](https://t.me/Edward_ROMs/360) par EdwardWu
+- [Unofficial Qualcomm Firehose / Sahara / Streaming / Diag Tools](https://github.com/bkerler/edl) par bkerler
 - [NTPI Dumper](https://github.com/AaronXenos/ntpi_dumper) par AaronXenos
-- [Aide au débricage complet (Hard Brick Helper) pour la série Phone (2a)](https://github.com/mistrmochov/nothing-pacman-hardbrick) par mistrmochov
-- [Outil de flashage pour la série Phone (2a)](https://github.com/R0rt1z2/pacman-flash-tool) par R0rt1z2
-- [Fichiers d'authentification Firehose pour les téléphones Nothing](https://github.com/plusonsoy/nothing_edl) par plusonsoy
+- [Phone (2a) Series Hard Brick Helper](https://github.com/mistrmochov/nothing-pacman-hardbrick) par mistrmochov
+- [Phone (2a) Series Flash Tool](https://github.com/R0rt1z2/pacman-flash-tool) par R0rt1z2
+- [Firehose Auth Files for Nothing Phones](https://github.com/plusonsoy/nothing_edl) par plusonsoy
 
 
 ---
@@ -671,26 +670,33 @@ Guides et projets supplémentaires pour la recherche ou les cas d'utilisation av
 
 ## Développement Après-vente
 
-:::note
-Cette section est gérée par la communauté et n'est pas affiliée à Nothing. Le déverrouillage du chargeur de démarrage annulera votre garantie OEM.
-:::
-
 Restez à jour avec les ROMs personnalisées, les noyaux et les projets de développement.
+
+:::note
+
+- Cette section est gérée par la communauté sur [Telegram](https://t.me/Nothing_Archive) et n'est pas affiliée à Nothing.
+- Les liens ci-dessous fournissent des résultats de recherche filtrés à partir des canaux Telegram sans qu'il soit nécessaire de s'inscrire. Cependant, il est recommandé de le faire pour interagir et rejoindre les chats de discussion des appareils respectifs, demander de l'aide ou s'engager avec la communauté des passionnés si vous êtes intéressé par le bidouillage, l'optimisation du potentiel de votre appareil ou pour rester à jour avec toutes les publications.
+- Parfois, les liens ci-dessous peuvent ne donner aucun résultat, ce qui signifie que certaines catégories de contenu ne sont pas encore disponibles, développées ou maintenues par un mainteneur fiable pour ce modèle particulier.
+- Le déverrouillage du chargeur de démarrage et le flashage de micrologiciels personnalisés annuleront votre garantie OEM. Veuillez lire tous les guides de flashage s'ils sont indiqués dans les messages correspondants et vous référer au chat d'assistance s'il est lié ou au groupe de discussion du modèle.
+
+:::
 
 ### Canaux de mise à jour des appareils (Telegram)
 
 **Nothing :**
-| Appareil | Canal |
-|--------|---------|
-| Phone (1) | [Mises à jour](https://t.me/s/NothingPhone1Updates) |
-| Phone (2) | [Mises à jour](https://t.me/s/NothingPhone2updates) |
-| Phone (2a) Series | [Mises à jour](https://t.me/s/NothingPhone2aUpdates) |
-| Phone (3a) Series | [Mises à jour](https://t.me/s/NothingPhone3aUpdates) |
-| Phone (3) | [Mises à jour](https://t.me/s/Phone3Updates) |
-| Phone (4a) Series| [Mises à jour](https://t.me/s/Phone4aUpdates) |
+
+| Appareil | ROM | Recovery | Kernel | Updates |
+|----------|-----|----------|--------|---------|
+| Phone (1) | [Ici](https://t.me/s/NothingPhone1Updates?q=%23ROM) | [Ici](https://t.me/s/NothingPhone1Updates?q=%23Recovery) | [Ici](https://t.me/s/NothingPhone1Updates?q=%23Kernel) | [Ici](https://t.me/s/NothingPhone1Updates?q=%23OTA) |
+| Phone (2) | [Ici](https://t.me/s/NothingPhone2updates?q=%23ROM) | [Ici](https://t.me/s/NothingPhone2updates?q=%23Recovery) | [Ici](https://t.me/s/NothingPhone2updates?q=%23Kernel) | [Ici](https://t.me/s/NothingPhone2updates?q=%23OTA) |
+| Phone (2a) Series | [Ici](https://t.me/s/NothingPhone2aUpdates?q=%23ROM) | [Ici](https://t.me/s/NothingPhone2aUpdates?q=%23Recovery) | [Ici](https://t.me/s/NothingPhone2aUpdates?q=%23Kernel) | [Ici](https://t.me/s/NothingPhone2aUpdates?q=%23OTA) |
+| Phone (3a) Series | [Ici](https://t.me/s/NothingPhone3aUpdates?q=%23ROM) | [Ici](https://t.me/s/NothingPhone3aUpdates?q=%23Recovery) | [Ici](https://t.me/s/NothingPhone3aUpdates?q=%23Kernel) | [Ici](https://t.me/s/NothingPhone3aUpdates?q=%23OTA) |
+| Phone (3) | [Ici](https://t.me/s/Phone3Updates?q=%23ROM) | [Ici](https://t.me/s/Phone3Updates?q=%23Recovery) | [Ici](https://t.me/s/Phone3Updates?q=%23Kernel) | [Ici](https://t.me/s/Phone3Updates?q=%23OTA) |
+| Phone (4a) Series | [Ici](https://t.me/s/Phone4aUpdates?q=%23ROM) | [Ici](https://t.me/s/Phone4aUpdates?q=%23Recovery) | [Ici](https://t.me/s/Phone4aUpdates?q=%23Kernel) | [Ici](https://t.me/s/Phone4aUpdates?q=%23OTA) |
 
 **CMF by Nothing :**
-| Appareil | Canal |
-|--------|---------|
-| Phone (1) | [Mises à jour](https://t.me/s/CMFPhone1Updates) |
-| Phone (2) Pro / Phone (3a) Lite | [Mises à jour](https://t.me/s/CMFPhone2GlobalUpdates) |
+
+| Appareil | ROM | Recovery | Kernel | Updates |
+|----------|-----|----------|--------|---------|
+| Phone (1) | [Ici](https://t.me/s/CMFPhone1Updates?q=%23ROM) | [Ici](https://t.me/s/CMFPhone1Updates?q=%23Recovery) | [Ici](https://t.me/s/CMFPhone1Updates?q=%23Kernel) | [Ici](https://t.me/s/CMFPhone1Updates?q=%23OTA) |
+| Phone (2) Pro / Phone (3a) Lite | [Ici](https://t.me/s/CMFPhone2GlobalUpdates?q=%23ROM) | [Ici](https://t.me/s/CMFPhone2GlobalUpdates?q=%23Recovery) | [Ici](https://t.me/s/CMFPhone2GlobalUpdates?q=%23Kernel) | [Ici](https://t.me/s/CMFPhone2GlobalUpdates?q=%23OTA) |

@@ -25,6 +25,7 @@ keywords: [nothing apps, nothing community apps, glyph apps, glyph interface, no
 |-----|-----------|-------------|
 | [Blockit](https://play.google.com/store/apps/details?id=com.hypenet.focused) | Mirko_ddd | Приложение для цифрового детокса с блокировкой телефона и интеграцией Glyph |
 | [Delivery Glyph](https://github.com/Goktug-Dusunen/Glyph-Developer-Kit/tree/main/DeliveryGlyph) | Goktug-Dusunen | Приложение для отслеживания доставки, оптимизированное для турецких сервисов |
+| [Glyph Bar Composer](https://github.com/BhuvaneshwarMarri/GlyphBarComposer-4a) | BhuvaneshwarMarri | Создание, синхронизация и визуализация пользовательских световых паттернов Glyph для Nothing Phone (4a) |
 | [Glyph Compass](https://play.google.com/store/apps/details?id=com.JayKayCooperations.glyph_compass) | JayKayCooperations | Используйте интерфейс Glyph в качестве компаса |
 | [Glyph Essentials](https://play.google.com/store/apps/details?id=com.tldc.essentials) | GlyphLab | Продвинутая настройка уведомлений Glyph |
 | [Glyph Glow](https://github.com/fgiering/GlyphGlow) | fgiering | Минималистичное приложение для управления интерфейсом Glyph |
@@ -69,6 +70,7 @@ keywords: [nothing apps, nothing community apps, glyph apps, glyph interface, no
 | [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | Приложение для Android, которое отображает данные датчиков Home Assistant на Nothing Glyph Matrix |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | Игра Space Invaders |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | Бегущая строка для текстовых сообщений |
+| [Glyph Matrix Lab](https://github.com/alex-1121/glyph-matrix-lab) | alex-1121 | Инструментарий для создания и интеллектуального отображения кастомных визуализаций Glyph Matrix для Nothing Phone (4a) Pro |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | Веб-инструмент для тестирования кода |
 | [Glyph Museum](https://play.google.com/store/apps/details?id=com.pauwma.glyphmuseum) | pauwma | Создание и демонстрация искусства Glyph |
 | [Glyph Nexus](https://play.google.com/store/apps/details?id=com.voidtechstudios.smartglyph) | Experion Labs | Уведомления, таймеры, визуализатор |
@@ -152,7 +154,6 @@ keywords: [nothing apps, nothing community apps, glyph apps, glyph interface, no
 | [Nothing Notes](https://github.com/ThriveEngineer/nothing.notes) | ThriveEngineer | Приложение для заметок в тематике Nothing |
 | [Noting](https://play.google.com/store/apps/details?id=com.hearthborn.studios.notingnotes) | Hearthborn | Заметки и задачи с облачным бэкапом |
 | [Seton](https://github.com/arijit4/Seton) | arijit4 | Закрепление и редактирование заметок с помощью виджета |
-| [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | Минималистичный лаунчер |
 | [Spend Notes](https://play.google.com/store/apps/details?id=com.cmlabs.spendflow.spendflow) | Coder monk labs | Отслеживание расходов |
 | [The Circle](https://play.google.com/store/apps/details?id=com.quivaconnect.thecircle) | Quiva Connect | Приложение для изучения языков |
 
@@ -178,6 +179,7 @@ keywords: [nothing apps, nothing community apps, glyph apps, glyph interface, no
 | [Minimal Browser](https://github.com/aaswani-v/Minimal-Browser) | aaswani-v | Браузер с ИИ-саммаризацией |
 | [N Board](https://github.com/MathieuDvv/Nboard) | MathieuDvv | Клавиатура в стиле Nothing с инструментами ИИ |
 | [N Calc](https://play.google.com/store/apps/details?id=com.hearthborn.studios.ncalc) | Hearthborn | Калькулятор в стиле Nothing |
+| [N Clock](https://play.google.com/store/apps/details?id=de.nostream.nclock) | nostream | Минималистичное приложение для часов, вдохновленное языком дизайна Nothing |
 | [N Dial](https://play.google.com/store/apps/details?id=com.hearthborn.studios.ndial) | Hearthborn | Набор номера и контакты |
 | [N Keyboard](https://github.com/arunk140/nth-kbd) | arunk14 | Тематическая клавиатура |
 | [N Recipe](https://play.google.com/store/apps/details?id=com.a3chron.nrecipe) | a3chron | Офлайн-книга рецептов |
@@ -200,7 +202,9 @@ keywords: [nothing apps, nothing community apps, glyph apps, glyph interface, no
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | Тематический калькулятор |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Управление индикатором записи для Phone (3) |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | Инструмент для анализа устройства |
+| [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | Минималистичный лаунчер |
 | [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | Музыкальный плеер с поддержкой Glyph Matrix |
+| [Stario Launcher](https://play.google.com/store/apps/details?id=com.stario.launcher) | tariqamarneh | Минималистичный ланчер с точечной сеткой, вдохновленный эстетикой Nothing OS |
 | [The Everything Key](https://play.google.com/store/apps/details?id=com.spandone.everythingkey) | spandone | Базовый переназначитель клавиш |
 | [Void](https://play.google.com/store/apps/details?id=com.thevoid.focus) | vmcreate | Минималистичный блокировщик приложений на языке дизайна Nothing OS |
 | [Voidcaller](https://play.google.com/store/apps/details?id=com.voidware.voidcaller) | VoidwareLabs | Минималистичный диалер |

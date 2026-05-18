@@ -27,7 +27,7 @@ Nothingコミュニティによってメンテナンスされているプロジ�
 | [Haptificator](https://github.com/Fr4nKB/Haptificator) | Fr4nKB | Phone (1) コンポジションに触覚フィードバックを追加 |
 | [Matrices](https://udaign.github.io/matrices/) | Uday | Glyphマトリックス設計ツール ([Repo](https://github.com/udaign/matrices)) |
 | [Nothing Glyph Composer](https://itssveennn.github.io/Nothing-Glyph-Composer/) | itssveennn | Phone (4a) Pro向けの、13x13のGlyphアニメーション作成,オーディオ準備、着信音対応OGGファイルのエクスポートが可能なウェブツールキット。 |
-| [Nothing Toyph Notifications](https://antonvidishchev.github.io/nothing-toyph-notifications/) | antonvidishchev | Nothing Phone (4a) ProのGlyph画面用通知アイコンを作成するためのツール [Repo](https://github.com/antonvidishchev/nothing-toyph-notifications) |
+| [Nothing Toyph Notifications](https://antonvidishchev.github.io/nothing-toyph-notifications/) | antonvidishchev | Nothing Phone (4a) ProのGlyph Matrix用通知アイコン作成ツール ([リポジトリ](https://github.com/antonvidishchev/nothing-toyph-notifications)) |
 | [Osu To Glyph](https://github.com/taiixu/osu-to-glyph) | taiixu | osu! ビートマップをNothing Phone着信音に変換 |
 | [Pyglyph](https://github.com/Snakehater/pyglyph) | Snakehater | オーディオ可視化用Pythonスクリプト |
 | [Vizmatrices](https://udaign.github.io/vizmatrices/) | udaign | リアルタイムオーディオ反応型ビジュアライザー ([Repo](https://github.com/udaign/vizmatrices)) |
@@ -129,6 +129,7 @@ Wiki、ファームウェアアーカイブ、システム修復ツールを含�
 | プロジェクト | 開発者 | 説明 |
 |---------|-----------|-------------|
 | [CMF Wiki](https://www.reddit.com/r/CMFTech/wiki/index/) | guidomelvin | r/CMFTech Wiki |
+| [Disable Essential Space](https://github.com/AntonDevia/Disable-Essential-Space) | AntonDevia | Nothing OS上のEssential Spaceを完全に無効化し、EssentialキーをブロックするADBスクリプト |
 | [Ear X](https://gitlab.com/somaxa8/ear-x) | somaxa8 & [Bharadwaj Raju](https://gitlab.com/bharadwaj-raju/ear2ctl) | NothingイヤホンのANCモードを制御するRustベースのLinuxアプリ |
 | [Fenrir](https://github.com/R0rt1z2/fenrir) | R0rt1z2 | Phone (2a) および CMF Phone (1) 用整合性バイパス PoC |
 | [Macros](https://nothing.community/d/14869-useful-macros-for-nothing-phones) | RedSkullxHydra | Macrodroidマクロ |

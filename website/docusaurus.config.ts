@@ -131,23 +131,32 @@ const config: Config = {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/nothing_archive/img/logo.png',
+        href: '/nothing_archive/img/logo_dark.png',
       },
     },
     {
       tagName: 'link',
       attributes: {
         rel: 'apple-touch-icon',
-        href: '/nothing_archive/img/logo.png',
+        href: '/nothing_archive/img/logo_dark.png',
       },
     },
-    // Preload Largest Contentful Paint (LCP) hero graphic
+    // Preload Largest Contentful Paint (LCP) hero graphics for both themes
     {
       tagName: 'link',
       attributes: {
         rel: 'preload',
         as: 'image',
-        href: '/nothing_archive/img/logo.png',
+        href: '/nothing_archive/img/logo_dark.png',
+        fetchpriority: 'high',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        as: 'image',
+        href: '/nothing_archive/img/logo_light.png',
         fetchpriority: 'high',
       },
     },
@@ -182,8 +191,6 @@ const config: Config = {
     metadata: [
       { property: 'og:type', content: 'website' },
       { property: 'og:site_name', content: 'Nothing Archive' },
-      // Note: Docusaurus auto-generates page-specific Open Graph and Twitter metadata.
-      // Avoid hardcoding global fallbacks here to prevent canonical SEO conflicts across localizations.
       { property: 'og:image', content: 'https://spike0en.github.io/nothing_archive/img/banner.png' },
       { property: 'og:image:width', content: '2160' },
       { property: 'og:image:height', content: '1080' },
@@ -201,7 +208,8 @@ const config: Config = {
       title: 'Nothing Archive',
       logo: {
         alt: 'Nothing Archive Logo',
-        src: 'img/logo.png',
+        src: 'img/logo_light.png',
+        srcDark: 'img/logo_dark.png',
         width: 32,
         height: 32,
       },

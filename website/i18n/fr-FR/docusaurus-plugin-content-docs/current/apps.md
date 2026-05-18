@@ -26,6 +26,8 @@ Applications s'intégrant à l'interface Glyph des téléphones Nothing.
 | [Blockit](https://play.google.com/store/apps/details?id=com.hypenet.focused) | Mirko_ddd | Application de détox numérique avec intégration Glyph |
 | [Delivery Glyph](https://github.com/Goktug-Dusunen/Glyph-Developer-Kit/tree/main/DeliveryGlyph) | Goktug-Dusunen | Application de suivi de livraison, spécialement optimisée pour les services turcs |
 | [Glyph Bar Composer](https://github.com/BhuvaneshwarMarri/GlyphBarComposer-4a) | BhuvaneshwarMarri | Composez, synchronisez et visualisez des motifs lumineux Glyph personnalisés pour le Nothing Phone (4a) |
+| [Glyph Barty](https://github.com/Link2011-Act2/GlyphBarty) | Link2011-Act2 | Application de visualisation Glyph intégrant les interfaces utilisateur Nothing et Material 3 |
+| [Glyph Battery](https://github.com/0x91m0n/NothingGlyphBattery) | 0x91m0n | Visualisation du niveau de batterie via l'interface Glyph |
 | [Glyph Compass](https://play.google.com/store/apps/details?id=com.JayKayCooperations.glyph_compass) | JayKayCooperations | Utilisez votre interface Glyph comme une boussole |
 | [Glyph Essentials](https://play.google.com/store/apps/details?id=com.tldc.essentials) | GlyphLab | Personnalisation avancée des notifications Glyph |
 | [Glyph Glow](https://github.com/fgiering/GlyphGlow) | fgiering | Application minimale pour contrôler l'interface Glyph |
@@ -59,35 +61,48 @@ Consultez [Nothing Playground Glyph Toys](https://playground.nothing.tech/toys) 
 | [Aero Glyph Weather](https://github.com/poorneshadhithya/Aeroglyph-Weather) | poorneshadhithya | Station météo rétro-futuriste |
 | [Better Battery](https://github.com/PzmuV1517/BetterBatery) | pzmuV1517 | Visualisation avancée de la batterie |
 | [Better Clock](https://github.com/Snakehater/betterclock) | Snakehater | Affichage multifonctionnel |
+| [Clock AOD Glyph](https://github.com/Aureliink/Clock-AOD-Glyph-Toy) | Aureliink | Un jouet d'horloge de style vertical pour la matrice Glyph du Nothing Phone (3) |
 | [Counter](https://nothing.community/d/36837-introducing-counter-a-glyph-toy) | Daniel | Compteur allant de 0 à 9999 |
 | [Dot Hub](https://play.google.com/store/apps/details?id=com.gesekus.dothub) | nostream | Visualiseur, boussole, dés, compteur |
 | [Glyph Anki](https://github.com/R0uli078/GlyphAnki) | R0uli078 | Intégration de flashcards Anki |
+| [Glyph Barty](https://github.com/Link2011-Act2/GlyphBarty) | Link2011-Act2 | Application de visualisation Glyph intégrant les interfaces utilisateur Nothing et Material 3 |
 | [Glyph Beat](https://play.google.com/store/apps/details?id=com.pauwma.glyphbeat) | pauwma | Visualiseur de médias avec thèmes |
 | [Glyph Bike](https://play.google.com/store/apps/details?id=com.ofishialdigital.glyphbike) | Ofishial Digital | Jeu de moto à défilement |
 | [Glyph Cade](https://github.com/bleelblep/GlyphCade/) | bleelblep | Jeux d'arcade sur la matrice Glyph |
 | [Glyph Catch](https://github.com/equalparts/glyph-catch) | equalparts | Fan-game de collection de Pokémon |
+| [Glyp Clocks](https://bleelblep.github.io/disclaimer/glyphclocks/) | bleelblep | 16 horloges pour la matrice Glyph du Phone (3) ([Repo](https://github.com/bleelblep/glyphclocks)) |
+| [Glyph Draw](https://github.com/kaelvalen/open-glyph) | kaelvalen | Jouet Glyph pour le Nothing Phone (3) qui vous permet de dessiner du pixel art personnalisé |
 | [Glyph Eyes](https://github.com/yuk1-kondo/GlyphToys-Glypheyes) | yuk1-kondo | Jouet de pupille inclinable ludique |
+| [Glyph GeekBox](https://github.com/danissomo/GlyphMatrix-AODGeekBox) | danissomo | Quelques outils de geek sur la matrice Glyph. Destiné au Nothing Phone 4(a) Pro |
 | [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | Application Android qui affiche les données des capteurs de Home Assistant sur la Nothing Glyph Matrix. |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | Jeu Space Invaders |
+| [Glyph Lab](https://play.google.com/store/apps/details?id=com.projectkriya.glyphlab) | Vimanam Studio | Jouets interactifs à matrice Glyph conçus pour les appareils Nothing |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | Messages textuels défilants |
 | [Glyph Matrix Lab](https://github.com/alex-1121/glyph-matrix-lab) | alex-1121 | Boîte à outils pour créer et afficher intelligemment des visuels personnalisés pour la matrice Glyph du Nothing Phone (4a) Pro |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | Test de code via le web |
+| [Glyph Matrix Tasker Plugin](https://github.com/Gennadiyev/GlyphMatrixTaskerPlugin) | Gennadiyev | Plugin Tasker pour contrôler la matrice Glyph du Nothing Phone (3). |
 | [Glyph Museum](https://play.google.com/store/apps/details?id=com.pauwma.glyphmuseum) | pauwma | Créez et exposez de l'art Glyph |
 | [Glyph Nexus](https://play.google.com/store/apps/details?id=com.voidtechstudios.smartglyph) | Experion Labs | Notifications, minuteurs, visualiseur |
 | [Glyph Pendulum](https://github.com/pauwma/GlyphPendulum) | pauwma | Un pendule oscillant interactif |
 | [Glyph Stack](https://github.com/pauwma/GlyphStack) | pauwma | Un jeu d'arcade d'empilement |
+| [Glyph Synapse](https://github.com/Reyiannonn/GlyphSynapse) | Reyiannonn | Contrôleur d'affichage Glyph Matrix toujours activé et réactif au son |
+| [Glyph Text Animator](https://github.com/deepudxd/GlyphTextAnimator) | deepudxd | Convertit du texte en animations de matrice de points défilantes pour la matrice Glyph 13×13 du Nothing Phone (4a) Pro |
 | [Glyph Toybox](https://play.google.com/store/apps/details?id=com.singularityux.glyphtoybox) | Singularity Design | Pile ou face, mode sonnerie, flux de batterie |
 | [Glyphify](https://play.google.com/store/apps/details?id=com.frank.glyphify) | Fr4nKB | Labyrinthe à bille, numérotation rapide, Tamagotchi |
+| [Glyphix](https://play.google.com/store/apps/details?id=com.stevetex.glyphix) | stevetex | AOD d'ambiance pour la matrice Glyph |
 | [HA Glyph](https://github.com/PzmuV1517/HA-glyph) | pzmuv1517 | Commutation d'entité Home Assistant |
 | [Hamon](https://github.com/yuk1-kondo/GlyphToys-hamon) | yuk1-kondo | Propagation d'ondes physiques |
 | [Leveller](https://play.google.com/store/apps/details?id=com.lisra.matrixleveler) | RapidZapper | Outil de niveau gyroscopique |
 | [Live Bridge](https://github.com/appsfolder/livebridge) | appsfolder | Convertit les notifications de progression non supportées en notifications en direct pour les rendre compatibles avec les indicateurs de progression Glyph de Nothing |
 | [Magic 8 Ball](https://play.google.com/store/apps/details?id=com.frank.magic8ball) | Fr4nKB | Magic 8 Ball classique |
+| [Matrix Dice](https://github.com/Snakehater/matrixdice/) | Snakehater | Jouet de dés pour la matrice Glyph |
 | [Minecraft Glyph Matrix](https://github.com/nosoyyo0717/Minecraft-Glyph-Matrix) | nosoyyo0717 | Pixel art Minecraft |
+| [Morse Glyph](https://github.com/Reyiannonn/MorseGlyph) | Reyiannonn | Traduit du texte en code Morse et le transmet via la matrice Glyph du Nothing Phone |
 | [Nono Gotchi (Beta)](https://www.jkn.me/pet) | Jkn | Animal virtuel style Tamagotchi |
 | [Pomodoro Timer](https://github.com/PzmuV1517/GlyphPomodoroTimer) | pzmuV1517 | Jouet minuteur Pomodoro |
 | [Screenie](https://github.com/pauwma/Screenie) | pauwma | Visage reflétant le temps d'écran quotidien |
 | [Timepiece](https://play.google.com/store/apps/details?id=com.arunk140.timepiece) | Arun Khanchandani | Utilitaire d'horloge Always-On |
+| [Toyph](https://github.com/antonvidishchev/toyph) | antonvidishchev | Un jouet Glyph piloté par JSON pour le Nothing Phone (4a) Pro |
 
 ---
 
@@ -152,6 +167,7 @@ Fonds d'écran dynamiques et améliorations visuelles pour sublimer l'apparence 
 | [Notes](https://play.google.com/store/apps/details?id=com.monospace.notes) | monospace | Application de notes avec sécurité intégrée |
 | [Nothing Notes](https://play.google.com/store/apps/details?id=com.ApexCreator.nothingnotes) | Apex Creator | Bloc-notes minimaliste |
 | [Nothing Notes](https://github.com/ThriveEngineer/nothing.notes) | ThriveEngineer | Application de notes au thème Nothing |
+| [Nothiq](https://play.google.com/store/apps/details?id=com.rontag.nothiq) | Rontag | Application de gestion de notes et de tâches inspirée par Nothing |
 | [Noting](https://play.google.com/store/apps/details?id=com.hearthborn.studios.notingnotes) | Hearthborn | Notes et tâches avec sauvegarde cloud |
 | [Seton](https://github.com/arijit4/Seton) | arijit4 | Épinglez et éditez des notes via un widget |
 | [Spend Notes](https://play.google.com/store/apps/details?id=com.cmlabs.spendflow.spendflow) | Coder monk labs | Suivi des dépenses |
@@ -170,6 +186,7 @@ Fonds d'écran dynamiques et améliorations visuelles pour sublimer l'apparence 
 | [Crucial Space](https://github.com/LainsMain/CrucialSpace) | LainsMain | Copie « vibe coded » de l'application Essential Space de Nothing. |
 | [Currency](https://curency.pages.dev/) | Earendel | Application web de conversion de devises |
 | [Dot Calculator](https://play.google.com/store/apps/details?id=com.nebula.developer.dotcalculator) | Nebula Developer | Application de calculatrice avec des polices à matrice de points. |
+| [Essential Space Lite](https://github.com/rKyzen/Essential_Space_Lite) | rKyzen | Expérience Essential Space de base inspirée par Nothing pour tous les appareils, avec captures d'écran rapides, notes, mémos vocaux, et plus encore |
 | [Gadgetbridge](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge/) | [Freeyourgadget](https://codeberg.org/Freeyourgadget/Gadgetbridge#authors) | Utilisez des wearables Bluetooth sans applications OEM ni compte cloud |
 | [Gamething](https://play.google.com/store/apps/details?id=com.LevMatuzin.Gamething) | Lev Matuzin | Inspiré par le jeu Dino |
 | [Geo Torch](https://github.com/georgenelson576/GeoTorch/) | georgenelson576 | Application de lampe torche avec widgets |
@@ -201,7 +218,9 @@ Fonds d'écran dynamiques et améliorations visuelles pour sublimer l'apparence 
 | [Nx Calculator](https://github.com/montybytes/nxcalculator) | montybytes | Calculatrice simple |
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | Calculatrice à thème |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Contrôle de la lumière d'enregistrement pour le Phone (3) |
+| [Redrop Music](https://play.google.com/store/apps/details?id=re.tag.redrop) | Tagrelate | Lecteur de musique hors ligne combinant l'esthétique Material 3 et Nothing |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | Outil d'informations sur l'appareil |
+| [Side Dock](https://play.google.com/store/apps/details?id=com.sidedock.app) | Quiva Connect | Superposition de barre latérale conçue pour un multitâche plus rapide, des outils rapides et des workflows plus fluides |
 | [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | Lanceur minimaliste |
 | [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | Lecteur de musique prenant en charge la matrice Glyph |
 | [Stario Launcher](https://play.google.com/store/apps/details?id=com.stario.launcher) | tariqamarneh | Lanceur minimaliste en grille de points inspiré par l'esthétique de Nothing OS |
@@ -236,6 +255,7 @@ Une collection d'applications diverses créées par la communauté, incluant des
 |-----|-----------|-------------|
 | [Flow](https://flowpo.pages.dev/) | Earendel | Application web de minuteur Pomodoro |
 | [Missing Core Music](https://play.google.com/store/apps/details?id=com.cyanchill.missingcore.music) | MissingCore | Lecteur de musique hors ligne |
+| [N Music](https://github.com/alimohsenmaruf/N-Music) | alimohsenmaruf | Lecteur de musique simple au style Nothing OS, wrapper YouTube Music |
 | [Noid](https://play.google.com/store/apps/details?id=com.techsip.noid) | TechSip Studios | Gestion de fichiers |
 | [Nothing Community App](https://github.com/Shaurya2295/Nothing-Community-App/) | Shaurya2295 | Application mobile pour nothing.community |
 | [Nothing Land](https://github.com/TheGlitchh/NothingLand) | TheGlitchh | Dynamic Island pour Nothing OS |

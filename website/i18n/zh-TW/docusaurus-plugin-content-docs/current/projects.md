@@ -27,7 +27,7 @@ keywords: [nothing 專案, glyph 工具, nothing root, nothing magisk, 自訂化
 | [Haptificator](https://github.com/Fr4nKB/Haptificator) | Fr4nKB | 為 Phone (1) 組合加入觸覺回饋 |
 | [Matrices](https://udaign.github.io/matrices/) | Uday | Glyph Matrix 設計工具 ([Repo](https://github.com/udaign/matrices)) |
 | [Nothing Glyph Composer](https://itssveennn.github.io/Nothing-Glyph-Composer/) | itssveennn | 專為 Phone (4a) Pro 打造，用於製作 13x13 Glyph 動畫、準備音訊並匯出可用於鈴聲的 OGG 檔案的網頁工具包。 |
-| [Nothing Toyph Notifications](https://antonvidishchev.github.io/nothing-toyph-notifications/) | antonvidishchev | 用於為 Nothing Phone (4a) Pro Glyph 螢幕建立通知圖標的工具 [Repo](https://github.com/antonvidishchev/nothing-toyph-notifications) |
+| [Nothing Toyph Notifications](https://antonvidishchev.github.io/nothing-toyph-notifications/) | antonvidishchev | 用於在 Nothing Phone (4a) Pro Glyph Matrix 上建立通知圖示的工具 ([原始碼](https://github.com/antonvidishchev/nothing-toyph-notifications)) |
 | [Osu To Glyph](https://github.com/taiixu/osu-to-glyph) | taiixu | 將 osu! 節奏圖轉換為 Nothing Phone 的 Glyph 鈴聲 |
 | [Pyglyph](https://github.com/Snakehater/pyglyph) | Snakehater | 用於音訊視覺化的 Python 腳本 |
 | [Vizmatrices](https://udaign.github.io/vizmatrices/) | udaign | 即時音訊反應視覺化工具 ([Repo](https://github.com/udaign/vizmatrices)) |
@@ -129,6 +129,7 @@ keywords: [nothing 專案, glyph 工具, nothing root, nothing magisk, 自訂化
 | 專案 | 開發者 | 說明 |
 |------|--------|------|
 | [CMF Wiki](https://www.reddit.com/r/CMFTech/wiki/index/) | guidomelvin | r/CMFTech 維基 |
+| [Disable Essential Space](https://github.com/AntonDevia/Disable-Essential-Space) | AntonDevia | 用於完全停用 Nothing OS 上的 Essential Space 並封鎖 Essential 鍵的 ADB 腳本 |
 | [Ear X](https://gitlab.com/somaxa8/ear-x) | somaxa8 & [Bharadwaj Raju](https://gitlab.com/bharadwaj-raju/ear2ctl) | 基於 Rust 的 Linux 應用程式，用於控制 Nothing 耳機的 ANC 模式 |
 | [Fenrir](https://github.com/R0rt1z2/fenrir) | R0rt1z2 | 用於 Phone (2a) 與 CMF Phone (1) 的完整性檢查繞過 PoC |
 | [Macros](https://nothing.community/d/14869-useful-macros-for-nothing-phones) | RedSkullxHydra | Macrodroid 巨集 |

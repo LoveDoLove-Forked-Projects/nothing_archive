@@ -27,7 +27,7 @@ keywords: [nothing projects, glyph tools, nothing root, nothing magisk, customiz
 | [Haptificator](https://github.com/Fr4nKB/Haptificator) | Fr4nKB | Добавление тактильной отдачи в композиции Phone (1) |
 | [Matrices](https://udaign.github.io/matrices/) | Uday | Инструмент для дизайна матриц Glyph ([Репозиторий](https://github.com/udaign/matrices)) |
 | [Nothing Glyph Composer](https://itssveennn.github.io/Nothing-Glyph-Composer/) | itssveennn | Веб-инструментарий для создания анимаций Glyph 13x13, подготовки аудио и экспорта файлов OGG, готовых для использования в качестве рингтонов для Phone (4a) Pro. |
-| [Nothing Toyph Notifications](https://antonvidishchev.github.io/nothing-toyph-notifications/) | antonvidishchev | Инструмент для создания значков уведомлений для экрана Glyph в Nothing Phone (4a) Pro [Repo](https://github.com/antonvidishchev/nothing-toyph-notifications) |
+| [Nothing Toyph Notifications](https://antonvidishchev.github.io/nothing-toyph-notifications/) | antonvidishchev | Инструмент для создания иконок уведомлений для Glyph Matrix Phone (4a) Pro ([Репозиторий](https://github.com/antonvidishchev/nothing-toyph-notifications)) |
 | [Osu To Glyph](https://github.com/taiixu/osu-to-glyph) | taiixu | Конвертация битмапов osu! в рингтоны Glyph для Nothing Phone |
 | [Pyglyph](https://github.com/Snakehater/pyglyph) | Snakehater | Python-скрипт для визуализации аудио |
 | [Vizmatrices](https://udaign.github.io/vizmatrices/) | udaign | Визуализатор аудио в реальном времени ([Репозиторий](https://github.com/udaign/vizmatrices)) |
@@ -128,8 +128,9 @@ keywords: [nothing projects, glyph tools, nothing root, nothing magisk, customiz
 
 | Проект | Разработчик | Описание |
 |---------|-----------|-------------|
-| [CMF Wiki](https://www.reddit.com/r/CMFTech/wiki/index/) | guidomelvin | Вики r/CMFTech |
-| [Ear X](https://gitlab.com/somaxa8/ear-x) | somaxa8 & [Bharadwaj Raju](https://gitlab.com/bharadwaj-raju/ear2ctl) | Приложение для Linux на языке Rust для управления режимами шумоподавления наушников Nothing |
+| [CMF Wiki](https://www.reddit.com/r/CMFTech/wiki/index/) | guidomelvin | r/CMFTech Wiki |
+| [Disable Essential Space](https://github.com/AntonDevia/Disable-Essential-Space) | AntonDevia | ADB-скрипт для полного отключения Essential Space и блокировки клавиши Essential на Nothing OS |
+| [Ear X](https://gitlab.com/somaxa8/ear-x) | somaxa8 & [Bharadwaj Raju](https://gitlab.com/bharadwaj-raju/ear2ctl) | Linux-приложение на Rust для управления режимами ANC наушников Nothing |
 | [Fenrir](https://github.com/R0rt1z2/fenrir) | R0rt1z2 | PoC для обхода проверки целостности для Phone (2a) и CMF Phone (1) |
 | [Macros](https://nothing.community/d/14869-useful-macros-for-nothing-phones) | RedSkullxHydra | Макросы для приложения Macrodroid |
 | [Nothing Archive](https://spike0en.github.io/nothing_archive) | spike0en | Курируемый хаб для официальных прошивок Nothing и CMF, проектов сообщества, ресурсов и кастомных разработок. ([Репозиторий](https://github.com/spike0en/nothing_archive)) |

@@ -26,6 +26,8 @@ NothingスマートフォンのGlyphインターフェースと統合された�
 | [Blockit](https://play.google.com/store/apps/details?id=com.hypenet.focused) | Mirko_ddd | Glyph統合を備えたデジタルデトックスアプリ |
 | [Delivery Glyph](https://github.com/Goktug-Dusunen/Glyph-Developer-Kit/tree/main/DeliveryGlyph) | Goktug-Dusunen | トルコのサービスに特別に最適化された配送追跡アプリ |
 | [Glyph Bar Composer](https://github.com/BhuvaneshwarMarri/GlyphBarComposer-4a) | BhuvaneshwarMarri | Nothing Phone (4a) 用にカスタム Glyph ライティング パターンを作成、同期、視覚化します |
+| [Glyph Barty](https://github.com/Link2011-Act2/GlyphBarty) | Link2011-Act2 | Nothing風とMaterial 3のUIインターフェースを両方備えたGlyphビジュアライザーアプリ |
+| [Glyph Battery](https://github.com/0x91m0n/NothingGlyphBattery) | 0x91m0n | Glyphインターフェースを介したバッテリーレベルの視覚化 |
 | [Glyph Compass](https://play.google.com/store/apps/details?id=com.JayKayCooperations.glyph_compass) | JayKayCooperations | Glyphインターフェースをコンパスとして使用する |
 | [Glyph Essentials](https://play.google.com/store/apps/details?id=com.tldc.essentials) | GlyphLab | 高度なGlyph通知カスタマイズ |
 | [Glyph Glow](https://github.com/fgiering/GlyphGlow) | fgiering | Glyphインターフェースを制御するミニマルなアプリ |
@@ -59,35 +61,48 @@ Glyphマトリックス向けのインタラクティブなトイとゲーム。
 | [Aero Glyph Weather](https://github.com/poorneshadhithya/Aeroglyph-Weather) | poorneshadhithya | レトロフューチャーな気象観測所 |
 | [Better Battery](https://github.com/PzmuV1517/BetterBatery) | pzmuV1517 | 高度なバッテリー可視化 |
 | [Better Clock](https://github.com/Snakehater/betterclock) | Snakehater | 多機能時計表示 |
+| [Clock AOD Glyph](https://github.com/Aureliink/Clock-AOD-Glyph-Toy) | Aureliink | Nothing Phone (3)のGlyphマトリックス用の垂直スタイルの時計トイ |
 | [Counter](https://nothing.community/d/36837-introducing-counter-a-glyph-toy) | Daniel | 0から9999までのカウンター |
 | [Dot Hub](https://play.google.com/store/apps/details?id=com.gesekus.dothub) | nostream | ビジュアライザー、コンパス、ダイス、カウンター |
 | [Glyph Anki](https://github.com/R0uli078/GlyphAnki) | R0uli078 | Anki単語帳の統合 |
+| [Glyph Barty](https://github.com/Link2011-Act2/GlyphBarty) | Link2011-Act2 | Nothing風とMaterial 3のUIインターフェースを両方備えたGlyphビジュアライザーアプリ |
 | [Glyph Beat](https://play.google.com/store/apps/details?id=com.pauwma.glyphbeat) | pauwma | テーマ付きメディアビジュアライザー |
 | [Glyph Bike](https://play.google.com/store/apps/details?id=com.ofishialdigital.glyphbike) | Ofishial Digital | 横スクロールバイクゲーム |
 | [Glyph Cade](https://github.com/bleelblep/GlyphCade/) | bleelblep | Glyphマトリックス上でのアーケードゲーム |
 | [Glyph Catch](https://github.com/equalparts/glyph-catch) | equalparts | ポケモン収集ファンゲーム |
+| [Glyp Clocks](https://bleelblep.github.io/disclaimer/glyphclocks/) | bleelblep | Phone (3)のGlyph Matrix用16種類の時計 ([リポジトリ](https://github.com/bleelblep/glyphclocks)) |
+| [Glyph Draw](https://github.com/kaelvalen/open-glyph) | kaelvalen | カスタムピクセルアートを描くことができるNothing Phone (3)用Glyphトイ |
 | [Glyph Eyes](https://github.com/yuk1-kondo/GlyphToys-Glypheyes) | yuk1-kondo | 傾斜する瞳の楽しいトイ |
+| [Glyph GeekBox](https://github.com/danissomo/GlyphMatrix-AODGeekBox) | danissomo | Glyphマトリックス上のギークな機能。Nothing Phone 4(a) Pro向け |
 | [Glyph HA Integration](https://github.com/Pytonballoon810/Glyph-HA-Integration) | Pytonballoon810 | Nothing Glyph Matrix上にHome Assistantのセンサーデータを表示するAndroidアプリ。 |
 | [Glyph Invaders](https://github.com/rembo226/GlyphInvaders) | rembo226 | スペースインベーダーゲーム |
+| [Glyph Lab](https://play.google.com/store/apps/details?id=com.projectkriya.glyphlab) | Vimanam Studio | Nothingデバイス向けに設計されたインタラクティブなGlyphマトリックス・トイ |
 | [Glyph Marquee](https://github.com/bluehomewu/GlyphMarquee) | bluehomewu | スクロールテキストメッセージ |
 | [Glyph Matrix Lab](https://github.com/alex-1121/glyph-matrix-lab) | alex-1121 | Nothing Phone (4a) Pro 向けのカスタム集約 Glyph マトリックス ビジュアルを作成し、インテリジェントに表示するツールキット |
 | [Glyph Matrix Simulator](http://glyph.andreibanu.com/) | pzmuV1517 | ウェブ経由でのコードテスト |
+| [Glyph Matrix Tasker Plugin](https://github.com/Gennadiyev/GlyphMatrixTaskerPlugin) | Gennadiyev | Nothing Phone (3)のGlyph Matrixを制御するためのTaskerプラグイン。 |
 | [Glyph Museum](https://play.google.com/store/apps/details?id=com.pauwma.glyphmuseum) | pauwma | Glyphアートの作成と展示 |
 | [Glyph Nexus](https://play.google.com/store/apps/details?id=com.voidtechstudios.smartglyph) | Experion Labs | 通知、タイマー、ビジュアライザー |
 | [Glyph Pendulum](https://github.com/pauwma/GlyphPendulum) | pauwma | インタラクティブに揺れる振り子 |
 | [Glyph Stack](https://github.com/pauwma/GlyphStack) | pauwma | アーケードスタイルのスタッキングゲーム |
+| [Glyph Synapse](https://github.com/Reyiannonn/GlyphSynapse) | Reyiannonn | 常にオンでオーディオに反応するGlyphマトリックスディスプレイコントローラー |
+| [Glyph Text Animator](https://github.com/deepudxd/GlyphTextAnimator) | deepudxd | Nothing Phone (4a) Proの13×13 Glyph Matrix用テキストスクロール点滅アニメーション変換ツール |
 | [Glyph Toybox](https://play.google.com/store/apps/details?id=com.singularityux.glyphtoybox) | Singularity Design | コイントス、着信モード、バッテリーフロー |
 | [Glyphify](https://play.google.com/store/apps/details?id=com.frank.glyphify) | Fr4nKB | ボール迷路、スピードダイヤル、たまごっち |
+| [Glyphix](https://play.google.com/store/apps/details?id=com.stevetex.glyphix) | stevetex | Glyph Matrix用アンビエントAOD |
 | [HA Glyph](https://github.com/PzmuV1517/HA-glyph) | pzmuv1517 | Home Assistantのエンティティ切り替え |
 | [Hamon](https://github.com/yuk1-kondo/GlyphToys-hamon) | yuk1-kondo | 物理的な波の伝播 |
 | [Leveller](https://play.google.com/store/apps/details?id=com.lisra.matrixleveler) | RapidZapper | ジャイロスコープ水準器ツール |
 | [Live Bridge](https://github.com/appsfolder/livebridge) | appsfolder | 未サポートの進捗通知をライブ通知に変換し、NothingのGlyph進捗インジケーターと互換性を持たせます |
 | [Magic 8 Ball](https://play.google.com/store/apps/details?id=com.frank.magic8ball) | Fr4nKB | 古典的なマジック8ボール |
+| [Matrix Dice](https://github.com/Snakehater/matrixdice/) | Snakehater | Glyphマトリックス用のサイコロトイ |
 | [Minecraft Glyph Matrix](https://github.com/nosoyyo0717/Minecraft-Glyph-Matrix) | nosoyyo0717 | Minecraftピクセルアート |
+| [Morse Glyph](https://github.com/Reyiannonn/MorseGlyph) | Reyiannonn | テキストをモールス信号に変換し、Nothing PhoneのGlyphマトリックスを介して送信します |
 | [Nono Gotchi (Beta)](https://www.jkn.me/pet) | Jkn | たまごっちスタイルの仮想ペット |
 | [Pomodoro Timer](https://github.com/PzmuV1517/GlyphPomodoroTimer) | pzmuV1517 | ポモドーロタイマートイ |
 | [Screenie](https://github.com/pauwma/Screenie) | pauwma | 毎日の画面使用時間を反映するフェイス |
 | [Timepiece](https://play.google.com/store/apps/details?id=com.arunk140.timepiece) | Arun Khanchandani | Always-On時計ユーティリティ |
+| [Toyph](https://github.com/antonvidishchev/toyph) | antonvidishchev | Nothing Phone (4a) Pro用のJSON型Glyphトイ |
 
 ---
 
@@ -152,6 +167,7 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 | [Notes](https://play.google.com/store/apps/details?id=com.monospace.notes) | monospace | セキュリティ統合ノートアプリ |
 | [Nothing Notes](https://play.google.com/store/apps/details?id=com.ApexCreator.nothingnotes) | Apex Creator | ミニマリストノートパッド |
 | [Nothing Notes](https://github.com/ThriveEngineer/nothing.notes) | ThriveEngineer | Nothingテーマのノートアプリ |
+| [Nothiq](https://play.google.com/store/apps/details?id=com.rontag.nothiq) | Rontag | Nothingにインスパイアされたメモおよびタスク管理アプリ |
 | [Noting](https://play.google.com/store/apps/details?id=com.hearthborn.studios.notingnotes) | Hearthborn | クラウドバックアップ付きノートとタスク |
 | [Seton](https://github.com/arijit4/Seton) | arijit4 | ウィジェット経由でのノート固定と編集 |
 | [Spend Notes](https://play.google.com/store/apps/details?id=com.cmlabs.spendflow.spendflow) | Coder monk labs | 支出追跡 |
@@ -170,6 +186,7 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 | [Crucial Space](https://github.com/LainsMain/CrucialSpace) | LainsMain | NothingのEssential Spaceアプリを「Vibe coded」で再現。 |
 | [Currency](https://curency.pages.dev/) | Earendel | 通貨換算ウェブアプリ |
 | [Dot Calculator](https://play.google.com/store/apps/details?id=com.nebula.developer.dotcalculator) | Nebula Developer | ドットマトリックスフォントを採用した計算機アプリ。 |
+| [Essential Space Lite](https://github.com/rKyzen/Essential_Space_Lite) | rKyzen | すべてのデバイスに対応したNothing風のEssential Space体験。クイック・スクリーンショット、メモ、ボイスメモなどの機能を搭載 |
 | [Gadgetbridge](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge/) | [Freeyourgadget](https://codeberg.org/Freeyourgadget/Gadgetbridge#authors) | OEMアプリやクラウド不要でウェアラブルを使用 |
 | [Gamething](https://play.google.com/store/apps/details?id=com.LevMatuzin.Gamething) | Lev Matuzin | Dinoゲームにインスパイア |
 | [Geo Torch](https://github.com/georgenelson576/GeoTorch/) | georgenelson576 | ウィジェット対応懐中電灯アプリ |
@@ -201,7 +218,9 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 | [Nx Calculator](https://github.com/montybytes/nxcalculator) | montybytes | シンプルな計算機 |
 | [Open Calc](https://github.com/drrnb/OpenCalc/releases/tag/v3.0.0-beta4-nothing) | drrnb | テーマ付き計算機 |
 | [Recording Light Control](https://github.com/Farpathan/Recording-Light-Control) | Farpathan | Phone (3)用録画ライト制御 |
+| [Redrop Music](https://play.google.com/store/apps/details?id=re.tag.redrop) | Tagrelate | Material 3とNothingの美学を組み合わせたオフライン音楽プレーヤー |
 | [SaferDev](https://play.google.com/store/apps/details?id=com.abhixv.saferdev) | abhixv | デバイス情報ツール |
+| [Side Dock](https://play.google.com/store/apps/details?id=com.sidedock.app) | Quiva Connect | マルチタスクの高速化、クイックツール、スムーズなワークフローのために構築されたサイドバー・オーバーレイ |
 | [Simple Launcher](https://play.google.com/store/apps/details?id=com.dino.simple) | DinoyRajk | ミニマリストランチャー |
 | [Sound Stream Now](https://play.google.com/store/apps/details?id=go.ssn) | Moworks | Glyphマトリックスをサポートする音楽プレーヤー |
 | [Stario Launcher](https://play.google.com/store/apps/details?id=com.stario.launcher) | tariqamarneh | Nothing OSの美学にインスパイアされた、ミニマルなドットグリッドランチャー |
@@ -236,6 +255,7 @@ Nothingの美学に合わせてコミュニティによって作成されたア�
 |-----|-----------|-------------|
 | [Flow](https://flowpo.pages.dev/) | Earendel | ウェブベースのポモドーロタイマー |
 | [Missing Core Music](https://play.google.com/store/apps/details?id=com.cyanchill.missingcore.music) | MissingCore | オフライン音楽プレーヤー |
+| [N Music](https://github.com/alimohsenmaruf/N-Music) | alimohsenmaruf | Nothing OSスタイルのシンプルなYouTube Musicラッパー音楽プレーヤー |
 | [Noid](https://play.google.com/store/apps/details?id=com.techsip.noid) | TechSip Studios | ファイル管理 |
 | [Nothing Community App](https://github.com/Shaurya2295/Nothing-Community-App/) | Shaurya2295 | nothing.community用モバイルアプリ |
 | [Nothing Land](https://github.com/TheGlitchh/NothingLand) | TheGlitchh | Nothing OS用Dynamic Island |
